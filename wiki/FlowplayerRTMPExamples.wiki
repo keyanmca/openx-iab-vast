@@ -2,6 +2,8 @@
 
 = Worked Examples =
 
+A range of examples are detailed below. These examples illustrate the various configurations that the player can accommodate to deliver instream and overlay plus companion advertising across live and on-demand streams:
+
 Example 1: [http://www.bouncingminds.com/openx/flowplayer/rtmp/examples/example01.html A pre-roll ad only]<br>
 Example 2: [http://www.bouncingminds.com/openx/flowplayer/rtmp/examples/example02.html A pre-roll ad and a show stream]<br>
 Example 3: [http://www.bouncingminds.com/openx/flowplayer/rtmp/examples/example03.html A pre-roll ad, a show stream and an overlay (with click to show video) 15 seconds into the show]<br>
