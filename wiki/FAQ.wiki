@@ -7,4 +7,5 @@ does it directly switch back to main content?
 
 ====2. What happens if OpenX fails for some unknown reasons and return a blank? or if OpenX server is down?====
 
+
 ====3. What happens if OpenX response hangs, is there a request timeout in the player?====
