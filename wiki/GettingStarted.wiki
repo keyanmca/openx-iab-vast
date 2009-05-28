@@ -6,8 +6,7 @@ To get the early access beta up and running, it is recommended that you systemat
   # Familiarise yourself with the key [KeyTerminology concepts]
   # Review the material on this site - specifically the [Examples examples] to get a handle on all of the options available
   # Download and install [http://www.flowplayer.org/download/index.html Flowplayer 3.1]
-  # Start simple - create a [simple-test-page.html test page] that will request a pre-roll video ad from the Bouncing 
-Minds demo OpenX Ad Server before playing the ad and the show streams off the same Content Delivery Network (CDN) used by the examples on this site. To complete this task follow these [Step1CreatePage steps]
+  # Start simple - create a [simple-test-page.html test page] that will request a pre-roll video ad from the Bouncing Minds demo OpenX Ad Server before playing the ad and the show streams off the same Content Delivery Network (CDN) used by the examples on this site. To complete this task follow these [Step1CreatePage steps]
   # Once the [Step1CreatePage test page] is working, install [http://www.openx.org OpenX 2.8.1]
   # Given that you have OpenX running locally, follow these [installing-openx-video-server-plugin.pdf steps] to enable the OpenX Video Ads plugin within OpenX 2.8.1
   # Before you proceed any further, make sure you a few video ads and programme streams up and running on a Flash Media Server. These need to be served via RTMP - you can either use a local install of an FMS such as Red5 or a Content Delivery Network (CDN) such as Limelight, Akamai, SimpleCDN or Influxis. You must locate both the ad streams and the programme files on the same FMS path for the AdStreamer to work. If you need a few example linear video ads, you can find several [TestAds here]
