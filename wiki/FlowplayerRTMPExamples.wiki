@@ -2,19 +2,19 @@
 
 = Worked Examples =
 
-Example 1: [example01.html A pre-roll ad only]<br>
-Example 2: [example02.html A pre-roll ad and a show stream]<br>
-Example 3: [example03.html A pre-roll ad, a show stream and an overlay (with click to show video) 15 seconds into the show]<br>
-Example 4: [example04.html A pre-roll ad, 2 show streams with a post-roll ad after each show stream]<br>
-Example 5: [example05.html A pre-roll, mid-roll (15 seconds in) and post roll ad, 1 show stream]<br>
-Example 6: [example06.html A live stream with a pre-roll ad and overlay 10 seconds into the live stream]<br>
-Example 7: [example07.html A mid-roll ad with a companion banner, single show stream]<br>
-Example 8: [example08.html "This is an advertisement" messaging]<br>
-Example 9: [example09.html Supporting Sponsor Branding]<br>
-Example 10: [example10.html A playlist with a mix of clip types and ads]<br>
-Example 11: [example11.html A live stream with mid-roll video ad]<br>
-Example 12: [example12.html Selection of media based on mime-type]<br>
-Example 13: [example13.html Repeating Ad Spots]<br>
-Example 14: [example14.html Restricting an Ad Spot to the last stream]<br>
-Example 15: [example15.html Specifying video media files by bitrate]<br>
-Example 16: [example16.html An overlay ad with click to website]<br>
+Example 1: [http://www.bouncingminds.com/openx/flowplayer/rtmp/examples/example01.html A pre-roll ad only]<br>
+Example 2: [http://www.bouncingminds.com/openx/flowplayer/rtmp/examples/example02.html A pre-roll ad and a show stream]<br>
+Example 3: [http://www.bouncingminds.com/openx/flowplayer/rtmp/examples/example03.html A pre-roll ad, a show stream and an overlay (with click to show video) 15 seconds into the show]<br>
+Example 4: [http://www.bouncingminds.com/openx/flowplayer/rtmp/examples/example04.html A pre-roll ad, 2 show streams with a post-roll ad after each show stream]<br>
+Example 5: [http://www.bouncingminds.com/openx/flowplayer/rtmp/examples/example05.html A pre-roll, mid-roll (15 seconds in) and post roll ad, 1 show stream]<br>
+Example 6: [http://www.bouncingminds.com/openx/flowplayer/rtmp/examples/example06.html A live stream with a pre-roll ad and overlay 10 seconds into the live stream]<br>
+Example 7: [http://www.bouncingminds.com/openx/flowplayer/rtmp/examples/example07.html A mid-roll ad with a companion banner, single show stream]<br>
+Example 8: [http://www.bouncingminds.com/openx/flowplayer/rtmp/examples/example08.html "This is an advertisement" messaging]<br>
+Example 9: [http://www.bouncingminds.com/openx/flowplayer/rtmp/examples/example09.html Supporting Sponsor Branding]<br>
+Example 10: [http://www.bouncingminds.com/openx/flowplayer/rtmp/examples/example10.html A playlist with a mix of clip types and ads]<br>
+Example 11: [http://www.bouncingminds.com/openx/flowplayer/rtmp/examples/example11.html A live stream with mid-roll video ad]<br>
+Example 12: [http://www.bouncingminds.com/openx/flowplayer/rtmp/examples/example12.html Selection of media based on mime-type]<br>
+Example 13: [http://www.bouncingminds.com/openx/flowplayer/rtmp/examples/example13.html Repeating Ad Spots]<br>
+Example 14: [http://www.bouncingminds.com/openx/flowplayer/rtmp/examples/example14.html Restricting an Ad Spot to the last stream]<br>
+Example 15: [http://www.bouncingminds.com/openx/flowplayer/rtmp/examples/example15.html Specifying video media files by bitrate]<br>
+Example 16: [http://www.bouncingminds.com/openx/flowplayer/rtmp/examples/example16.html An overlay ad with click to website]<br>
