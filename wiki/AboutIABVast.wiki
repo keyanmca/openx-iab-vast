@@ -1,4 +1,4 @@
-#summary One-About the IAB Video Advertising Standards.
+#summary About the IAB Video Advertising Standards.
 
 = About the IAB Video Advertising Standards =
 
