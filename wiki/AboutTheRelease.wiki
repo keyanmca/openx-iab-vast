@@ -2,7 +2,7 @@
 
 = About the Latest Release =
 
-This is an early access release of the OpenX Video Advertising plugin.
+This is an *early access release* of the OpenX Video Advertising plugin.
 
 The release includes:
   * The Flowplayer plugin code, binaries and an initial set of documentation for the flowplayer site (including a range of [Examples examples] that illustrate some of the different configuration options for the flowplayer plugins)
