@@ -4,12 +4,16 @@
 
 This is an *early access release* of the OpenX Video Advertising plugin.
 
+This release runs video ads over RTMP with [www.flowplayer.org Flowplayer].
+
+A version to support HTTP Download and pseudostreaming for Flowplayer is in development. A version of the plugin is also being built for Longtail's JWPlayer.
+
 The release includes:
 
   * The source code for the Flowplayer RTMP Video Ad serving plugin
   * The Flash binaries (swf) for the plugin
   * An initial set of documentation covering how to use the plugin to deliver Video Advertising
-  * A set of worked [FlowplayerRTMPExamples examples] that illustrate some of the different configuration options for the flowplayer video advertising plugin
+  * A set of worked [FlowplayerRTMPExamples examples] that illustrate some of the different configuration options for the Flowplayer video advertising plugin
 
 To use this release:
   * Download and install [http://www.openx.org OpenX 2.8.1] and follow the video plugin [InstallingTheOpenXVideoPlugin installation] instructions to enable OpenX to serve video ads.
