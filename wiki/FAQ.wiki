@@ -1,3 +1,10 @@
 #summary Frequently Asked Questions
 
 = Frequently Asked Questions =
+
+===1. What happens if the video ad times out (pre/mid/post/overlay)? === 
+does it directly switch back to main content?
+
+===2. What happens if OpenX fails for some unknown reasons and return a blank? or if OpenX server is down?===
+
+===3. What happens if OpenX response hangs, is there a request timeout in the player?===
