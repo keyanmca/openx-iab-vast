@@ -6,8 +6,8 @@ This is an *early access release* of the OpenX Video Advertising plugin.
 
 The release includes:
 
-  * The Flowplayer plugin source code
-  * The Video Advertising Flash binaries (swf) 
+  * The source code for the Flowplayer RTMP Video Ad serving plugin
+  * The Flash binaries (swf) for the plugin
   * An initial set of documentation covering how to use the plugin to deliver Video Advertising
   * A set of worked [FlowplayerRTMPExamples examples] that illustrate some of the different configuration options for the flowplayer video advertising plugin
 
