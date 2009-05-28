@@ -1,5 +1,4 @@
 #summary How to build the release
-#sidebar How to build
 
 = Introduction =
 
