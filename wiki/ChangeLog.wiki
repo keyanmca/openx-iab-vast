@@ -16,7 +16,7 @@
   * Resolved issue where flowplayer was ignoring some cuepoints set at 500 milliseconds - extended first cuepoint timing to 1000 milliseconds minimum for BA/SS events etc.
   * Some improvement to the documentation
   * Test ads provided for download
-  * The OpenX URL used in the examples changed to 'http://beta.bouncingminds.com/openx/www/delivery/fc.php'
+  * The OpenX URL used in the examples changed to `http://beta.bouncingminds.com/openx/www/delivery/fc.php`
 
 0.4.6 - May 22, 2009
 
@@ -30,4 +30,4 @@
   * Fix for millisecond timing issue with cuepoint firing on ad tracking events - cuepoints at values like 7750 would not fire - rounded to 7800 to fix
   * Cuepoints no longer set multiple times if stream is replayed - test added to check if already set
   * Use of single quotes in background image filenames and html fixed - replaced with {quote} in the config and fixed on reading in the JSON config
-  * The OpenX URL used in the examples changed to 'http://beta.bouncingminds.com/openx-2.8.1-rc7/www/delivery/fc.php'
+  * The OpenX URL used in the examples changed to `http://beta.bouncingminds.com/openx-2.8.1-rc7/www/delivery/fc.php`
