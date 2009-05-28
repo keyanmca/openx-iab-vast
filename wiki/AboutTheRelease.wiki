@@ -5,7 +5,7 @@
 This is an *early access release* of the OpenX Video Advertising plugin.
 
 The release includes:
-  * The Flowplayer plugin code, binaries and an initial set of documentation for the flowplayer site (including a range of [Examples examples] that illustrate some of the different configuration options for the flowplayer plugins)
+  * The Flowplayer plugin code, binaries and an initial set of documentation for the flowplayer site (including a range of [FlowplayerRTMPExamples examples] that illustrate some of the different configuration options for the flowplayer plugins)
   * The server side plugin to support video advertising within OpenX is being packaged as a core plugin with 2.8.1
 
 To use this release:
