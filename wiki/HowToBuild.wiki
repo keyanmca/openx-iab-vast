@@ -1,4 +1,4 @@
-#How to build the release
+#summary How to build the release
 
 = Introduction =
 
