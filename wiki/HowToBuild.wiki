@@ -2,14 +2,14 @@
 
 = Introduction =
 
-The current release can be built using either the [Flex IDE http://www.adobe.com/products/flex] or [Ant http://ant.apache.org]. The source package contains ant 
+The current release can be built using either the [http://www.adobe.com/products/flex Flex IDE] or [http://ant.apache.org Ant]. The source package contains ant 
 build files that will create the required SWFs given that the required build environment is setup.
 
 = Building with Ant =
 
 To build the release with Ant:
-  * Make sure you have a fully operational Flex SDK build environment
-  * Download the Flowplayer 3.10 devkit - rebuild that - if that works, you have a good base
+  * Make sure you have a fully operational [http://www.adobe.com/products/flex/ Flex SDK] build environment
+  * Download the [http://www.flowplayer.org Flowplayer 3.10 devkit]- rebuild that - if that works, you have a good base
 
 By default, the OpenX plugin is configured to reference the `flowplayer.devkit/plugin-build.xml` file as
 `../flowplayer.devkit/plugin-build.xml` so it's generally a good idea to locate the OpenX package
@@ -33,4 +33,4 @@ To build with the Flex 3 IDE:
 
 = A Note on Debugging =
 
-We use the [De MonsterDebugger http://www.demonsterdebugger.com] - you'll see it included in the source and the `DebugObject` declaration. Replace this with the standard flash debugger by changing the `DebugObject` declarations for `doLog()` and `doLogAndTrace()`
+We use the [http://www.demonsterdebugger.com De MonsterDebugger] - you'll see it included in the source and the `DebugObject` declaration. Replace this with the standard flash debugger by changing the `DebugObject` declarations for `doLog()` and `doLogAndTrace()`
