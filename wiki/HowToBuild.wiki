@@ -2,7 +2,7 @@
 
 = Introduction =
 
-The current release can be built using either the [Flex IDE www.adobe.com/products/flex] or [Ant ant.apache.org]. The source package contains ant 
+The current release can be built using either the [Flex IDE http://www.adobe.com/products/flex] or [Ant http://ant.apache.org]. The source package contains ant 
 build files that will create the required SWFs given that the required build environment is setup.
 
 = Building with Ant =
@@ -33,4 +33,4 @@ To build with the Flex 3 IDE:
 
 = A Note on Debugging =
 
-We use the [De MonsterDebugger demonsterdebugger.com] - you'll see it included in the source and the `DebugObject` declaration. Replace this with the standard flash debugger by changing the `DebugObject` declarations for `doLog()` and `doLogAndTrace()`
+We use the [De MonsterDebugger http://www.demonsterdebugger.com] - you'll see it included in the source and the `DebugObject` declaration. Replace this with the standard flash debugger by changing the `DebugObject` declarations for `doLog()` and `doLogAndTrace()`
