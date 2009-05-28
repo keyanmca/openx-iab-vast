@@ -5,14 +5,19 @@
 This is an *early access release* of the OpenX Video Advertising plugin.
 
 The release includes:
-  * The Flowplayer plugin code, binaries and an initial set of documentation for the flowplayer site (including a range of [FlowplayerRTMPExamples examples] that illustrate some of the different configuration options for the flowplayer plugins)
-  * The server side plugin to support video advertising within OpenX is being packaged as a core plugin with 2.8.1
+
+  * The Flowplayer plugin source code
+  * The Video Advertising Flash binaries (swf) 
+  * An initial set of documentation covering how to use the plugin to deliver Video Advertising
+  * A set of worked [FlowplayerRTMPExamples examples] that illustrate some of the different configuration options for the flowplayer video advertising plugin
 
 To use this release:
-  * Download [http://www.openx.org OpenX 2.8] and follow the video plugin [InstallingTheOpenXVideoPlugin installation] instructions
-  * Download [http://www.flowplayer.org/download/index.html Flowplayer 3.1]
-  * if you want to build the release you'll need to download and install the [http://opensource.adobe.com/wiki/display/flexsdk Flex 3 SDK] and  the [http://www.flowplayer.org/documentation/developer/writing-flash-plugins.html Flowplayer 3.1 dev kit] before following the [HowToBuild build notes]
-  * This release relies on the delivery of video advertising using RTMP on a Flash Media Server. As such, you'll need an operational FMS (Red5, Adobe etc.) to host to serve the video ads.
+  * Download and install [http://www.openx.org OpenX 2.8.1] and follow the video plugin [InstallingTheOpenXVideoPlugin installation] instructions to enable OpenX to serve video ads.
+  * Download and install [http://www.flowplayer.org/download/index.html Flowplayer 3.1]
+
+If you want to build the release you'll need to download and install the [http://opensource.adobe.com/wiki/display/flexsdk Flex 3 SDK] and the [http://www.flowplayer.org/documentation/developer/writing-flash-plugins.html Flowplayer 3.1 dev kit] before following the [HowToBuild build notes]
+
+This release relies on the delivery of video advertising using RTMP on a Flash Media Server. As such, you'll need an operational FMS (Red5, Adobe etc.) to host to serve the video ads. The examples provided in the release use an account with [www.influxis.com Influxis].
 
 The examples included in this release reference ads and video files stored on the Flowplayer
 site. As such, you can see how the ad plugin will work by simply reviewing the examples
