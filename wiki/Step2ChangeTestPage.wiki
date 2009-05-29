@@ -51,7 +51,7 @@ flowplayer("a.example", "dist/flowplayer-3.1.0.swf", {
 </script>
 }}}
   # Modify netConnectionURL so that it points to the base location of your FMS/CDN server:
-
+{{{
 <script language="JavaScript">
 flowplayer("a.example", "dist/flowplayer-3.1.0.swf", {
     ....
