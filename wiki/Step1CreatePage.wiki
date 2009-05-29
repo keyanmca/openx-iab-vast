@@ -8,14 +8,14 @@ video ads from the CDN used for all examples on this site, do the following:
   # [http://openx-iab-vast.googlecode.com/files/bouncingminds.openX.flowplayer.rtmp-latest.tar.gz Download] the OpenX Flowplayer RTMP video ad binaries (SWF) and javascript files
   # Create a blank html page
   #  Add the following lines to include the required javascript files. JQuery is used, the Flowplayer 3.1 base javascript file and a small javascript file for the OpenX plugin
-<pre>
+{{{
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
 <script type="text/javascript" src="http://static.flowplayer.org/js/flowplayer-3.1.0.min.js"></script>
 <script type="text/javascript" src="js/flowplayer-openx-0.4.3.js"></script>
-</pre>
+}}}
 
   #  Add the following style definition - this will be used to style the container for the flowplayer instance
-<pre>
+{{{
 <style>
 a.example {
 	display:block;
@@ -24,16 +24,16 @@ a.example {
 	text-align:center;
 }
 </style>
-</pre>
+}}}
 
   # Add in the anchor that is the container for the flowplayer instance
-<pre>
+{{{
 <code class="html">
 <a class="example"></a>
-</pre>
+}}}
 
   # Finally add in the javascript to configure the OpenXAdStreamer and Flowplayer
-<pre>
+{{{
 <script language="JavaScript">
 flowplayer("a.example", "flash/flowplayer-3.1.0.swf", {
 
@@ -89,6 +89,6 @@ flowplayer("a.example", "flash/flowplayer-3.1.0.swf", {
     }
 });
 </script>
-</pre>
+}}}
 
 You can see a working example of this page [simple-test-page.html here].
