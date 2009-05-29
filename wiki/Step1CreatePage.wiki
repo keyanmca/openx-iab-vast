@@ -6,12 +6,12 @@ To create a test page that pulls the VAST data from the Bouncing Minds demo serv
 video ads from the CDN used for all examples on this site, do the following:
 
   # [http://openx-iab-vast.googlecode.com/files/bouncingminds.openX.flowplayer.rtmp.bin-latest.tar.gz Download] the OpenX Flowplayer RTMP video ad binaries (SWF) and javascript files
-  # Create a blank html page
+  # Create a blank html page - the code examples below assume the blank page is created in the root directory of the downloaded plugin page (where `dist` is a subdirectory containing the swf and javascript files)
   #  Add the following lines to include the required javascript files. JQuery is used, the Flowplayer 3.1 base javascript file and a small javascript file for the OpenX plugin
 {{{
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
 <script type="text/javascript" src="http://static.flowplayer.org/js/flowplayer-3.1.0.min.js"></script>
-<script type="text/javascript" src="js/flowplayer-openx-0.4.3.js"></script>
+<script type="text/javascript" src="dist/flowplayer-openx-0.4.3.js"></script>
 }}}
 
   #  Add the following style definition - this will be used to style the container for the flowplayer instance
