@@ -2,6 +2,7 @@
 
 = Installing the OpenX server side Video Ad Plugin =
 
+  # Download and install OpenX 2.8.1 from [http://www.openx.org here]
   # Once you have OpenX 2.8.1 installed, download the openXVideoAds plugin from the repository [https://svn.openx.org/openx/trunk/plugins_repo/release here]
   # Operating as an "Administrator" within the OpenX admin console, click on the "plugins" tab
   # You will see an option at the top of the tab to "Install a new plugin"
