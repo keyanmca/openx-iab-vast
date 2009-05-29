@@ -13,6 +13,7 @@
 || Linear Video Ad || ||
 || Mid-Roll || ||
 || Non-Linear Ad || ||
+|| Non Overlay || ||
 || Overlay || ||
 || Post-Roll || ||
 || Pre-Roll || ||
