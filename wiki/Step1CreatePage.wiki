@@ -14,10 +14,8 @@ video ads from the CDN used for all examples on this site, do the following:
 <script type="text/javascript" src="js/flowplayer-openx-0.4.3.js"></script>
 </pre>
 
-  #  Add the following style definition - this will be used to style the container for the flowplayer instance</li>
+  #  Add the following style definition - this will be used to style the container for the flowplayer instance
 <pre>
-<code class="html">
-
 <style>
 a.example {
 	display:block;
@@ -28,7 +26,7 @@ a.example {
 </style>
 </pre>
 
-  # Add in the anchor that is the container for the flowplayer instance</li>
+  # Add in the anchor that is the container for the flowplayer instance
 <pre>
 <code class="html">
 <a class="example"></a>
