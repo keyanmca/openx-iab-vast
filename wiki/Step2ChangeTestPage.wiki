@@ -1,0 +1,3 @@
+#summary Step 2 - changing the test page
+
+= Introduction =
