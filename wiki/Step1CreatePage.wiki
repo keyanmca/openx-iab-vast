@@ -90,4 +90,4 @@ flowplayer("a.example", "dist/flowplayer-3.1.0.swf", {
 </script>
 }}}
 
-You can see a working example of this page [simple-test-page.html here].
+You can see a working example of this page [http://www.bouncingminds.com/plugins/flowplayer/openx/rtmp/step1-example.html here].
