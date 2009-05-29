@@ -3,7 +3,7 @@
 = Getting Started =
 
 To get the early access beta up and running, it is recommended that you systematically walk through the following steps:
-  # Familiarise yourself with the key [KeyTerminology concepts]
+  # Familiarise yourself with the key [KeyTerminology terminology and concepts]
   # Review the material on this site - specifically the [Examples examples] to get a handle on all of the options available
   # Download and install [http://www.flowplayer.org/download/index.html Flowplayer 3.1.1]
   # Start simple - create a [simple-test-page.html test page] that will request a pre-roll video ad from the Bouncing Minds demo OpenX Ad Server before playing the ad and the show streams off the same Content Delivery Network (CDN) used by the examples on this site. To complete this task follow these [Step1CreatePage steps]
