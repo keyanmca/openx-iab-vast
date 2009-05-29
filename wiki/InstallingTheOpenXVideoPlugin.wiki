@@ -1,3 +1,0 @@
-#summary Installing the OpenX server side Video Ad Plugin.
-
-= Introduction =
