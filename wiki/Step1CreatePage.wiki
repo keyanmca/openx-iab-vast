@@ -80,7 +80,7 @@ flowplayer("a.example", "dist/flowplayer-3.1.0.swf", {
             // filled by the OpenX Ad Server and played by the OpenXAdStreamer.
                         
             adSchedule: [
-                { zone: '1',                    // A 'zone' defined in our OpenX Ad server
+                { zone: '1',              // A 'zone' defined in our OpenX Ad server
                   position: 'pre-roll'    // Identifies that the ad is to be played pre-roll
                 }
             ]
