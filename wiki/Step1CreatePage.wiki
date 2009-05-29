@@ -28,14 +28,13 @@ a.example {
 
   # Add in the anchor that is the container for the flowplayer instance
 {{{
-<code class="html">
 <a class="example"></a>
 }}}
 
   # Finally add in the javascript to configure the OpenXAdStreamer and Flowplayer
 {{{
 <script language="JavaScript">
-flowplayer("a.example", "flash/flowplayer-3.1.0.swf", {
+flowplayer("a.example", "dist/flowplayer-3.1.0.swf", {
 
     // identifies that we have just 1 item to play - the configured OpenXAdStreamer
     // "main" is a pre-defined name for the URL that must be given to all instances 
@@ -57,14 +56,14 @@ flowplayer("a.example", "flash/flowplayer-3.1.0.swf", {
     
     plugins: {
         openXRegions: {
-            url: 'flash/OpenXVastRegions-0.4.5.swf'    		
+            url: 'dist/OpenXRegions-0.4.6.swf'    		
         },
 
         openXAdStreamer: {
-            url: 'flash/OpenXVastAdStreamer-0.4.5.swf',
+            url: 'dist/OpenXAdStreamer-0.4.6.swf',
             
             // This is the base connection to the location of our ad and programme streams
-            netConnectionUrl: 'rtmp://flowplayer.org/fastplay',
+            netConnectionUrl: 'rtmp://ne7c0nwbit.rtmphost.com/videoplayer',
             
             // This identifies which main programme streams are to be played, and the
             // duration of each. Any number of streams can be identified and ads are
@@ -74,7 +73,7 @@ flowplayer("a.example", "flash/flowplayer-3.1.0.swf", {
             
             // The location of our OpenX Ad Server instance
             
-            vastServerURL: 'http://demo.bouncingminds.com/openx/www/delivery_dev/spc.php',
+            vastServerURL: 'http://openx.bouncingminds.com/openx-2.8.1-rc9/www/delivery/fc.php',
 
             // A definition of the ad schedule to be applied to the programme streams.
             // An ad schedule is a definition of one or more ad spots that are to 
