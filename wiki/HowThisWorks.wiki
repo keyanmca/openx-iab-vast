@@ -6,7 +6,7 @@ Ad scheduling is a skilled task. The successful deployment of an effective video
 efficient Ad Server that manages the task of initiating, running and reporting on a video advertising campaign 
 while the video player sequences and plays back the video ads identified by the Ad Server.
 
-The video ad streaming technology provided by this project works with the open-source [http://www.openx.org OpenX] Ad Server and [http://www.flowplayer.org Flowplayer] video player to deliver a completely open-source, free solution. 
+The video ad streaming technology provided by this project works with the open-source Ad Server and video player providers to deliver a completely open-source, free solution. 
 
 To deploy the solution you will need to run:
 
