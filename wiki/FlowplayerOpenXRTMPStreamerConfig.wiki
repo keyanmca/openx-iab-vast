@@ -25,9 +25,10 @@ available.
         ....
         openXAdStreamer: {
             // THE PLUGIN SWF FILE
-             url: 'flash/OpenXAdStreamer.swf',
+            url: 'flash/OpenXAdStreamer.swf',
 
             // MAIN PROGRAMME STREAMS 
+            netConnectionURL: 'rtmp://rtmp.flowplayer.org/fastplay',
             streams: [ { file:'mp4:HCTV004830001A' , duration:'00:01:00' },
                        { file:'mp4:HCTV004830001B' , duration:'00:01:00' }
             ],
