@@ -1,0 +1,15 @@
+#summary Features of the Flowplayer RTMP video ad plugin
+
+= Feature - The Flowplayer RTMP video ad plugin =
+
+  # A fully open source, end-to-end, future proof, IAB standards compliant solution 
+  # Supports any combination of pre, mid, post roll, overlay, non-overlay and companion ads
+  # Overlays supports "click to play" a video ad or "click through" to a website
+  # Configurable ad scheduling throughout the stream - time or position based
+  # Delivers a TV like experience where multiple programme segments are sequenced together to form a single programme stream with ad slots scheduled flexibly throughout
+  # Easy access to advertising events as they occur within the player via the javascript callback API
+  # Extensive support for ad tracking - start, stop, pause, first quartile, midpoint, third quartile, impression and click-through
+  # Flexible ad positioning on the screen via the Regions plugin - any number of regions can be defined with a wide range of styling options
+  # Built in support for "this is an advertisement" style messaging over video ads
+  # Automatic control of the control bar during ad play
+  # Extensive ad event reporting via the OpenX Adminstration console
