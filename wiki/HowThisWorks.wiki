@@ -1,7 +1,5 @@
-#summary How the solution works
+#summary How the Solution Works
 #sidebar TableOfContents
-
-=The Art of Ad Scheduling=
 
 Ad scheduling is a skilled task. The successful deployment of an effective video advertising solution requires an
 efficient Ad Server that manages the task of initiating, running and reporting on a video advertising campaign 
