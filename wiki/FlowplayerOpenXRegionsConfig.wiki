@@ -12,7 +12,6 @@ By default, 4 regions are automatically declared - a *"top"* region that occupie
 Any number of customised regions can be declared. To illustrate how this is done, review the following example that illustrates the options that are declared for the default "message" region:
 
 {{{
-<code class="javascript">
     ....
     plugins: {
         openXRegions: {
@@ -33,7 +32,6 @@ A "region" can be configured in much the same way as the Content plugin is confi
     
 Here is an example configuration for the Regions plugin:
 {{{
-<code class="javascript">
     ....
     plugins: {
         openXRegions: {
