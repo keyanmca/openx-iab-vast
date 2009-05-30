@@ -1,7 +1,7 @@
 #summary Installing the OpenX server side video ad plugin
 #sidebar TableOfContents
 
-= Installing the OpenX server side Video Ad Plugin =
+To setup OpenX so that it is ready to serve Video Ads:
 
   # Download and install the latest version of OpenX from [http://www.openx.org here]
   # Once you have OpenX installed, download the openXVideoAds plugin from the repository [https://svn.openx.org/openx/trunk/plugins_repo/release here]
