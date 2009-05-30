@@ -1,4 +1,4 @@
-#summary Installing the OpenX server side video ad plugin
+#summary Installing the OpenX server side Video Ad Plugin
 #sidebar TableOfContents
 
 To setup OpenX so that it is ready to serve Video Ads:
