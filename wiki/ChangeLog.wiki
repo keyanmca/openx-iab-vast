@@ -1,4 +1,4 @@
-#summary The player side plugin change log
+#summary Change Log for the Flowplayer RTMP Ad Streamer
 #sidebar TableOfContents
 
 0.4.5 - April 26, 2009
