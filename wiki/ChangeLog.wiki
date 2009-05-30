@@ -1,4 +1,5 @@
 #summary The player side plugin change log
+#sidebar TableOfContents
 
 = Change Log =
 
