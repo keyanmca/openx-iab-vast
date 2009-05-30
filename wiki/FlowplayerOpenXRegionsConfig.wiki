@@ -1,4 +1,4 @@
-#summary Configuration options for the Regions plugin.
+#summary Configuration Options for the Regions Plugin
 #sidebar TableOfContents
 
 =OpenXRegions.swf=
