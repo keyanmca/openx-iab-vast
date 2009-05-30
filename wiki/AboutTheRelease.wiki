@@ -2,7 +2,7 @@
 
 = About the Latest Release =
 
-This is an *early access release* of the OpenX Video Advertising plugin.
+This is an *early access beta release* of the OpenX Video Advertising technology.
 
 This release runs video ads over RTMP with [http://www.flowplayer.org Flowplayer].
 
