@@ -1,4 +1,5 @@
 #summary How the solution works
+#sidebar TableOfContents
 
 =The Art of Ad Scheduling=
 
