@@ -5,8 +5,8 @@
   * [HowThisWorks How It Works]
   * [GettingStarted Getting Started]
   * How to get the release
-    * [http://code.google.com/p/openx-iab-vast/downloads/list Download the latest player plugins]<br>
-    * [InstallingOpenXServerVideoPlugin  How to enable Video Ad serving within OpenX]<br>
+    * [http://code.google.com/p/openx-iab-vast/downloads/list Downloads]<br>
+    * [InstallingOpenXServerVideoPlugin  Enable OpenX]<br>
   * [HowToBuild How to build the release] (optional)<br>
   * OpenX server side documentation
   * Player side plugin documentation<br>
