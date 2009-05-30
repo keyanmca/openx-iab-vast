@@ -3,8 +3,7 @@
   * [AboutTheRelease About the latest release]<br>
   * [AboutIABVast About IAB VAST]
   * [HowThisWorks How It Works]
-  * How to get the release
-    * [GettingStarted Getting Started]
+  * [GettingStarted Getting Started]
     * [http://code.google.com/p/openx-iab-vast/downloads/list Downloads]
     * [InstallingOpenXServerVideoPlugin  Enable OpenX]
   * [HowToBuild How to build the release]
