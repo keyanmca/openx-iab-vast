@@ -1,8 +1,6 @@
 #summary Setting up your first openX campaign
 #sidebar TableOfContents
 
-= Setting up an OpenX Campaign =
-
   # Log into openX as a manager
   # Make sure that you have a website created - if not, create one
   # Create the various video "zones" that you want to have advertising on your website:
