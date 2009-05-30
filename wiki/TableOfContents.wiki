@@ -21,6 +21,8 @@
     * Coming soon
   * JWPlayer Ad Streamer
     * Coming soon
+  * The VAST AS3 Framework
+    * Documenting now
   * [KeyTerminology Terminology]
   * [FAQ Frequently Asked Questions]
   * [AboutBouncingMinds About Bouncing Minds]
