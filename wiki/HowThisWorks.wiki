@@ -6,17 +6,19 @@ Ad scheduling is a skilled task. The successful deployment of an effective video
 efficient Ad Server that manages the task of initiating, running and reporting on a video advertising campaign 
 while the video player sequences and plays back the video ads identified by the Ad Server.
 
-Flowplayer works with OpenX and the Bouncing Minds OpenX video advertising plugin to deliver this solution. To deploy the solution, you will need to run:
+Flowplayer works with OpenX and the Bouncing Minds Video Advertising plugin(s) to deliver this solution. To deploy the solution, you will need to run:
 
-  # Flowplayer 3.1 
-  # OpenX 2.8 (or greater) 
+  # Flowplayer 3.1 (or later)
+  # OpenX 2.8 (or later) 
   # The OpenX Video Advertising *server side* plugin
-  # The OpenX Video Advertising RTMP *player side* plugin (also known as the Ad Streamer)
+  # A *player side* plugin for Video Advertising plugin
 
-To kick start a Video advertising campaign using OpenX:
+Today the list of available player side plugins is limited to an RTMP based one for Flowplayer. A HTTP Download version for Flowplayer is in development, as is a plugin for Longtail's JWPlayer. These will be released shortly. For more information on the availability of these plugins, please contact _enquiries@bouncingminds.com_
+
+To kick start a Video advertising campaign using OpenX and the Flowplayer RTMP :
 
   # Setup a video advertising campaign using OpenX. Define the campaign type, how long the campaign is to run and any other rules that are to be used to dictate when and how the campaign is to be served.
-  # Ensure that the video ad assets required by the campaign are loaded up onto a public RTMP server (in the case of video files), while graphical assets such as accompanying banner ads, overlays etc. are served via a web server
+  # Ensure that the video ad assets required by the campaign are loaded up onto an RTMP server (in the case of video files), while graphical assets such as accompanying banner ads, overlays etc. can be served via a standard web server
   # Configure the OpenX player side plugin to work with Flowplayer
   # When configuring the plugin, declare an "Ad Spot" schedule that identifies the type of video ads to be sequenced with the main programme stream(s) and when each of these ad slots is to be played  - video ad types can include pre, mid, post roll video ads, overlay and non-overlay ads, and if accompanying companion ads are to be shown, identify the div block(s) on the player page where the companion ads are to be placed. Mid roll video ads, overlay and non-overlay interactive ads may all be scheduled to play at a specific time and duration during the playback sequence.
 
