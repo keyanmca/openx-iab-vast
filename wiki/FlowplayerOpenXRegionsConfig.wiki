@@ -1,7 +1,7 @@
 #summary Configuration options for the Regions plugin.
 #sidebar TableOfContents
 
-=The Regions Plugin (OpenXRegions.swf) =
+=OpenXRegions.swf=
 
 The _Regions_ plugin is an extended form of the standard Flowplayer _Content_ plugin that allows multiple HTML "regions" to be defined on the player canvas.
 
