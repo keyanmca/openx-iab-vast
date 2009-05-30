@@ -1,4 +1,5 @@
-#summary Examples for the Flowplayer RTMP Plugin.
+#summary Examples for the Flowplayer RTMP Plugin
+#sidebar TableOfContents
 
 = Worked Examples =
 
