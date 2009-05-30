@@ -1,8 +1,6 @@
 #summary Features of the Flowplayer RTMP Video Ad Streamer
 #sidebar TableOfContents
 
-= Features - The Flowplayer RTMP Ad Streamer =
-
   # A fully open source, end-to-end, future proof, IAB standards compliant solution 
   # Supports any combination of pre, mid, post roll, overlay, non-overlay and companion ads
   # Overlays supports "click to play" a video ad or "click through" to a website
