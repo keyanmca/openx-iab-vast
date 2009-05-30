@@ -1,4 +1,4 @@
-#summary About the release
+#summary About the Release
 #sidebar TableOfContents
 
 This is an *early access beta release* of the OpenX Video Advertising technology.
