@@ -1,8 +1,6 @@
 #summary Frequently Asked Questions
 #sidebar TableOfContents
 
-= Frequently Asked Questions =
-
 ===1. General===
 
 ====1.1 Is there an online demo of all supported Video Ads configurations?====
