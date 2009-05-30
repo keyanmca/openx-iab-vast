@@ -1,4 +1,90 @@
 #summary Configuration options for the RTMP Ad Streamer
 #sidebar TableOfContents
 
-BEING WRITTEN NOW
+=The Flowplayer OpenX RTMP Ad Streamer=
+
+The *OpenX Ad Streamer* is the plugin that is responsible for making a request to the OpenX Ad Server
+to obtain the VAST description of the video ads to serve for a given set of programme streams. Once it has
+that data, the streamer works out precisely how to sequence those ads to play as the main programme 
+stream(s) play.
+
+To display overlay and non-overlay video advertising, the Ad Streamer talks to the [FlowplayerOpenXRegionsConfig OpenX Regions] plugin that defines a series of "regions" that control the way the HTML based graphical advertising 
+and related messaging is displayed.
+
+Finally the Ad Streamer is also responsible for tracking ads and showing streams as they play, reporting 
+the ad related tracking events to the OpenX ad server which in turn records and reports on them.
+
+A wide range of configuration options are available to ensure that the Ad Streamer can sequence and
+schedule just about any form of VAST compliant video advertising across any number of programme
+streams. The following example is a more complex demonstration of the range of configuration options
+available.
+
+{{{
+    ....
+    plugins: {
+        ....
+        openXAdStreamer: {
+            // THE PLUGIN SWF FILE
+             url: 'flash/OpenXAdStreamer.swf',
+
+            // MAIN PROGRAMME STREAMS 
+            streams: [ { file:'mp4:HCTV004830001A' , duration:'00:01:00' },
+                       { file:'mp4:HCTV004830001B' , duration:'00:01:00' }
+            ],
+            
+            // OPENX SERVER
+            vastServerURL: 'http://demo.bouncingminds.com/openx/www/delivery_dev/spc.php',
+
+            // AD DISPLAY
+            disableControls: true,
+            companionDivIDs: [ { id:'companion', width:150, height:360 } ],
+            enablePopupVideoAds: true,
+
+            // AD SCHEDULE
+            adSchedule: [
+                { 
+                  zone: '2',
+                  position: 'pre-roll',
+                  duration: '30',
+                  notice: { show: true, 
+                            region: 'message', 
+                            message: '&lt;p class="message" align="right"&gt;
+                                           This advertisement runs for _seconds_ seconds
+                                      &lt;/p&gt;' 
+                  },
+                  applyToParts: [ 0 ]
+                },
+                { 
+                  zone: '6',
+                  position: 'bottom',
+                  width: 600,
+                  height: 50,
+                  startTime: '00:00:15',
+                  duration: '15',
+                  applyToParts: [ 0 ],
+                  companionDivIDs: [ { id:'companion', width:150, height:360 } ]
+                },
+                { 
+                  zone: '4',
+                  position: 'post-roll',
+                  duration: '30',
+                  notice: { show: false }
+                }
+            ],
+            
+            // JAVASCRIPT CALLBACKS
+            onTemplateLoaded: function() { buttonActions.templateLoaded(); },
+            onCuepointInfo: function(data) { buttonActions.onCuepoint(data); }
+        }
+    }
+}}}
+
+In this example, 2 main programme streams are to be served (`HCTV004830001A` and `HCTV004830001A`). 
+As those two streams are played sequentially, a `30` second `pre-roll` ad with a `notice` is 
+to be sequenced before the first stream only. During the playback of the first programme stream, `00:00:15` seconds into the stream an overlay ad (that is allowed to start a video advertisement mid stream) is to be served in the `'bottom'` region for `15` seconds. An accompanying companion banner with the size `150 * 360` pixels 
+is to be displayed in a div block on the page identified as `companion`. Following both programme streams,  a `30` second `post-roll` video ad is to be served without an ad notice.
+
+In addition, this example illustrates how to disable the control bar during ad play (`disableControls`) and react to javascript callbacks when the VAST template is loaded (`onTemplateLoaded`) or ad event cuepoints are fired (`onCuepointInfo`).
+
+Below is a complete list of configuration options for the *Ad Streamer* plugin. Some options are only available at the general plugin level, while others are restricted to the `Ad Slot` level. General level configuration options are applied
+across all `Ad Slots` unless otherwise specified.
