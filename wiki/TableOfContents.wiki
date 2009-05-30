@@ -1,26 +1,26 @@
 #summary Table of Contents
 
-  # [AboutTheRelease About the latest release]<br>
-  # [AboutIABVast About the IAB Video Advertising standards]
-  # [HowThisWorks How It Works]
-  # [GettingStarted Getting Started]
-  # How to get the release
-    # [http://code.google.com/p/openx-iab-vast/downloads/list Download the latest player plugins]<br>
-    # [InstallingOpenXServerVideoPlugin  How to enable Video Ad serving within OpenX]<br>
-  # [HowToBuild How to build the release] (optional)<br>
-  # OpenX server side documentation
-  # Player side plugin documentation<br>
+  * [AboutTheRelease About the latest release]<br>
+  * [AboutIABVast About the IAB Video Advertising standards]
+  * [HowThisWorks How It Works]
+  * [GettingStarted Getting Started]
+  * How to get the release
+    * [http://code.google.com/p/openx-iab-vast/downloads/list Download the latest player plugins]<br>
+    * [InstallingOpenXServerVideoPlugin  How to enable Video Ad serving within OpenX]<br>
+  * [HowToBuild How to build the release] (optional)<br>
+  * OpenX server side documentation
+  * Player side plugin documentation<br>
     * The Flowplayer RTMP Video Advertising Plugin
-      # [FlowplayerRTMPFeatures Features]
-      # [FlowplayerOpenXRegionsConfig Configuration options for the Flowplayer OpenX Regions Plugin]
-      # [FlowplayerOpenXRTMPStreamerConfig Configuration options for the Flowplayer OpenX RTMP Ad Streamer]
-      # [SettingUpYourFirstOpenXCampaign Setting up your first OpenX Video Ad Campaign]
-      # [FlowplayerRTMPExamples Worked examples]
-      # [FlowplayerRTMPLimitations Known Limitations]
-      # [ChangeLog Change Log: Flowplayer RTMP Video Ad plug-in]
-      # [http://www.flowplayer.org/plugins/advertising/openx.html Documentation on flowplayer.org] 
+      * [FlowplayerRTMPFeatures Features]
+      * [FlowplayerOpenXRegionsConfig Configuration options for the Flowplayer OpenX Regions Plugin]
+      * [FlowplayerOpenXRTMPStreamerConfig Configuration options for the Flowplayer OpenX RTMP Ad Streamer]
+      * [SettingUpYourFirstOpenXCampaign Setting up your first OpenX Video Ad Campaign]
+      * [FlowplayerRTMPExamples Worked examples]
+      * [FlowplayerRTMPLimitations Known Limitations]
+      * [ChangeLog Change Log: Flowplayer RTMP Video Ad plug-in]
+      * [http://www.flowplayer.org/plugins/advertising/openx.html Documentation on flowplayer.org] 
     * The Flowplayer HTTP Download Video Adverting Plugin
       * Coming soon
-  # [KeyTerminology Terminology]
-  # [FAQ Frequently Asked Questions]
-  # [AboutBouncingMinds About Bouncing Minds]
+  * [KeyTerminology Terminology]
+  * [FAQ Frequently Asked Questions]
+  * [AboutBouncingMinds About Bouncing Minds]
