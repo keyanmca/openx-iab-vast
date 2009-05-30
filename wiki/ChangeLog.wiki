@@ -1,8 +1,6 @@
 #summary The player side plugin change log
 #sidebar TableOfContents
 
-= Change Log =
-
 0.4.5 - April 26, 2009
 
   * Ad scheduling for live streaming now working
