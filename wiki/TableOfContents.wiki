@@ -18,7 +18,7 @@
     * [FlowplayerRTMPLimitations Known Limitations]
     * [ChangeLog Change Log]
     * [http://www.flowplayer.org/plugins/advertising/openx.html Doc @ Flowplayer.org] 
-  * Flowplayer HTTP Download Ad Streamer
+  * Flowplayer HTTP Ad Streamer
     * Coming soon
   * [KeyTerminology Terminology]
   * [FAQ Frequently Asked Questions]
