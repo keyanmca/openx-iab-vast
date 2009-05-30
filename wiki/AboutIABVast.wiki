@@ -1,8 +1,6 @@
 #summary About the IAB Video Advertising Standards
 #sidebar TableOfContents
 
-= About the IAB Video Advertising Standards =
-
 The Digital Video Committee of the Interactive Advertising Bureau (IAB) is comprised of over 180 members dedicated to the
 creation and execution of digital video advertising. One of the goals of the committee is to implement a comprehensive
 set of guidelines, measurement and creative options for interactive video advertising. 
