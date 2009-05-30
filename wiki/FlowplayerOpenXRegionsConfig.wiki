@@ -7,6 +7,8 @@ The _Regions_ plugin is an extended form of the standard Flowplayer _Content_ pl
 
 Use the Regions plugin to define a series of "regions" on the player that can be used to display overlay and non-overlay advertising. Given that a region is basically a HTML block, it can also be used to display messaging to accompany a video ad such as sponsorship messaging or "this is an advert" type messaging.
 
+== Declaring Regions ==
+
 By default, 4 regions are automatically declared - a *"top"* region that occupies the width of the player 50 pixels deep, a *"bottom"* region that is also the width of the player and 50 pixels height, a region that covers the *"full screen"*, and a thin region (20px high) at the base of the screen to be used for general ad messaging (tagged *"message"*).
 
 Any number of customised regions can be declared. To illustrate how this is done, review the following example that illustrates the options that are declared for the default "message" region:
@@ -65,6 +67,8 @@ The "message" region specifically defines an additional stylesheet to pull in an
 HTML text to be displayed by the regions can be defined at a general or regions specific level. In the example above, a general warning message is configured as the standard body for the "message" region. The html definition references a style class ('warning')  that is defined in the `region-message.css` stylesheet.
 
 Javascript callbacks are also available at a general level. In the example above, the `onClick()` callback is defined - when a region is clicked, this callback will be executed allowing you to define custom behaviour to occur outside of the player when the user clicks on advertising region.
+
+== Configuration Parameters ==
 
 A wide range of configuration options are available, allowing you to define regions of pretty much any shape and style. Below is a complete list of options:
 
