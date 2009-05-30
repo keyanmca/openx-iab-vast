@@ -1,3 +1,4 @@
 #summary Configuration options for the Regions plugin.
+#sidebar TableOfContents
 
 BEING WRITTEN NOW
