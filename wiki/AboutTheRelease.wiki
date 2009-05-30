@@ -4,7 +4,7 @@
 
 This is an *early access beta release* of the OpenX Video Advertising technology.
 
-This release runs video ads over RTMP with [http://www.flowplayer.org Flowplayer].
+This release runs video ads over RTMP using [http://www.openx.org OpenX] and [http://www.flowplayer.org Flowplayer].
 
 A version to support HTTP Download and pseudostreaming for Flowplayer is in development. A version of the plugin is also being built for Longtail's JWPlayer.
 
