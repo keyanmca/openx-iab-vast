@@ -11,7 +11,7 @@
   * Flowplayer RTMP Ad Streamer
     * [FlowplayerRTMPFeatures Features]
     * [FlowplayerOpenXRegionsConfig Regions Setup]
-    * [FlowplayerOpenXRTMPStreamerConfig Streamer Setup]
+    * [FlowplayerOpenXRTMPStreamerConfig Ad Streamer Setup]
     * [SettingUpYourFirstOpenXCampaign Your First Campaign]
     * [FlowplayerRTMPExamples Worked Examples]
     * [FlowplayerRTMPLimitations Known Limitations]
