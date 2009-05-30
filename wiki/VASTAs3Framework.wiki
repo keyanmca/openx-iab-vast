@@ -1,0 +1,4 @@
+#summary VAST AS3 Framework Home Page
+#sidebar TableOfContents
+
+BEING DOCUMENTED NOW
