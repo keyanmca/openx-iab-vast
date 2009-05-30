@@ -1,4 +1,4 @@
-#summary Features of the Flowplayer RTMP video ad plugin
+#summary Features of the Flowplayer RTMP Video Ad Streamer
 #sidebar TableOfContents
 
 = Features - The Flowplayer RTMP Ad Streamer =
