@@ -1,4 +1,4 @@
-#summary Configuration options for the RTMP Ad Streamer
+#summary Configuration Options for the RTMP Ad Streamer
 #sidebar TableOfContents
 
 =OpenXAdStreamer.swf=
