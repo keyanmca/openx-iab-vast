@@ -1,4 +1,4 @@
-#summary How to build the release
+#summary How to Build the Release
 #sidebar TableOfContents
 
 = Introduction =
