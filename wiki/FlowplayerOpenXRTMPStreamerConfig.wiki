@@ -1,7 +1,7 @@
 #summary Configuration options for the RTMP Ad Streamer
 #sidebar TableOfContents
 
-=The Flowplayer OpenX RTMP Ad Streamer (OpenXAdStreamer.swf) =
+=OpenXAdStreamer.swf=
 
 The *OpenX Ad Streamer* is the plugin that is responsible for making a request to the OpenX Ad Server
 to obtain the VAST description of the video ads to serve for a given set of programme streams. Once it has
