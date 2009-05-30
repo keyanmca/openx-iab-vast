@@ -1,4 +1,5 @@
 #summary Key Concepts and Terminology
+#sidebar TableOfContents
 
 =Key Concepts and Terminology=
 
