@@ -1,7 +1,5 @@
-#summary Flowplayer RTMP Video Ad Streamer limitations
+#summary Flowplayer RTMP Video Ad Streamer Limitations
 #sidebar TableOfContents
-
-=Known Limitations=
 
 The following limitations in functionality exist for this release:
 
