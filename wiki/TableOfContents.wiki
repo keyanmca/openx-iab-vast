@@ -21,7 +21,7 @@
     * Coming soon
   * JWPlayer Ad Streamer
     * Coming soon
-  * The VAST AS3 Framework
+  * [VASTAs3Framework The VAST AS3 Framework]
     * Documenting now
   * [KeyTerminology Terminology]
   * [FAQ Frequently Asked Questions]
