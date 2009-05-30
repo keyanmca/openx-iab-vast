@@ -1,4 +1,5 @@
 #summary Features of the Flowplayer RTMP video ad plugin
+#sidebar TableOfContents
 
 = Feature - The Flowplayer RTMP video ad plugin =
 
