@@ -1,8 +1,6 @@
 #summary About the release
 #sidebar TableOfContents
 
-= About the Latest Release =
-
 This is an *early access beta release* of the OpenX Video Advertising technology.
 
 This release runs video ads over RTMP using [http://www.openx.org OpenX] and [http://www.flowplayer.org Flowplayer].
