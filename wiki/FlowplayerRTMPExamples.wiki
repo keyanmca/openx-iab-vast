@@ -1,4 +1,4 @@
-#summary Examples for the Flowplayer RTMP Plugin
+#summary Examples for the Flowplayer RTMP Ad Streamer
 #sidebar TableOfContents
 
 A range of examples are detailed below. These examples illustrate the various configurations that the player can accommodate to deliver instream and overlay plus companion advertising across live and on-demand streams:
