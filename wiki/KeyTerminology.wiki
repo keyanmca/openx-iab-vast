@@ -1,8 +1,6 @@
 #summary Key Concepts and Terminology
 #sidebar TableOfContents
 
-=Key Concepts and Terminology=
-
 || *Term* || *Description* ||
 || Ad Schedule || A term (and configuration property) used by the OpenXAdStreamer to encompass a list of Ad Spot that are to be "scheduled" to run against a series of one or more programme stream(s) ||
 || Ad Spots || A single ad "spot" that is scheduled to play against a given programme stream. When defining the ads to be played by the OpenXAdStreamer, a list of Ad Spots are declared in the form of an Ad Schedule. Ad Spots can be Linear Video (played in pre-roll, mid-roll, post-roll positions) or Non-Linear ads in the form of graphical overlays. They can also be defined as static "html" types that allow sponsorship branding to be displayed. ||
