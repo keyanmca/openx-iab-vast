@@ -8,7 +8,7 @@ The following limitations in functionality exist for this release:
   * All linear video ads must be deliverd via RTMP (and an Flash Media Server such as Red5, Adobe etc.) -  support for HTTP download will be available in a future release
   * Linear Interactive ads (e.g. Flash ads) are not supported at this time. To support these in a standard manner, we need to implement the Video Player-Ad Interface Definition (VPAID) - work is underway on this
   * Only 1 companion ad per video ad can be configured on the OpenX Server side at present. The player plugin supports multiple companions per page - a future version of the OpenX Server side will support multiple companions to be configured per video ad type
-  * Only image based overlays have been tested at this time. We will test other HTML based overlay types (such as SWF, straight HTML) in the next release
+  * Only image and straight HTML based overlays have been tested at this time.
   * Non Linear Non Overlay Ad types have not been tested
   * The video reporting module for OpenX is being built and will be available with the public beta
   * Currently there are two plugins for the OpenX Server - a VAST plugin and a logging plugin - these are being merged into a single plugin
