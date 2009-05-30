@@ -1,4 +1,5 @@
 #summary Installing the OpenX server side video ad plugin
+#sidebar TableOfContents
 
 = Installing the OpenX server side Video Ad Plugin =
 
