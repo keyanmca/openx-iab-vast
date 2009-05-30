@@ -1,5 +1,7 @@
+<wiki:comment>
 #summary About the release
 #sidebar TableOfContents
+</wiki:comment>
 
 = About the Latest Release =
 
