@@ -1,4 +1,5 @@
-#summary About the latest release.
+#summary About the latest release
+#sidebar TableOfContents
 
 = About the Latest Release =
 
