@@ -1,4 +1,5 @@
-#summary About the IAB Video Advertising Standards.
+#summary About the IAB Video Advertising Standards
+#sidebar TableOfContents
 
 = About the IAB Video Advertising Standards =
 
