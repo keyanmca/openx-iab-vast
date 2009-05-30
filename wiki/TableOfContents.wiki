@@ -1,7 +1,7 @@
 #summary Table of Contents
 
   * [AboutTheRelease About the latest release]<br>
-  * [AboutIABVast About the IAB Video Advertising standards]
+  * [AboutIABVast About IAB VAST]
   * [HowThisWorks How It Works]
   * [GettingStarted Getting Started]
   * How to get the release
