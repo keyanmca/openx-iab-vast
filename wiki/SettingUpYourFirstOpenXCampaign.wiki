@@ -5,7 +5,7 @@
 
   * Make sure that you have a website created - if not, create one
 
-     http://static.bouncingminds.com/images/openx-iab-vast/step-create-website.png
+     <img src="http://static.bouncingminds.com/images/openx-iab-vast/step-create-website.png" width="400">
 
   * Create the various video "zones" that you want to have advertising on your website:
     * When you create a new video zone, if you want pre/mid/post roll adverting, add a zone of type "Inline Video Ad"
