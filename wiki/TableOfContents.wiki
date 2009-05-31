@@ -2,7 +2,7 @@
 
   * [AboutTheRelease About the latest release]<br>
   * [AboutIABVast About IAB VAST]
-  * Video Advertising Best Practices
+  * Best Practice Ad Formats
   * [HowThisWorks How It Works]
   * [GettingStarted Getting Started]
     * [http://code.google.com/p/openx-iab-vast/downloads/list Downloads]
