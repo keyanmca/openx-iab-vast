@@ -1,7 +1,7 @@
 #summary Setting up your first openX campaign
 #sidebar TableOfContents
 
-The following instructions assume you have a basic understanding of the OpenX processes and admin console. For a detailed introduction to OpenX, please read [www.openx.org here].
+The following instructions assume you have a basic understanding of the OpenX processes and admin console. For a detailed introduction to OpenX, please read [http://www.openx.org here].
 
 Once you are ready to go:
 
