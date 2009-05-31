@@ -11,7 +11,7 @@
     * When you create a new video zone, if you want pre/mid/post roll adverting, add a zone of type "Inline Video Ad"
     * If you want an overlay video ad, create a zone of type "Overlay video ad"
 
-     <img src="http://static.bouncingminds.com/images/openx-iab-vast/step-create-zones.png" width="500">
+     <img src="http://static.bouncingminds.com/images/openx-iab-vast/step-create-zones.png" width="700">
 
   * Now that you have your website and zones recorded, create an advertiser
 
