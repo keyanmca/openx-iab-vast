@@ -1,0 +1,98 @@
+<html>
+<head>
+<title>Example 8 - Changing the "This is an advert" message</title>
+<script type="text/javascript" src="../dist/jquery-1.3.1.js"></script>
+<script type="text/javascript" src="../dist/flowplayer-3.1.0.min.js"></script>
+<script type="text/javascript" src="../dist/flowplayer-openx-0.4.3.js"></script>
+<script type="text/javascript" src="../dist/global-0.16.js"></script>
+<link rel="stylesheet" type="text/css" href="css/global.css" />
+</head>
+<body>
+
+<h2>Example 8 - Changing the "This is an advert" message</h2>
+<p class="example">
+This example illustrates how the "this is an advert" type message can be turned on and off, and the 
+text changed. For this example, the text has been set to "My New Ad Notice - _seconds_ seconds".
+</p>
+<a class="example"></a>
+
+<script language="JavaScript">
+flowplayer("a.example", "../dist/flowplayer-3.1.0.swf", {
+    playlist: [
+        {
+            url: 'main',
+            provider: 'openXAdStreamer'
+        }
+    ],
+
+    plugins: {
+        openXRegions: {
+            url: '../dist/OpenXRegions-0.4.6.swf'    		
+        },
+
+        openXAdStreamer: {
+            url: '../dist/OpenXAdStreamer-0.4.6.swf',
+            netConnectionUrl: 'rtmp://ne7c0nwbit.rtmphost.com/videoplayer',
+            streams: [ { file:'mp4:bbb_640x360_h264.mp4', duration:'00:09:56' } ],
+            vastServerURL: 'http://beta.bouncingminds.com/openx-2.8.1-rc7/www/delivery/fc.php',
+            debugLevel: 'fatal',
+            adSchedule: [
+                {   zone: '2',
+                    position: 'pre-roll',
+                    notice: { 
+                        show: true, 
+                        region: 'message', 
+                        message: '<p class="message" align="right">My New Ad Notice - _seconds_ seconds</p>' 
+                    },
+                }
+            ]
+        }
+    }
+});
+</script>
+<p>
+The configuration for this example is:
+</p>
+<div class="codebox">
+<pre>
+<code class="javascript">
+flowplayer("a.example", "../dist/flowplayer-3.1.0.swf", {
+    playlist: [
+        {
+            url: 'main',
+            provider: 'openXAdStreamer'
+        }
+    ],
+
+    plugins: {
+        openXRegions: {
+            url: '../dist/OpenXRegions-0.4.6.swf'    		
+        },
+
+        openXAdStreamer: {
+            url: '../dist/OpenXAdStreamer-0.4.6.swf',
+            netConnectionUrl: 'rtmp://ne7c0nwbit.rtmphost.com/videoplayer',
+            streams: [ { file:'mp4:bbb_640x360_h264.mp4', duration:'00:09:56' } ],
+            vastServerURL: 'http://beta.bouncingminds.com/openx-2.8.1-rc7/www/delivery/fc.php',
+            debugLevel: 'fatal',
+            adSchedule: [
+                { 
+                    zone: '2',
+                    position: 'pre-roll',
+                    notice: { 
+                        show: true, 
+                        region: 'message', 
+                        message: '&lt;p class="message" align="right"&gt;
+                                       My New Ad Notice - _seconds_ seconds
+                                  &lt;/p&gt;' 
+                    },
+                }
+            ]
+        }
+    }
+});
+</code>
+</pre>
+</div>
+</body>
+</html>
