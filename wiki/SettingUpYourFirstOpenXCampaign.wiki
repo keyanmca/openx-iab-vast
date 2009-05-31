@@ -13,6 +13,7 @@ Once you are ready to go:
      <a href="http://static.bouncingminds.com/images/openx-iab-vast/step-create-website.png">
      <img src="http://static.bouncingminds.com/images/openx-iab-vast/step-create-website.png" width="400" border="0" />
      </a>
+     <br/>
 
   * Create the various video "zones" that you want to have advertising on your website:
     * When you create a new video zone, if you want pre/mid/post roll adverting, add a zone of type "Inline Video Ad"
@@ -25,14 +26,20 @@ Once you are ready to go:
 
   * Now that you have your website and zones recorded, create an advertiser
 
-
-     <img src="http://static.bouncingminds.com/images/openx-iab-vast/step-create-advertiser.png" width="400">
+     <br/>
+     <a href="http://static.bouncingminds.com/images/openx-iab-vast/step-create-advertiser.png">
+     <img src="http://static.bouncingminds.com/images/openx-iab-vast/step-create-advertiser.png" width="400" border="0" />
+     </a>
+     <br/>
 
 
   * Add a campaign for your advertiser
 
-
-     <img src="http://static.bouncingminds.com/images/openx-iab-vast/step-create-campaign.png" width="700">
+     <br/>
+     <a href="http://static.bouncingminds.com/images/openx-iab-vast/step-create-campaign.png">
+     <img src="http://static.bouncingminds.com/images/openx-iab-vast/step-create-campaign.png" width="700"  border="0" />
+     </a>
+     <br/>
 
 
   * Now the fun starts. Create a new video ad banner for that campaign:
@@ -46,13 +53,21 @@ Once you are ready to go:
     * Next time you go back into that banner, the video ad will play - check it out
 
 
-     <img src="http://static.bouncingminds.com/images/openx-iab-vast/step-create-banner-detail.png" width="700">
+     <br/>
+     <a href="http://static.bouncingminds.com/images/openx-iab-vast/step-create-banner-detail.png" />
+     <img src="http://static.bouncingminds.com/images/openx-iab-vast/step-create-banner-detail.png" width="700" border="0" />
+     </a>
+     <br/>
 
 
   * One final step is required to activate the banner - you need to link the new banner back to the "zones" that you created initially. To do this go into the banner, click on "Linked Zones" and then make sure the appropriate "zone" is ticked at the bottom of the page. When you configure the player, you must specify the corresponding zone ID (in the table at the bottom of the "linked zones") as the "zone ID"
 
 
-     <img src="http://static.bouncingminds.com/images/openx-iab-vast/step-link-zones.png" width="700">
+     <br/>
+     <a href="http://static.bouncingminds.com/images/openx-iab-vast/step-link-zones.png">
+     <img src="http://static.bouncingminds.com/images/openx-iab-vast/step-link-zones.png" width="700" border="0" />
+     </a>
+     <br/>
 
 
 Now you're done - the ad is set to be served
