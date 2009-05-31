@@ -1,21 +1,18 @@
 #summary Setting up your first openX campaign
 #sidebar TableOfContents
 
-  # Log into openX as a manager
+  * Log into openX as a manager
 
-  # Make sure that you have a website created - if not, create one
+  * Make sure that you have a website created - if not, create one
 
-  # Create the various video "zones" that you want to have advertising on your website:
-
+  * Create the various video "zones" that you want to have advertising on your website:
     * When you create a new video zone, if you want pre/mid/post roll adverting, add a zone of type "Inline Video Ad"
     * If you want an overlay video ad, create a zone of type "Overlay video ad"
 
-  # Now that you have your website and zones recorded, create an advertiser
+  * Now that you have your website and zones recorded, create an advertiser
 
-  # Add a campaign for your advertiser
-
-  # Now the fun starts. Create a new video ad banner for that campaign
-
+  * Add a campaign for your advertiser
+  * Now the fun starts. Create a new video ad banner for that campaign:
     * Two types of banner may be created (a) "OpenX VAST Inline Video Banner (pre/mid/post-roll)" and (b) "OpenX VAST Video Overlay Banner"  - if you want to create a pre, mid or post-roll ad use type (a). Overlay banners are type (b)
     * When creating an Inline Video Banner:
       * Enter a name for the banner
@@ -25,5 +22,6 @@
     * Save the new banner ad
     * Next time you go back into that banner, the video ad will play - check it out
 
-  # One final step is required to activate the banner - you need to link the new banner back to the "zones" that you created initially. To do this go into the banner, click on "Linked Zones" and then make sure the appropriate "zone" is ticked at the bottom of the page. When you configure the player, you must specify the corresponding zone ID (in the table at the bottom of the "linked zones") as the "zone ID"
-  # Now you're done - the ad is set to be served
+  * One final step is required to activate the banner - you need to link the new banner back to the "zones" that you created initially. To do this go into the banner, click on "Linked Zones" and then make sure the appropriate "zone" is ticked at the bottom of the page. When you configure the player, you must specify the corresponding zone ID (in the table at the bottom of the "linked zones") as the "zone ID"
+
+Now you're done - the ad is set to be served
