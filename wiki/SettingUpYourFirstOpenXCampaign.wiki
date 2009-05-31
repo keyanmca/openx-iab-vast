@@ -11,9 +11,15 @@
     * When you create a new video zone, if you want pre/mid/post roll adverting, add a zone of type "Inline Video Ad"
     * If you want an overlay video ad, create a zone of type "Overlay video ad"
 
+     http://static.bouncingminds.com/images/openx-iab-vast/step-create-zones.png
+
   * Now that you have your website and zones recorded, create an advertiser
 
+     http://static.bouncingminds.com/images/openx-iab-vast/step-create-advertiser.png
+
   * Add a campaign for your advertiser
+
+     http://static.bouncingminds.com/images/openx-iab-vast/step-create-campaign.png
 
   * Now the fun starts. Create a new video ad banner for that campaign:
     * Two types of banner may be created (a) "OpenX VAST Inline Video Banner (pre/mid/post-roll)" and (b) "OpenX VAST Video Overlay Banner"  - if you want to create a pre, mid or post-roll ad use type (a). Overlay banners are type (b)
@@ -25,6 +31,10 @@
     * Save the new banner ad
     * Next time you go back into that banner, the video ad will play - check it out
 
+     http://static.bouncingminds.com/images/openx-iab-vast/step-create-banner-detail.png
+
   * One final step is required to activate the banner - you need to link the new banner back to the "zones" that you created initially. To do this go into the banner, click on "Linked Zones" and then make sure the appropriate "zone" is ticked at the bottom of the page. When you configure the player, you must specify the corresponding zone ID (in the table at the bottom of the "linked zones") as the "zone ID"
+
+     http://static.bouncingminds.com/images/openx-iab-vast/step-link-zones.png
 
 Now you're done - the ad is set to be served
