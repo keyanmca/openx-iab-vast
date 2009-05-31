@@ -9,6 +9,7 @@ Once you are ready to go:
 
   * Make sure that you have a website created - if not, create one
 
+     <br/>
      <a href="http://static.bouncingminds.com/images/openx-iab-vast/step-create-website.png">
      <img src="http://static.bouncingminds.com/images/openx-iab-vast/step-create-website.png" width="400" border="0" />
      </a>
@@ -17,9 +18,10 @@ Once you are ready to go:
     * When you create a new video zone, if you want pre/mid/post roll adverting, add a zone of type "Inline Video Ad"
     * If you want an overlay video ad, create a zone of type "Overlay video ad"
 
-
-     <img src="http://static.bouncingminds.com/images/openx-iab-vast/step-create-zones.png" width="700">
-
+     <br/>
+     <a href="http://static.bouncingminds.com/images/openx-iab-vast/step-create-zones.png">
+     <img src="http://static.bouncingminds.com/images/openx-iab-vast/step-create-zones.png" width="700" border="0" />
+     </a>
 
   * Now that you have your website and zones recorded, create an advertiser
 
