@@ -5,6 +5,8 @@
 
   * Make sure that you have a website created - if not, create one
 
+     http://static.bouncingminds.com/images/openx-iab-vast/step-create-website.png
+
   * Create the various video "zones" that you want to have advertising on your website:
     * When you create a new video zone, if you want pre/mid/post roll adverting, add a zone of type "Inline Video Ad"
     * If you want an overlay video ad, create a zone of type "Overlay video ad"
@@ -12,6 +14,7 @@
   * Now that you have your website and zones recorded, create an advertiser
 
   * Add a campaign for your advertiser
+
   * Now the fun starts. Create a new video ad banner for that campaign:
     * Two types of banner may be created (a) "OpenX VAST Inline Video Banner (pre/mid/post-roll)" and (b) "OpenX VAST Video Overlay Banner"  - if you want to create a pre, mid or post-roll ad use type (a). Overlay banners are type (b)
     * When creating an Inline Video Banner:
