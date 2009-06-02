@@ -1,6 +1,10 @@
 #summary Examples for the Flowplayer RTMP Ad Streamer
 #sidebar TableOfContents
 
+<div style="background:#E6E6E6">
+fasdasfdasda
+</div>
+
 A range of examples are detailed below. These examples illustrate the various configurations that the player can accommodate to deliver instream and overlay plus companion advertising across live and on-demand streams:
 
 Example 1: [http://www.bouncingminds.com/plugins/flowplayer/openx/rtmp/examples/example01.html A pre-roll ad only]<br>
