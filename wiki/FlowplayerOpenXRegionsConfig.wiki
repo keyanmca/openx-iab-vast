@@ -99,5 +99,3 @@ A wide range of configuration options are available, allowing you to define regi
 || `onClick` || General || A javascript function that is called when a region is clicked. ||
 || `onMouseOver` || General || A javascript function that is called when the mouse is positioned over the plugin. ||
 || `onMouseOut` || General || A javascript function that is called when the mouse moves outside of the plugin. ||
-|| `notifyAdStreamerOnClick` || Both || Specifies whether or not a region is to notify the adStreamer plugin that it has been clicked - 'true' by default ||
-|| `adStreamerPluginName` || General || Specifies the name of the adStreamer plugin - this is required if the regions plugin is to talk to the adStream (e.g. on click events) - the adStreamer name is 'openXAdStreamer' by default ||
