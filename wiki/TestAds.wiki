@@ -1,6 +1,5 @@
-#summary Test Ads
-
-= A Set of Test Ads =
+#summary Some test video ads and companions to get you going
+#sidebar TableOfContents
 
 To help you get up and running, we've placed a few test ads here for you to download. 
 
