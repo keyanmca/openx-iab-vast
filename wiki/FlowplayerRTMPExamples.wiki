@@ -1,7 +1,7 @@
 #summary Examples for the Flowplayer RTMP Ad Streamer
 #sidebar TableOfContents
 
-*STATUS: As we finish QA this week, we are constantly bringing the openX instance up and down this week that these examples point too... as such, many examples will not work at times. Sorry for this. Please bear with us while we get the final example instance up and running*
+<wiki:gadget url="http://static.bouncingminds.com/gadgets/factoid/openx-iab-vast-home.xml" width="760" height="100" border="0" />
 
 A range of examples are detailed below. These examples illustrate the various configurations that the player can accommodate to deliver instream and overlay plus companion advertising across live and on-demand streams:
 
