@@ -10,6 +10,7 @@ To support these examples, several "zones" have been defined on our [http://open
   * zone '1': Instream video - pre, mid or post roll
   * zone '2': Overlay - click to play video
   * zone '3': Overlay - click to go to a website
+  * zone '4': Instream video with companion ad
 
 Examples:
 
