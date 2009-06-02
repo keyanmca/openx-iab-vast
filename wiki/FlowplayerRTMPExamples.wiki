@@ -1,7 +1,7 @@
 #summary Examples for the Flowplayer RTMP Ad Streamer
 #sidebar TableOfContents
 
-<div style="background:#E6E6E6">
+<div style="background-color:#E6E6E6">
 fasdasfdasda
 </div>
 
