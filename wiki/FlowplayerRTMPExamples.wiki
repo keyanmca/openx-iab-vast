@@ -1,7 +1,7 @@
 #summary Examples for the Flowplayer RTMP Ad Streamer
 #sidebar TableOfContents
 
-<wiki:gadget url="" height="200" border="0" /> 
+<wiki:gadget url="http://chw2054.googlecode.com/svn/trunk/htmljs/htmljs.xml%3Fversion%3D0.3&amp;up_title=HTML%20%2F%20Javascript&amp;up_html=&amp;up_editMode=rich&amp;up_autoSaveHTML=&amp;synd=open&amp;w=320&amp;h=200&amp;title=__UP_title__&amp;lang=all&amp;country=ALL&amp;border=%23ffffff%7C3px%2C1px+solid+%23999999&amp;output=js" height="200" border="0" /> 
 
 A range of examples are detailed below. These examples illustrate the various configurations that the player can accommodate to deliver instream and overlay plus companion advertising across live and on-demand streams:
 
