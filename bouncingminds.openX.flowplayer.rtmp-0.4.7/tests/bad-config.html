@@ -1,0 +1,46 @@
+<html>
+<head>
+<title>Bad Ad Spot Config Test</title>
+<script type="text/javascript" src="../dist/jquery-1.3.1.js"></script>
+<script type="text/javascript" src="../dist/flowplayer-3.1.0.min.js"></script>
+<script type="text/javascript" src="../dist/flowplayer-openx-0.4.3.js"></script>
+<script type="text/javascript" src="../dist/global-0.16.js"></script>
+<link rel="stylesheet" type="text/css" href="../examples/css/global.css" />
+</head>
+<body>
+<h2>Bad Ad Spot Config Test</h2>
+<br/>
+<a class="example"></a>
+<script language="JavaScript">
+flowplayer("a.example", "../dist/flowplayer-3.1.0.swf", {
+    playlist: [
+        {
+            url: 'main',
+            provider: 'openXAdStreamer'
+        }
+    ],
+    
+    plugins: {
+        openXRegions: {
+//            url: '../dist/OpenXRegions-0.4.6.swf'    		
+            url: '/hcplayer/OpenXRegions.swf'    		
+        },
+
+        openXAdStreamer: {
+//            url: '../dist/OpenXAdStreamer-0.4.6.swf',
+            url: '/hcplayer/OpenXAdStreamer.swf',
+            netConnectionUrl: 'rtmp://ne7c0nwbit.rtmphost.com/videoplayer',
+            vastServerURL: 'http://openx.bouncingminds.com/openx-2.8.1-rc9/www/delivery/fc.php',
+            streams: [ { file:'mp4:bbb_640x360_h264', duration:'00:09:56' } ],
+            debugLevel: 'fatal, vast_template',
+            adSchedule: [
+                { zone: '10',
+                  position: 'pre-roll'
+                }
+            ]
+        }
+    }
+});
+</script>
+</body>
+</html>

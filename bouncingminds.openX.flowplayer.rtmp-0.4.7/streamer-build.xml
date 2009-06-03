@@ -1,0 +1,16 @@
+<project name="Bouncing Minds OpenX Streamer" default="deploy">
+
+	<property name="devkit-dir" value="../flowplayer.devkit" />
+
+	<property file="${devkit-dir}/plugin-build.properties" />
+	<import file="${devkit-dir}/plugin-build.xml"/>
+	<property name="flowplayer_lib" value="${devkit-dir}/flowplayer.swc" />
+
+	<property name="version" value="0.4.7" />
+	<property name="basename" value="OpenXAdStreamer" />
+	<property name="plugin-binary" value="${basename}.swf" />
+	<property name="plugin-binary-versioned" value="${basename}-${version}.swf" />
+	<property name="plugin-main-class" value="OpenXAdStreamer.as" />
+	<property name="library-path" value="src/flash/default" />
+    <property name="compiler-define" value="CONFIG::skin,'true'" />
+</project>

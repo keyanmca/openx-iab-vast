@@ -1,0 +1,99 @@
+<html>
+<head>
+<title>Example 5 - 1 stream with a pre, mid and post-roll</title>
+<script type="text/javascript" src="../dist/jquery-1.3.1.js"></script>
+<script type="text/javascript" src="../dist/flowplayer-3.1.0.min.js"></script>
+<script type="text/javascript" src="../dist/flowplayer-openx-0.4.3.js"></script>
+<script type="text/javascript" src="../dist/global-0.16.js"></script>
+<link rel="stylesheet" type="text/css" href="css/global.css" />
+</head>
+<body>
+
+<h2>Example 5 - 1 stream with a pre, mid and post-roll</h2>
+<p class="example">
+1 show stream limited to 1 minute in duration with a pre-roll, mid roll (10 seconds into the show stream) and a post-roll ad
+</p>
+<a class="example"></a>
+
+<script language="JavaScript">
+flowplayer("a.example", "../dist/flowplayer-3.1.0.swf", {
+    playlist: [
+        {
+            url: 'main',
+            provider: 'openXAdStreamer'
+        }
+    ],
+
+    plugins: {
+        openXRegions: {
+            url: '../dist/OpenXRegions-0.4.7.swf'    		
+        },
+
+        openXAdStreamer: {
+            url: '../dist/OpenXAdStreamer-0.4.7.swf',
+            netConnectionUrl: 'rtmp://ne7c0nwbit.rtmphost.com/videoplayer',
+            vastServerURL: 'http://openx.bouncingminds.com/openx/www/delivery/fc.php',
+            streams: [ { file:'mp4:bbb_640x360_h264', duration:'00:01:00', reducedLength:true } ],
+            debugLevel: 'fatal, vast_template',
+            adSchedule: [
+                { zone: '1',
+                  position: 'pre-roll',
+                },
+                { zone: '1',
+                  position: 'mid-roll',
+                  startTime: '00:00:10'
+                },
+                { zone: '1',
+                  position: 'post-roll'
+                }
+            ]
+        }
+    }
+});
+</script>
+<br/>
+<p>
+The configuration for this example is:
+</p>
+<div class="codebox">
+<pre>
+<code class="javascript">
+flowplayer("a.example", "../dist/flowplayer-3.1.0.swf", {
+    playlist: [
+        {
+            url: 'main',
+            provider: 'openXAdStreamer'
+        }
+    ],
+
+    plugins: {
+        openXRegions: {
+            url: '../dist/OpenXRegions-0.4.7.swf'    		
+        },
+
+        openXAdStreamer: {
+            url: '../dist/OpenXAdStreamer-0.4.7.swf',
+            netConnectionUrl: 'rtmp://ne7c0nwbit.rtmphost.com/videoplayer',
+            streams: [ { file:'mp4:bbb_640x360_h264', duration:'00:01:00', reducedLength:true } ],
+            vastServerURL: 'http://openx.bouncingminds.com/openx/www/delivery/fc.php',
+            debugLevel: 'fatal',
+            adSchedule: [
+                { zone: '1',
+                  position: 'pre-roll',
+                },
+                { zone: '1',
+                  position: 'mid-roll',
+                  startTime: '00:00:10'
+                },
+                { zone: '1',
+                  position: 'post-roll'
+                }
+            ]
+        }
+    }
+});
+</code>
+</pre>
+</div>
+</body>
+</html>
