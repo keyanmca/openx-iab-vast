@@ -9,7 +9,7 @@
     * [InstallingOpenXServerVideoPlugin  Enable OpenX]
     * [TestAds Test Ads]
   * [HowToBuild How to build the release]
-  * OpenX Related Documentation
+  * [https://developer.openx.org/wiki/display/DOCS/OpenX+Video+Plugin+Beta+--+Documentation OpenX Related Documentation]
   * Flowplayer RTMP Ad Streamer
     * [FlowplayerRTMPFeatures Features]
     * [FlowplayerOpenXRegionsConfig Regions Setup]
