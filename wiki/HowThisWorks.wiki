@@ -15,7 +15,7 @@ To deploy the solution you will need to run:
   # [http://www.flowplayer.org Flowplayer] 3.1 (or later) (This is Open Source)
   # [http://www.openx.org OpenX] (see for [http://code.google.com/p/openx-iab-vast/wiki/InstallingOpenXServerVideoPlugin install details]) (This is Open Source)
   # The [http://code.google.com/p/openx-iab-vast/wiki/InstallingOpenXServerVideoPlugin OpenX Video Advertising] *server side* plugin (This is Open Source)
-  # A *video player side* plugin for Video Advertising (known as the [FlowplayerOpenXRTMPStreamerConfig Ad Streamer]) (Open Source)
+  # A *video player side* plugin for Video Advertising (known as the [FlowplayerOpenXRTMPStreamerConfig Ad Streamer]) (This is Open Source)
 
 Today the list of available player side Ad Streamer plugins is limited to an RTMP based one for Flowplayer. A HTTP Download version for Flowplayer is in development, as is a plugin for Longtail's JWPlayer. These will be released shortly. For more information on the availability of these plugins, please contact _enquiries@bouncingminds.com_
 
