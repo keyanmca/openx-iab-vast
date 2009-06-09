@@ -5,9 +5,10 @@ To get the early access beta up and running, it is recommended that you systemat
 
   # Overview
      # Familiarise yourself with the key [KeyTerminology terminology and concepts]
-  # Review the material on this site - specifically the [FlowplayerRTMPExamples examples] to get a handle on all of the options available
+     # Review the material on this site - specifically the [FlowplayerRTMPExamples examples] to get a handle on all of the options available
 
-  # Start simple - create a [http://www.bouncingminds.com/plugins/flowplayer/openx/rtmp/step1-example.html test page] that will request a pre-roll video ad from the Bouncing Minds demo OpenX Ad Server before playing the ad and the show streams off the same Content Delivery Network (CDN) used by the examples on this site. To complete this task follow these [Step1CreatePage steps]
+  # Get a simple video playing 
+     # Start simple - create a [http://www.bouncingminds.com/plugins/flowplayer/openx/rtmp/step1-example.html test page] that will request a pre-roll video ad from the Bouncing Minds demo OpenX Ad Server before playing the ad and the show streams off the same Content Delivery Network (CDN) used by the examples on this site. To complete this task follow these [Step1CreatePage steps]
   # Once the [http://www.bouncingminds.com/plugins/flowplayer/openx/rtmp/step1-example.html test page] is working, [http://code.google.com/p/openx-iab-vast/wiki/InstallingOpenXServerVideoPlugin install OpenX]
   # Now that you have OpenX running, install the OpenX server side Video Plugin. In future releases of OpenX, the plugin will be automatically packaged with the release, but for now you need to install it separately. Follow the instructions [InstallingOpenXServerVideoPlugin here] to install the server side plugin.
   # Before you proceed any further, make sure that you a few video ads and programme streams up and running on a Flash Media Server. These need to be served via RTMP - you can either use a local install of an FMS such as Red5 or a Content Delivery Network (CDN) such as Limelight, Akamai, SimpleCDN or Influxis. You must locate both the ad streams and the programme files on the same FMS path for the Ad Streamer to work. If you need a few example linear video ads, you can find several [TestAds here]
