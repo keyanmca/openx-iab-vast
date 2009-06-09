@@ -10,5 +10,3 @@ To setup OpenX so that it is ready to serve Video Ads:
   # Use that option to install the file that you downloaded (openXVideoAds.zip)
   # When successfully installed, you will see openXVideoAds appear in the list of installed plugins
   # If necessary click the Enable button to enable the plugin
-
-Now you are ready to configure your first video ad campaign using the steps  [http://code.google.com/p/openx-iab-vast/wiki/SettingUpYourFirstOpenXCampaign explained here on this site] or [https://developer.openx.org/wiki/display/DOCS/OpenX+Video+Plugin+Beta+--+Documentation explained here on OpenX site].
