@@ -1,10 +1,9 @@
 #summary Where to Begin
 #sidebar TableOfContents
 
+To get the early access beta up and running, it is recommended that you systematically walk through the following steps:
 
 <img src="http://static.bouncingminds.com/images/openx-iab-vast/VideoAdsBlockDetail.png" width="700" border="0" />
-
-To get the early access beta up and running, it is recommended that you systematically walk through the following steps:
 
   # Overview
      * Familiarise yourself with the key [KeyTerminology terminology and concepts]
