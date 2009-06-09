@@ -3,6 +3,8 @@
 
 To get the early access beta up and running, it is recommended that you systematically walk through the following steps:
 
+<img src="http://static.bouncingminds.com/images/openx-iab-vast/ideoAdsBlockDetail.png" width="500" border="0" />
+
   # Overview
      * Familiarise yourself with the key [KeyTerminology terminology and concepts]
      * Review the material on this site - specifically the [FlowplayerRTMPExamples examples] to get a handle on all of the options available
