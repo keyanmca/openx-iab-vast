@@ -10,7 +10,7 @@ The video ad streaming technology provided by this project works with the open-s
 To deploy the solution you will need to run:
 
   # [http://www.flowplayer.org Flowplayer] 3.1 (or later)
-  # [http://www.openx.org OpenX] 2.8 (or later) 
+  # [http://www.openx.org OpenX] [http://code.google.com/p/openx-iab-vast/wiki/InstallingOpenXServerVideoPlugin 2.8.2 (or later)] 
   # The [http://code.google.com/p/openx-iab-vast/wiki/InstallingOpenXServerVideoPlugin OpenX Video Advertising] *server side* plugin
   # A *video player side* plugin for Video Advertising (known as the [FlowplayerOpenXRTMPStreamerConfig Ad Streamer])
 
