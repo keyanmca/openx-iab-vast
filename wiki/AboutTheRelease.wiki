@@ -15,7 +15,7 @@ The release includes:
   * A set of worked [FlowplayerRTMPExamples examples] that illustrate some of the different configuration options for the Flowplayer video advertising plugin
 
 To use this release:
-  * Download and install the latest version of [http://www.openx.org OpenX] and follow the video plugin [InstallingOpenXServerVideoPlugin installation] instructions to enable OpenX to serve video ads.
+  * Download and install the latest version of [http://code.google.com/p/openx-iab-vast/wiki/InstallingOpenXServerVideoPlugin OpenX] and follow the video plugin [InstallingOpenXServerVideoPlugin installation] instructions to enable OpenX to serve video ads.
   * Download and install [http://www.flowplayer.org/download/index.html Flowplayer 3.1]
 
 If you want to build the release you'll need to download and install the [http://opensource.adobe.com/wiki/display/flexsdk Flex 3 SDK] and the [http://www.flowplayer.org/documentation/developer/writing-flash-plugins.html Flowplayer 3.1 dev kit] before following the [HowToBuild build notes].
