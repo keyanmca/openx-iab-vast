@@ -39,5 +39,3 @@ When a user loads a web page that contains Flowplayer and a configured OpenX Vid
 You can find a good demonstration of all of this in action [http://www.flowplayer.org/plugins/advertising/openx.html here].
 
 
-
-<img src="http://static.bouncingminds.com/images/openx-iab-vast/block1.png" width="900" border="0" />
