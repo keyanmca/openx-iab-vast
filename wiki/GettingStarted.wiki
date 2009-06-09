@@ -2,8 +2,11 @@
 #sidebar TableOfContents
 
 To get the early access beta up and running, it is recommended that you systematically walk through the following steps:
-  # Familiarise yourself with the key [KeyTerminology terminology and concepts]
+
+  # Overview
+     # Familiarise yourself with the key [KeyTerminology terminology and concepts]
   # Review the material on this site - specifically the [FlowplayerRTMPExamples examples] to get a handle on all of the options available
+
   # Start simple - create a [http://www.bouncingminds.com/plugins/flowplayer/openx/rtmp/step1-example.html test page] that will request a pre-roll video ad from the Bouncing Minds demo OpenX Ad Server before playing the ad and the show streams off the same Content Delivery Network (CDN) used by the examples on this site. To complete this task follow these [Step1CreatePage steps]
   # Once the [http://www.bouncingminds.com/plugins/flowplayer/openx/rtmp/step1-example.html test page] is working, [http://code.google.com/p/openx-iab-vast/wiki/InstallingOpenXServerVideoPlugin install OpenX]
   # Now that you have OpenX running, install the OpenX server side Video Plugin. In future releases of OpenX, the plugin will be automatically packaged with the release, but for now you need to install it separately. Follow the instructions [InstallingOpenXServerVideoPlugin here] to install the server side plugin.
