@@ -75,7 +75,6 @@ flowplayer("a.example", "dist/flowplayer-3.1.0.swf", {
 });
 </script>
 }}}
-
   # Ensure that the zone parameter is the zone id that matches the inline zone id you configured on your OpenX instance:
 {{{
 <script language="JavaScript">
