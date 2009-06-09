@@ -5,7 +5,6 @@
   * Best Practice Ad Formats
   * [HowThisWorks How It Works]
   * [GettingStarted Getting Started]
-
      * [http://code.google.com/p/openx-iab-vast/downloads/list Downloads]
      * [InstallingOpenXServerVideoPlugin  Install OpenX]
      * [TestAds Test Ads]
