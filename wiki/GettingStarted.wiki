@@ -3,7 +3,7 @@
 
 To get the early access beta up and running, it is recommended that you systematically walk through the following steps:
 
-<img src="http://static.bouncingminds.com/images/openx-iab-vast/VideoAdsBlockDetail3.png" width="700" border="0" />
+<img src="http://static.bouncingminds.com/images/openx-iab-vast/VideoAdsBlockDetail4.png" width="700" border="0" />
 
   # Overview
      * Familiarise yourself with the key [KeyTerminology terminology and concepts]
