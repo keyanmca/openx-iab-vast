@@ -12,10 +12,10 @@ The video ad streaming technology provided by this project works with the open-s
 
 To deploy the solution you will need to run:
 
-  # [http://www.flowplayer.org Flowplayer] 3.1 (or later)
-  # [http://www.openx.org OpenX] (see for [http://code.google.com/p/openx-iab-vast/wiki/InstallingOpenXServerVideoPlugin install details])
-  # The [http://code.google.com/p/openx-iab-vast/wiki/InstallingOpenXServerVideoPlugin OpenX Video Advertising] *server side* plugin
-  # A *video player side* plugin for Video Advertising (known as the [FlowplayerOpenXRTMPStreamerConfig Ad Streamer])
+  # [http://www.flowplayer.org Flowplayer] 3.1 (or later) (Open Source)
+  # [http://www.openx.org OpenX] (see for [http://code.google.com/p/openx-iab-vast/wiki/InstallingOpenXServerVideoPlugin install details]) (Open Source)
+  # The [http://code.google.com/p/openx-iab-vast/wiki/InstallingOpenXServerVideoPlugin OpenX Video Advertising] *server side* plugin (Open Source)
+  # A *video player side* plugin for Video Advertising (known as the [FlowplayerOpenXRTMPStreamerConfig Ad Streamer]) (Open Source)
 
 Today the list of available player side Ad Streamer plugins is limited to an RTMP based one for Flowplayer. A HTTP Download version for Flowplayer is in development, as is a plugin for Longtail's JWPlayer. These will be released shortly. For more information on the availability of these plugins, please contact _enquiries@bouncingminds.com_
 
@@ -37,5 +37,3 @@ When a user loads a web page that contains Flowplayer and a configured OpenX Vid
   # Cuepoints are set to track the ad and show segments as they play. Ads are tracked when they are served, started, pass the first quartile point, midpoint, 3rd quartile and end points, along with any pause and resume actions thay may occur along the way. Click throughs on overlay/non-overlay and companion banners are also tracked by the player and reported by the OpenX Ad Server.
 
 You can find a good demonstration of all of this in action [http://www.flowplayer.org/plugins/advertising/openx.html here].
-
-
