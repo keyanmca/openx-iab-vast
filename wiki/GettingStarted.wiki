@@ -9,7 +9,7 @@ To get the early access beta up and running, it is recommended that you systemat
   # Get a simple video playing 
      * Start simple - create a test page that will request a pre-roll video ad from the Bouncing Minds demo OpenX Ad Server before playing the ad and the show streams off the same Content Delivery Network (CDN) used by the examples on this site. To complete this task [Step1CreatePage follow these steps]
   # Install the Ad platform   
-     * install OpenX Ad platform and the openXvideoAds plugin using the [http://code.google.com/p/openx-iab-vast/wiki/InstallingOpenXServerVideoPlugin instructions here]
+     * install OpenX Ad platform and the openXvideoAds plugin using these  [http://code.google.com/p/openx-iab-vast/wiki/InstallingOpenXServerVideoPlugin instructions here]
   # Configure the Ad platform  
      * Now that OpenX is running with the Video Ads plugin, and given that you have loaded up some video ads to serve, you can configure your own ad "zones" to serve.  Follow these steps to complete this activity [SettingUpYourFirstOpenXCampaign documented here in this site] or [http://code.google.com/p/openx-iab-vast/wiki/SettingUpYourFirstOpenXCampaign here on the OpenX site].
   # Setup crossdomain.xml 
