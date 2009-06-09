@@ -5,9 +5,10 @@
   * Best Practice Ad Formats
   * [HowThisWorks How It Works]
   * [GettingStarted Getting Started]
-    * [http://code.google.com/p/openx-iab-vast/downloads/list Downloads]
-    * [InstallingOpenXServerVideoPlugin  Install OpenX]
-    * [TestAds Test Ads]
+
+  * [http://code.google.com/p/openx-iab-vast/downloads/list Downloads]
+  * [InstallingOpenXServerVideoPlugin  Install OpenX]
+  * [TestAds Test Ads]
   * [HowToBuild How to build the release]
   * [https://developer.openx.org/wiki/display/DOCS/OpenX+Video+Plugin+Beta+--+Documentation OpenX Related Documentation]
   * Flowplayer RTMP Ad Streamer
