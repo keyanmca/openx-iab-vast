@@ -7,6 +7,8 @@ while the video player sequences and plays back the video ads identified by the 
 
 The video ad streaming technology provided by this project works with the open-source Ad Server and video player providers to deliver a completely open-source, free solution. 
 
+<img href="http://www.gliffy.com/pubdoc/1732531/M.jpg" />
+
 To deploy the solution you will need to run:
 
   # [http://www.flowplayer.org Flowplayer] 3.1 (or later)
