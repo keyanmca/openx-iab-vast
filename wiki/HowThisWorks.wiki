@@ -18,7 +18,7 @@ Today the list of available player side Ad Streamer plugins is limited to an RTM
 
 To kick start a Video advertising campaign using OpenX and the [FlowplayerOpenXRTMPStreamerConfig Flowplayer RTMP Ad Streamer]:
 
-  # [InstallingOpenXServerVideoPlugin Setup a video advertising campaign] using OpenX. Define the campaign type, how long the video campaign is to run and any other rules that are to be used to dictate when and how the campaign is to be served.
+  # Setup a video advertising campaign using OpenX. Define the campaign type, how long the video campaign is to run and any other rules that are to be used to dictate when and how the campaign is to be served.
   # Ensure that the [TestAds video ad assets] required by the campaign are loaded up onto an RTMP server. Graphical assets such as accompanying banner ads, overlays etc. can be served via a standard web server. The examples in this release use an RTMP server provided by a CDN (Influxis in our case). You can use a CDN or an in-house RTMP server such as the Flash Media Server, Red5 or Wowsa to serve your video ad streams.
   # [FlowplayerOpenXRTMPStreamerConfig Configure] the OpenX player side Ad Streamer plugin: 
     * Declare an "Ad Schedule" that identifies the type of video ads to be sequenced with the main programme stream(s) and when each of these ad slots is to be played  - video ad types can include pre, mid, post roll video ads, overlay and non-overlay ads, and if accompanying companion ads are to be shown
