@@ -8,7 +8,7 @@ while the video player sequences and plays back the video ads identified by the 
 The video ad streaming technology provided by this project works with the open-source Ad Server and video player providers to deliver a completely open-source, free solution. 
 
 
-<img src="http://www.gliffy.com/pubdoc/1732531/M.jpg" width="700" border="0" />
+<img src="http://static.bouncingminds.com/images/openx-iab-vast/block1.png" width="700" border="0" />
 
 To deploy the solution you will need to run:
 
