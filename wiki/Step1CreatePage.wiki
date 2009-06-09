@@ -54,11 +54,11 @@ flowplayer("a.example", "dist/flowplayer-3.1.0.swf", {
     
     plugins: {
         openXRegions: {
-            url: 'dist/OpenXRegions-0.4.6.swf'    		
+            url: 'dist/OpenXRegions-0.4.7.swf'    		
         },
 
         openXAdStreamer: {
-            url: 'dist/OpenXAdStreamer-0.4.6.swf',
+            url: 'dist/OpenXAdStreamer-0.4.7.swf',
             
             // This is the base connection to the location of our ad and programme streams
             netConnectionUrl: 'rtmp://ne7c0nwbit.rtmphost.com/videoplayer',
