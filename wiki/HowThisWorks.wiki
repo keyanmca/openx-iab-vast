@@ -38,4 +38,4 @@ You can find a good demonstration of all of this in action [http://www.flowplaye
 
 
 
-<img src="http://static.bouncingminds.com/images/openx-iab-vast/block1.png"  border="0" />
+<img src="http://static.bouncingminds.com/images/openx-iab-vast/block1.png" width="900" border="0" />
