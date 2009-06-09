@@ -3,7 +3,7 @@
 
 To setup OpenX so that it is ready to serve Video Ads:
 
-  # The necessary changes to OpenX core have been approved by OpenX and committed and will only be available as a standard as part of OpenX 2.8.2. However OpenX 2.8.2 has not been release yet, in the meantime you can download a [http://www.bouncingminds.com/beta/ea-0.4.6/openx-2.8.1-patched-bouncingminds-ox5488.tar.gz patched version of 2.8.1 here] 
+  # The necessary changes to OpenX core have been approved by OpenX team and committed and will only be available as a standard as part of OpenX 2.8.2. However OpenX 2.8.2 has not been release yet, in the meantime you can download a [http://www.bouncingminds.com/beta/ea-0.4.6/openx-2.8.1-patched-bouncingminds-ox5488.tar.gz patched version of 2.8.1 here] 
   # Download the latest version of the [http://www.bouncingminds.com/beta/ea-0.4.6/openXVideoAds.zip OpenX videoAds plugin here]
   # Operating as an "Administrator" within the OpenX admin console, click on the "plugins" tab
   # You will see an option at the top of the tab to "Install a new plugin"
