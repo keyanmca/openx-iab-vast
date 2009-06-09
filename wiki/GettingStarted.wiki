@@ -20,6 +20,6 @@ To get the early access beta up and running, it is recommended that you systemat
      * Before you proceed any further, make sure that you a few video ads and programme streams up and running on a Flash Media Server. These need to be served via RTMP - you can either use:
         * a local install of an FMS such as Red5       
         * a Content Delivery Network (CDN) such as Limelight, Akamai, SimpleCDN or Influxis. You must locate both the ad streams and the programme files on the same FMS path for the Ad Streamer to work. 
-      * If you need a few example linear video ads, you can find several [TestAds here]
+     * If you need a few example linear video ads, you can find several [TestAds here]
 
 You should now successfully see a pre-roll ad playing from your local OpenX instance on the test page that you created.
