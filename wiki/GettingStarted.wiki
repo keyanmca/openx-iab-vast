@@ -11,7 +11,7 @@ To get the early access beta up and running, it is recommended that you systemat
   # Install the Ad platform   
      * [http://code.google.com/p/openx-iab-vast/wiki/InstallingOpenXServerVideoPlugin install OpenX Ad platform and the openXvideoAds plugin]
   # Configure the Ad platform  
-     * Now that OpenX is running with the Video Ads plugin, and given that you have loaded up some video ads to serve, you can configure your own ad "zones" to serve.  Follow these [SettingUpYourFirstOpenXCampaign steps] to complete this activity.
+     * Now that OpenX is running with the Video Ads plugin, and given that you have loaded up some video ads to serve, you can configure your own ad "zones" to serve.  Follow these steps to complete this activity [SettingUpYourFirstOpenXCampaign documented here in this site] or [http://code.google.com/p/openx-iab-vast/wiki/SettingUpYourFirstOpenXCampaign here on the OpenX site].
   # Setup crossdomain.xml 
      * Before you can connect Flowplayer with the OpenX Ad Streamer to your new OpenX instance, you need to ensure that you have an appropriate "crossdomain.xml" file configured in the doc root of the webserver on the box running the OpenX Ad Server. If you don't do this, when the OpenX Ad Streamer makes a request to the OpenX Ad Server to obtain the VAST data, a security violation will be thrown within Flash and the request will be denied. Here's an example [ExampleCrossdomainXML crossdomain.xml] file that you can use.
   # Configure your player to call the Ad platform
