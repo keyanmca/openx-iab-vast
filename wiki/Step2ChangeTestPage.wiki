@@ -75,4 +75,30 @@ flowplayer("a.example", "dist/flowplayer-3.1.0.swf", {
 });
 </script>
 }}}
+
+  # Ensure that the zone parameter is the zone id that matches the inline zone id you configured on your OpenX instance:
+{{{
+<script language="JavaScript">
+flowplayer("a.example", "dist/flowplayer-3.1.0.swf", {
+    ....
+        
+    plugins: {
+        ....
+        
+        openXAdStreamer: {
+            ....
+            
+            // CHANGE HERE: This identifies which main programme streams are to be played, 
+            // and the duration of each. Any number of streams can be identified and ads are
+            // sequenced against each. Identify your programme streams and the duration
+            // of each
+            
+            streams: [ { file:'mp4:bbb_640x360_h264.mp4', duration:'00:09:56' } ],
+            
+            ....
+        }
+    }
+});
+</script>
+}}}
 # Fire up your test page - you should now see a pre-roll ad served from your OpenX instance along with your main programme stream
