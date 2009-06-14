@@ -14,7 +14,7 @@ video ads from the CDN used for all examples on this site, do the following:
 
   #  Add the following style definition - this will be used to style the container for the flowplayer instance
 {{{
-<style>
+<style type="text/css">
 a.example {
 	display:block;
 	width:640px;
@@ -71,7 +71,7 @@ flowplayer("a.example", "dist/flowplayer-3.1.0.swf", {
             
             // The location of our OpenX Ad Server instance
             
-            vastServerURL: 'http://openx.bouncingminds.com/openx-2.8.1-rc9/www/delivery/fc.php',
+            vastServerURL: 'http://openx.bouncingminds.com/openx/www/delivery/fc.php',
 
             // A definition of the ad schedule to be applied to the programme streams.
             // An ad schedule is a definition of one or more ad spots that are to 
