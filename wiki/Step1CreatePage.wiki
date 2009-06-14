@@ -31,7 +31,7 @@ a.example {
 
   # Finally add in the javascript to configure the OpenXAdStreamer and Flowplayer
 {{{
-<script language="JavaScript">
+<script type="text/javascript">
 flowplayer("a.example", "dist/flowplayer-3.1.0.swf", {
 
     // identifies that we have just 1 item to play - the configured OpenXAdStreamer
