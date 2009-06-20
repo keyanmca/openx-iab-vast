@@ -8,7 +8,6 @@
   * [http://code.google.com/p/openx-iab-vast/downloads/list Downloads]
   * [InstallingOpenXServerVideoPlugin  Install OpenX]
   * [TestAds Test Ads]
-  * [HowToBuild How to build the release]
   * [https://developer.openx.org/wiki/display/DOCS/OpenX+Video+Plugin+Beta+--+Documentation OpenX Related Documentation]
   * Flowplayer RTMP Ad Streamer
     * [FlowplayerRTMPFeatures Features]
@@ -17,6 +16,7 @@
     * [SettingUpYourFirstOpenXCampaign Your First Campaign]
     * [FlowplayerRTMPExamples Worked Examples]
     * [FlowplayerRTMPLimitations Known Limitations]
+    * [HowToBuild How to build]
     * [ChangeLog Change Log]
     * [http://www.flowplayer.org/plugins/advertising/openx.html Doc @ Flowplayer.org] 
   * Flowplayer HTTP Ad Streamer
