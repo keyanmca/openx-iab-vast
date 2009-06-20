@@ -16,7 +16,7 @@
     * [SettingUpYourFirstOpenXCampaign Your First Campaign]
     * [FlowplayerRTMPExamples Worked Examples]
     * [FlowplayerRTMPLimitations Known Limitations]
-    * [HowToBuild How to build]
+    * [HowToBuild How to Build]
     * [ChangeLog Change Log]
     * [http://www.flowplayer.org/plugins/advertising/openx.html Doc @ Flowplayer.org] 
   * Flowplayer HTTP Ad Streamer
