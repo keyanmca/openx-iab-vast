@@ -2,7 +2,7 @@
 #sidebar TableOfContents
 
   # A fully open source, end-to-end, future proof, IAB standards compliant solution 
-  # Supports any combination of pre, mid, post roll, overlay, non-overlay and companion ads
+  # Supports any combination of pre, mid, post roll, overlay and companion ads
   # Overlays supports "click to play" a video ad or "click through" to a website
   # Configurable ad scheduling throughout the stream - time or position based
   # Delivers a TV like experience where multiple programme segments are sequenced together to form a single programme stream with ad slots scheduled flexibly throughout
