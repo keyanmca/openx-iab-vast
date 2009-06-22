@@ -10,7 +10,7 @@
   * [https://developer.openx.org/wiki/display/DOCS/OpenX+Video+Plugin+Beta+--+Documentation OpenX Related Documentation]
   * Flowplayer RTMP Ad Streamer
     * [FlowplayerRTMPFeatures Features]
-    * [HowThisWorks How It Works]
+    * [HowFlowplayerRTMPWorks How It Works]
     * [FlowplayerOpenXRegionsConfig Regions Setup]
     * [FlowplayerOpenXRTMPStreamerConfig Ad Streamer Setup]
     * [SettingUpYourFirstOpenXCampaign Your First Campaign]
