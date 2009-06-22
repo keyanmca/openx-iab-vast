@@ -17,8 +17,6 @@ To deploy the solution you will need to run:
   # The [http://code.google.com/p/openx-iab-vast/wiki/InstallingOpenXServerVideoPlugin OpenX Video Advertising] *server side* plugin (This code is Open Source)
   # A *video player side* plugin for Video Advertising (known as the [FlowplayerOpenXRTMPStreamerConfig Ad Streamer]) (This is code is Open Source)
 
-Today the list of available player side Ad Streamer plugins is limited to an RTMP based one for Flowplayer. A HTTP Download version for Flowplayer is in development, as is a plugin for Longtail's JWPlayer. These will be released shortly. For more information on the availability of these plugins, please contact _enquiries@bouncingminds.com_
-
 To kick start a Video advertising campaign using OpenX and the [FlowplayerOpenXRTMPStreamerConfig Flowplayer RTMP Ad Streamer]:
 
   # Setup a video advertising campaign using OpenX. Define the campaign type, how long the video campaign is to run and any other rules that are to be used to dictate when and how the campaign is to be served.
