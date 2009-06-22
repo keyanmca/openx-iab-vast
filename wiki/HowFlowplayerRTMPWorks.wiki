@@ -1,4 +1,4 @@
-#summary How the Flowplayer RTMP Solution Works
+#summary How the Flowplayer RTMP Ad Streamer Works
 #sidebar TableOfContents
 
 Ad scheduling is a skilled task. The successful deployment of an effective video advertising solution requires an
