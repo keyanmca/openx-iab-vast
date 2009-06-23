@@ -8,7 +8,7 @@ To setup OpenX so that it is ready to serve Video Ads:
 
 
 
-*Upgrading the videoAds plugin*  
+*Upgrading the videoAds plugin (if you ever need to)*  
  
 <img src="http://static.bouncingminds.com/images/openx-iab-vast/plugin_install.png" width="700" border="0" />
   # While logged into OpenX Admin Console, use the "Working as" link in the top right hand corner to switch to "Administrator" role and click on the "plugins" tab
