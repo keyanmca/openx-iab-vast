@@ -17,6 +17,6 @@ To support these examples, several "zones" have been defined on our [http://open
 
 ===Examples===
 
-Example 1: A pre-roll ad only ([http://www.bouncingminds.com/plugins/longtail/jwplayer/openx/examples/rtmp-example01.html RTMP])<br>
-Example 2: A pre-roll ad and a show stream ([http://www.bouncingminds.com/plugins/longtail/jwplayer/openxp/examples/rtmp-example02.html RTMP])<br>
-Example 4: A pre-roll ad, 2 show streams with a post-roll ad after each show stream ([http://www.bouncingminds.com/plugins/longtail/jwplayer/openx/examples/rtmp-example04.html RTMP])<br>
+Example 1: A pre-roll ad only ([http://www.bouncingminds.com/plugins/longtail/jwplayer/openx/examples/rtmp-example01.html RTMP], HTTP)<br>
+Example 2: A pre-roll ad and a show stream ([http://www.bouncingminds.com/plugins/longtail/jwplayer/openxp/examples/rtmp-example02.html RTMP], HTTP)<br>
+Example 4: A pre-roll ad, 2 show streams with a post-roll ad after each show stream ([http://www.bouncingminds.com/plugins/longtail/jwplayer/openx/examples/rtmp-example04.html RTMP], HTTP)<br>
