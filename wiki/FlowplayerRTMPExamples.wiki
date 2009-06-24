@@ -3,6 +3,8 @@
 
 A range of examples are detailed below. These examples illustrate the various configurations that the player can accommodate to deliver instream and overlay plus companion advertising across live and on-demand streams.
 
+===Zones===
+
 To support these examples, several "zones" have been defined on our [http://openx.bouncingminds.com/openx OpenX instance]:
 
   * zone '1': Instream video - pre, mid or post roll (RTMP only)
@@ -10,7 +12,7 @@ To support these examples, several "zones" have been defined on our [http://open
   * zone '3': Overlay - click to go to a website
   * zone '4': Instream video with companion ad (RTMP only)
 
-Examples:
+===Examples===
 
 Example 1: [http://www.bouncingminds.com/plugins/flowplayer/openx/rtmp/examples/example01.html A pre-roll ad only]<br>
 Example 2: [http://www.bouncingminds.com/plugins/flowplayer/openx/rtmp/examples/example02.html A pre-roll ad and a show stream]<br>
