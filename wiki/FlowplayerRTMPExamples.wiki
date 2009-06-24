@@ -5,10 +5,10 @@ A range of examples are detailed below. These examples illustrate the various co
 
 To support these examples, several "zones" have been defined on our [http://openx.bouncingminds.com/openx OpenX instance]:
 
-  * zone '1': Instream video - pre, mid or post roll
-  * zone '2': Overlay - click to play video
+  * zone '1': Instream video - pre, mid or post roll (RTMP only)
+  * zone '2': Overlay - click to play video (RTMP only)
   * zone '3': Overlay - click to go to a website
-  * zone '4': Instream video with companion ad
+  * zone '4': Instream video with companion ad (RTMP only)
 
 Examples:
 
