@@ -3,6 +3,8 @@
 
 A range of examples are detailed below. These examples illustrate the various configurations that the player can accommodate to deliver instream and overlay plus companion advertising across live and on-demand streams.
 
+===Zones===
+
 To support these examples, several "zones" have been defined on our [http://openx.bouncingminds.com/openx OpenX instance]:
 
   # RTMP zones
