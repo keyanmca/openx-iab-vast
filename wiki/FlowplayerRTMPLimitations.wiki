@@ -11,3 +11,5 @@ The following limitations in functionality exist for this release:
   * The video reporting module for OpenX is being built and will be available with the public beta
   * Currently there are two plugins for the OpenX Server - a VAST plugin and a logging plugin - these are being merged into a single plugin
   * For any one instance of the OpenXAdStreamer running in Flowplayer, any ads and show steams scheduled to play in that instance must be addressable via the same base RTMP NetConnection. It is possible to serve ads and show streams from different FMS servers but they have to be scheduled in different instances of the player plugin. See [FlowplayerRTMPExamples example 10] for a worked illustration of how to achieve this
+  * For some reason, delivering a pre-roll ad and then a live stream with Wowsa results in the pre-roll playing, but the live stream won't fire up. No issue with FMS, but wowsa seems to fail
+  * Flowplayer 3.1.1 causes replay to fail if 'overlay click to video' used - fails when popup clip hit - need to move to the new 3.1.1 instream API to resolve the problem
