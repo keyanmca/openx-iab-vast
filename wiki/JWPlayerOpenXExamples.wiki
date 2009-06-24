@@ -13,7 +13,7 @@ To support these examples, several "zones" have been defined on our [http://open
   # HTTP Download zones
     * to be defined
 
-Examples:
+===Examples===
 
 Example 1: A pre-roll ad only ([http://www.bouncingminds.com/plugins/longtail/jwplayer/openx/examples/rtmp-example01.html RTMP])<br>
 Example 2: A pre-roll ad and a show stream ([http://www.bouncingminds.com/plugins/longtail/jwplayer/openxp/examples/rtmp-example02.html RTMP])<br>
