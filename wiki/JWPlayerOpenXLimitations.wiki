@@ -1,0 +1,7 @@
+#summary Known Limitations of the JW Player Video Ad Streamer
+#sidebar TableOfContents
+
+The following limitations in functionality exist for this release:
+
+  * Only linear video supported - pre, mid and post roll (companions and overlays next release)
+  * Testing has been limited to RTMP and HTTP Download
