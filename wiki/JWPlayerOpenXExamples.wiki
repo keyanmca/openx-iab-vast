@@ -17,7 +17,11 @@ To support these examples, several "zones" have been defined on our [http://open
 
 ===Examples===
 
-Two instances of each example are provided. To view the RTMP example, click on the "RTMP" link. For the HTTP Download instance, click on the "HTTP" link:
+Two instances of each example are provided. 
+
+To view the RTMP example, click on the "RTMP" link. 
+
+For the HTTP Download instance, click on the "HTTP" link:
 
   # A pre-roll ad only ([http://www.bouncingminds.com/plugins/longtail/jwplayer/openx/examples/rtmp-example01.html RTMP], HTTP)
   # A pre-roll ad and a show stream ([http://www.bouncingminds.com/plugins/longtail/jwplayer/openx/examples/rtmp-example02.html RTMP], HTTP)
