@@ -5,7 +5,7 @@
   * Best Practice Ad Formats
   * Getting Started
     * [GettingStartedRTMP With RTMP Ad Delivery]
-    * [GettingStartedHTTP With HTTP Ad Delivery]
+    * [GettingStartedHTTPDownload With HTTP Ad Delivery]
   * [http://code.google.com/p/openx-iab-vast/downloads/list Downloads]
   * [InstallingOpenXServerVideoPlugin  Install OpenX]
   * [TestAds Test Ads]
