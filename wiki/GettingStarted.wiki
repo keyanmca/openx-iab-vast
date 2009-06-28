@@ -12,7 +12,7 @@ To get the early access beta up and running, it is recommended that you systemat
      * Start simple - create a test page that will request a pre-roll video ad from the Bouncing Minds demo OpenX Ad Server before playing the ad and the show streams off the same Content Delivery Network (CDN) used by the examples on this site. To complete this task [Step1CreatePage follow these steps]
   # Make your video ads available for streaming
      * Before you proceed any further, make sure that you a few video ads and programme streams up and running on a Flash Media Server. These need to be served via RTMP - you can either use:
-        * a local install of an FMS such as Red5       
+        * a local install of an FMS       
         * a Content Delivery Network (CDN) such as Limelight, Akamai, SimpleCDN or Influxis. 
      * If you need a few example linear video ads, you can find several [TestAds here]
   # Install the Ad platform   
