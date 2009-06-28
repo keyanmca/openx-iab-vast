@@ -23,9 +23,9 @@ For example, the configuration below instructs JW Player to load up the config f
 
 {{{
 <object id="ply" width="400" height="260" type="application/x-shockwave-flash" name="ply" data="../dist/4.5.swf">
-<param name="allowfullscreen" value="true"/>
-<param name="allowscriptaccess" value="always"/>
-<param name="flashvars" value="height=260&width=400&plugins=../dist/OpenXAdStreamer.swf&config=rtmp05.xml"/>
+    <param name="allowfullscreen" value="true"/>
+    <param name="allowscriptaccess" value="always"/>
+    <param name="flashvars" value="height=260&width=400&plugins=../dist/OpenXAdStreamer.swf&config=rtmp05.xml"/>
 </object>
 }}}
 
