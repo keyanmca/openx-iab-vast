@@ -1,0 +1,10 @@
+#summary Features of the JW Player Video Ad Streamer
+#sidebar TableOfContents
+
+  # A fully open source, end-to-end, future proof, IAB standards compliant solution 
+  # Protocol neutral - individual tracks (ads and show streams) can be any combination of HTTP download or RTMP based
+  # Supports any combination of pre, mid, post roll ads (overlay and companion ads are being added now)
+  # Configurable ad scheduling throughout the stream - time or position based
+  # Extensive support for ad tracking - start, stop, pause, first quartile, midpoint, third quartile, impression and click-through
+  # Automatic control of the control bar during ad play
+  # Extensive ad event reporting via the OpenX Adminstration console
