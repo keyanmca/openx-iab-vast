@@ -19,8 +19,17 @@ streams.
 
 The configuration options can be specified via the `flashvars` config variable, or via an XML file that is loaded `config=_config_file_` flashvar.
 
-The following example is one of the more complex demonstration of the range of configuration options
-available. The config is specified in XML.
+For example, the configuration below instructs JW Player to load up the config from the XML file called `rtmp05.xml`:
+
+{{{
+<object id="ply" width="400" height="260" type="application/x-shockwave-flash" name="ply" data="../dist/4.5.swf">
+<param name="allowfullscreen" value="true"/>
+<param name="allowscriptaccess" value="always"/>
+<param name="flashvars" value="height=260&width=400&plugins=../dist/OpenXAdStreamer.swf&config=rtmp05.xml"/>
+</object>
+}}}
+
+`rtmp05.xml` is defined as follows:
 
 {{{
 <config>
