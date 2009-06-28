@@ -13,6 +13,7 @@
   * Flowplayer RTMP Ad Streamer
     * [FlowplayerRTMPFeatures Features]
     * [HowFlowplayerRTMPWorks How It Works]
+    * [http://openx-iab-vast.googlecode.com/files/bouncingminds.openX.flowplayer.rtmp.bin-latest.tar.gz Download]
     * [FlowplayerOpenXRegionsConfig Regions Setup]
     * [FlowplayerOpenXRTMPStreamerConfig Ad Streamer Setup]
     * [SettingUpYourFirstOpenXCampaign Your First Campaign]
