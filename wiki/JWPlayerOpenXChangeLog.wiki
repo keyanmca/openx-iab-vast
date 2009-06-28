@@ -1,0 +1,6 @@
+#summary Change Log for the JW Player Ad Streamer
+#sidebar TableOfContents
+
+0.2.1 - June 26, 2009
+
+* The initial alpha version
