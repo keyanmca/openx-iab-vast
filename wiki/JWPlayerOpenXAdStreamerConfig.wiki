@@ -74,12 +74,9 @@ For example, the configuration below instructs JW Player to load up the config f
 </config>
 }}}
 
-In this example, 2 main programme streams are to be served (`HCTV004830001A` and `HCTV004830001A`). 
-As those two streams are played sequentially, a `30` second `pre-roll` ad with a `notice` is 
-to be sequenced before the first stream only. During the playback of the first programme stream, `00:00:15` seconds into the stream an overlay ad (that is allowed to start a video advertisement mid stream) is to be served in the `'bottom'` region for `15` seconds. An accompanying companion banner with the size `150 * 360` pixels 
-is to be displayed in a div block on the page identified as `companion`. Following both programme streams,  a `30` second `post-roll` video ad is to be served without an ad notice.
+In this example, a single show stream (`bbb_640x360_h264.mp4`) is scheduled to play for a duration of a minute (`00:01:00`). Three ads are scheduled to play - a pre-roll, a mid-roll and a post-roll video ad. The mid-roll video ad is to play 10 seconds into the main show stream.
 
-In addition, this example illustrates how to disable the control bar during ad play (`disableControls`) and react to javascript callbacks when the VAST template is loaded (`onTemplateLoaded`) or ad event cuepoints are fired (`onCuepointInfo`).
+Each ad is instructed to play "only once". If the user replays the stream, the ads will not be shown a second time.
 
 == Configuration Parameters ==
 
@@ -87,14 +84,11 @@ Below is a complete list of configuration options for the *Ad Streamer* plugin. 
 across all `Ad Slots` unless otherwise specified.
 
 || *Property name* || *Level* || *Description* ||
-|| `url` || General || The url of the OpenX Ad Streamer plugin ||
-|| `streams` || General || An array of stream definitions which identifies the main programme RTMP streams to be played by the player - ads are sequenced in accordance with the Ad Slot schedule against these streams. As the property is an array, the following format is expected `[ { stream1-name, stream1-duration }, ... { streamN-name, streamN-duration} ]`. The `stream-duration` must be declared in timestamp format `HH:MM:SS` (e.g. `01:10:15` for a duration of 1 hour 10 minutes and 15 seconds). ||
-|| `vastServerURL` || General || The url of the OpenX VAST server ||
-|| `regionsPluginName` || General || The identifying name given to the Regions plugin in this player configuration. The default value is `openXRegions` ||
-|| `disableControls` || Both || Specifies whether or not the stop/scrubber is to be disabled when ads are played. The default value is `true`. Can be overriden at the `Ad Slot` level. ||
-|| `companionDivIDs` || Both || Identifies the companion div blocks that are to be used to display companion ads accompanying a video ad. An array of identifiers is expected in the format of `[ { id:Z, width:X, height:Y }, ... { id:Z, width:X, height:Y } ]` allowing multiple companion div blocks to be specified across the web page. The `id` value must match the div block `id` in the web page. The `width` and `height` values are used by the plugin to identify which companion (specified in the VAST template) is to be shown in each div block. ||
-|| `enablePopupVideoAds` || General || Specifies whether or not a video ad can be started from an overlay or non-overlay ad. Default value is `true` ||
-|| `adSchedule` || General || Allows a range of `ad spots` to be specified. Each `ad spot` is a unique definition of a particular type of video ad to be played against the programme stream. For example, if a `pre-roll`, `mid-roll` and `post-roll` video ad were to be scheduled when a stream plays, three individual ad spots would have to be defined - one for each video ad type. If a `pre-roll` and `overlay` were to be scheduled, 2 unique `Ad Spot` definitions are required. Ad Spot definitions can be limited to a particular "stream" or duration, and in the case of overlay/non-overlay video ads, can be scheduled to start at a particular time during a programme stream. Ad Spots are defined as an array with the format `[ { adspot1-options }, ... { adSpotN-options} ]`. Each `Ad Spot` definition must define at least a `zone`, `position` and `duration`. In addition, Overlay and Non-Overlay ads must also define a `width` and `height`. ||
+|| `openxadserver.streams` || General || An array of stream definitions which identifies the main programme RTMP streams to be played by the player - ads are sequenced in accordance with the Ad Slot schedule against these streams. As the property is an array, the following format is expected `[ { stream1-name, stream1-duration }, ... { streamN-name, streamN-duration} ]`. The `stream-duration` must be declared in timestamp format `HH:MM:SS` (e.g. `01:10:15` for a duration of 1 hour 10 minutes and 15 seconds). ||
+|| `openxadserver.vastserverurl` || General || The url of the OpenX VAST server ||
+|| `openxadserver.disablecontrols` || Both || Specifies whether or not the stop/scrubber is to be disabled when ads are played. The default value is `true`. Can be overriden at the `Ad Slot` level. ||
+|| `openxadserver.companiondivids` || Both || Identifies the companion div blocks that are to be used to display companion ads accompanying a video ad. An array of identifiers is expected in the format of `[ { id:Z, width:X, height:Y }, ... { id:Z, width:X, height:Y } ]` allowing multiple companion div blocks to be specified across the web page. The `id` value must match the div block `id` in the web page. The `width` and `height` values are used by the plugin to identify which companion (specified in the VAST template) is to be shown in each div block. ||
+|| `openxadserver.adSchedule` || General || Allows a range of `ad spots` to be specified. Each `ad spot` is a unique definition of a particular type of video ad to be played against the programme stream. For example, if a `pre-roll`, `mid-roll` and `post-roll` video ad were to be scheduled when a stream plays, three individual ad spots would have to be defined - one for each video ad type. If a `pre-roll` and `overlay` were to be scheduled, 2 unique `Ad Spot` definitions are required. Ad Spot definitions can be limited to a particular "stream" or duration, and in the case of overlay/non-overlay video ads, can be scheduled to start at a particular time during a programme stream. Ad Spots are defined as an array with the format `[ { adspot1-options }, ... { adSpotN-options} ]`. Each `Ad Spot` definition must define at least a `zone`, `position` and `duration`. In addition, Overlay and Non-Overlay ads must also define a `width` and `height`. ||
 || `zone` || AdSpot || The OpenX `zone` mapping to this ad spot. Zones are special constructs in the OpenX Ad Server. Please see the OpenX ad server documentation for more details. ||
 || `position` || AdSpot || The position of this ad - can be one of the following values: for linear ads `pre-roll`,  
 `mid-roll`, `post-roll`, for non-linear overlay and non-overlay ads, the value must be specified as a region ID. ||
@@ -104,13 +98,3 @@ across all `Ad Slots` unless otherwise specified.
 || `width` || AdSpot || The width of the ad spot - applicable for non-linear overlay/non-overlay ads which are bound by strict dimensions. An ad must be found in the VAST data to match this width to ensure that it is displayed.||
 || `height` || AdSpot || The height of the ad spot - applicable for non-linear overlay/non-overlay ads which are bound by strict dimensions. An ad must be found in the VAST data to match this width to ensure that it is displayed. ||
 || `startTime` || AdSpot || The time an ad is to start - used by mid-roll and non-linear ads to identify when an ad is to be started during the programme stream. The value must be specified in the form of a timestamp `'HH:MM:SS'` ||
-|| `onTemplateLoaded` || General || The javascript callback triggered when the VAST data is loaded ||
-|| `onStreamSequenced` || General || The javascript callback triggered once the programme and ad stream has been successfully formed ||
-|| `onAdStart`  || General || The javascript callback triggered when a video ad starts ||
-|| `onAdPause` || General || The javascript callback triggered when a video ad is paused ||
-|| `onAdResume` || General || The javascript callback triggered when a video ad is resumed ||
-|| `onAdStop` || General || The javascript callback triggered when a video ad stops ||
-|| `onAdEnd` || General || The javascript callback triggered when a video ad completes ||
-|| `onCuepointInfo` || General || The javascript callback triggered when a tracking event triggers ||
-|| `onAdClick` || General || The javascript callback triggered when a video ad is clicked ||
-|| `onAdClose` || General || The javascript callback triggered when a video ad is closed ||
