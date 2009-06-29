@@ -79,6 +79,8 @@ For example, the configuration below instructs JW Player to load up the config f
 
 In this example, a single show stream (`bbb_640x360_h264.mp4`) is scheduled to play for a duration of a minute (`00:01:00`). Three ads are scheduled to play - a pre-roll, a mid-roll and a post-roll video ad. The mid-roll video ad is to play 10 seconds into the main show stream.
 
+The first ad - the pre-roll, is of zone type '4' which has a companion ad. That will be displayed in the `div` with an id of `companion`.
+
 Each ad is instructed to play "only once". If the user replays the stream, the ads will not be shown a second time.
 
 == Configuration Parameters ==
