@@ -3,7 +3,7 @@
   * [AboutTheRelease About the latest release]<br>
   * [AboutIABVast About IAB VAST]
   * Best Practice Ad Formats
-  * Getting Started
+  * [GettingStarted Getting Started]
     * [GettingStartedRTMP With RTMP Ad Delivery]
     * [GettingStartedHTTPDownload With HTTP Ad Delivery]
   * [http://code.google.com/p/openx-iab-vast/downloads/list Downloads]
