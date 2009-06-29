@@ -1,1 +1,24 @@
-#summary Getting Started With Video Ad Delivery
+#summary Where to Begin With Video Ad Delivery
+#sidebar TableOfContents
+
+This section will walk you through the steps required to quickly get up and running with the video ad delivery technology.
+
+It will:
+
+  * Help you understand how to setup OpenX to serve Video Ads
+  * Help you work through the setup of the Video Play side to schedule and play video ads
+
+To setup an end-to-end demo you will need to make an important choice concerning the delivery of your video ads.
+
+This choice centers around the protocol that you wish to use to download and play your video ads in the video player.
+
+At present, 2 protocols are supported:
+
+1. RTMP
+2. HTTP Download (also known as Progressive Download)
+
+The Flowplayer video ad streamer at present only supports RTMP based video ad delivery.
+
+The Longtail JW Player ad streamer supports both RTMP and HTTP Download.
+
+Work is underway to release a version of the Flowplayer Ad Streamer to support HTTP Download. Check back on this site regularly to get the latest on that development.
