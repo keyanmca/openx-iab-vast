@@ -48,6 +48,9 @@ For example, the configuration below instructs JW Player to load up the config f
     <openxadstreamer.bitrate>
     	any
     </openxadstreamer.bitrate>
+    <openxadstreamer.companions>
+        [ { "id":"companion", "width":"150", "height":"360" } ]
+    </openxadstreamer.companions>
     <openxadstreamer.adschedule>
     	[
            {
