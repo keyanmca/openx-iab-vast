@@ -54,7 +54,7 @@ For example, the configuration below instructs JW Player to load up the config f
     <openxadstreamer.adschedule>
     	[
            {
-              "zone": "1",
+              "zone": "4",
               "position": "pre-roll",
               "playOnce": true
            },
