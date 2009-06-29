@@ -5,26 +5,30 @@ This is an *early access beta release* of the OpenX Video Advertising technology
 
 This release runs video ads over RTMP using [http://www.openx.org OpenX] and [http://www.flowplayer.org Flowplayer].
 
-A version to support HTTP Download and Pseudostreaming for Flowplayer is in development. A version of the plugin is also being built for Longtail's JWPlayer.
+An early access version for Longtail's JW Player is available. This version supports RTMP and HTTP Download based ad delivery.
 
 The release includes:
 
-  * The source code for the Flowplayer RTMP Video Ad serving plugin
-  * The Flash binaries (swf) for the plugin
+  * The source code for the Flowplayer Video Ad streaming and regions plugins
+  * The Flash binaries (swf) for the plugin(s)
   * An initial set of documentation covering how to use the plugin to deliver Video Advertising
-  * A set of worked [FlowplayerRTMPExamples examples] that illustrate some of the different configuration options for the Flowplayer video advertising plugin
+  * A set of worked [FlowplayerRTMPExamples examples] that illustrate some of the different configuration options for the Flowplayer and JW Player video advertising plugin(s)
 
 To use this release:
   * Download and install the latest version of [http://code.google.com/p/openx-iab-vast/wiki/InstallingOpenXServerVideoPlugin OpenX] and follow the video plugin [InstallingOpenXServerVideoPlugin installation] instructions to enable OpenX to serve video ads.
-  * Download and install [http://www.flowplayer.org/download/index.html Flowplayer 3.1]
+  * Download and install a video player:
+    * [http://www.flowplayer.org/download/index.html Flowplayer 3.1 or later]
+    * [http://www.longtailvideo.com Longtail Video's JW Player 4.5 or later]
 
-If you want to build the release you'll need to download and install the [http://opensource.adobe.com/wiki/display/flexsdk Flex 3 SDK] and the [http://www.flowplayer.org/documentation/developer/writing-flash-plugins.html Flowplayer 3.1 dev kit] before following the [HowToBuild build notes].
+If you want to build the release you'll need to download and install the [http://opensource.adobe.com/wiki/display/flexsdk Flex 3 SDK] and the appropriate video player SDK before following the [HowToBuild build notes].
 
-This release relies on the delivery of video advertising using RTMP on a Flash Media Server. As such, you'll need an operational FMS (Red5, Adobe etc.) to host to serve the video ads. The examples provided in the release use an account with [http://www.influxis.com Influxis].
+You can find:
+  * The Flowplayer SDK [http://www.flowplayer.org/documentation/developer/writing-flash-plugins.html here]
+  * The Longtail Video JW Player Plugin SDK [http://developer.longtailvideo.com/trac/ here]
 
-The examples included in this release reference ads and video files stored on the Flowplayer
-site. As such, you can see how the ad plugin will work by simply reviewing the examples
-and source code.
+On the Flowplayer side, this release relies on the delivery of video advertising using RTMP on a Flash Media Server. As such, you'll need an operational FMS to host to serve the video ads. The examples provided in the release use an account with [http://www.influxis.com Influxis].
+
+For the Longtail Video plugin you can use your standard web server to serve the HTTP Download based video ads. If you choose to use RTMP with the Longtail plugin, you will require a Flash Media Server.
 
 We will be resolving other defects that have been found in beta testing and considerably 
 improving the documentation as we go. At the moment, we're aiming to release an improved
