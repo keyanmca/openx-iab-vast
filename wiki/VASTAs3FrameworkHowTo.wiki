@@ -54,7 +54,7 @@ Configuration information for the JW Player plugin is specified in an XML file t
    </openxadstreamer.bitrate>
    <openxadstreamer.adschedule>
         [
-    	     {"zone":"1", "position":"pre-roll"}
+             {"zone":"1", "position":"pre-roll"}
     	]
     </openxadstreamer.adschedule>
     <openxadstreamer.debuglevel>
