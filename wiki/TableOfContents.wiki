@@ -38,7 +38,7 @@
   * [VASTAs3Framework The VAST AS3 Framework]
       * [VASTAs3FrameworkOverview An Overview]
       * [VASTAs3FrameworkHowTo How To Use]
-      * Download the latest version
+      * Download
       * The API
   * [KeyTerminology Terminology]
   * [FAQ Frequently Asked Questions]
