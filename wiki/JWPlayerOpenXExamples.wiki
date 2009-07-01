@@ -25,4 +25,5 @@ To view the RTMP example, click on the "RTMP" link - for the HTTP download examp
   # A pre-roll ad and a show stream ([http://www.bouncingminds.com/plugins/longtail/jwplayer/openx/examples/rtmp-example02.html RTMP], HTTP)
   # A pre-roll ad and a show stream with the pre-roll played only once ([http://www.bouncingminds.com/plugins/longtail/jwplayer/openx/examples/rtmp-example02a.html RTMP], HTTP)
   # A pre-roll ad, 2 show streams with a post-roll ad after each show stream ([http://www.bouncingminds.com/plugins/longtail/jwplayer/openx/examples/rtmp-example04.html RTMP], HTTP)
+  # A pre, mid and post roll across a single show stream ([http://www.bouncingminds.com/plugins/longtail/jwplayer/openx/examples/rtmp-example05.html RTMP], HTTP)
   # A pre-roll with a supporting companion banner ([http://www.bouncingminds.com/plugins/longtail/jwplayer/openx/examples/rtmp-example07.html RTMP], HTTP)
