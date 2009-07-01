@@ -7,7 +7,7 @@ You can grab the source code for the JW Player ad streamer [http://code.google.c
 
 ==The Key Interfaces==
 
-The first thing you will notice about the JW Player plugin is that it implements three interfaces that are central to the way the VAST framework works:
+The first thing you will notice about the JW Player plugin is that it implements three interfaces:
 
 {{{
 import com.bouncingminds.vast.display.VideoAdDisplayController;
