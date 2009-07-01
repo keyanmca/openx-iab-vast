@@ -1,2 +1,8 @@
 #summary Introducing The Framework
 #sidebar TableOfContents
+
+== Locating the Framework==
+
+The framework is housed under the package:
+
+     `com.bouncingminds.vast`
