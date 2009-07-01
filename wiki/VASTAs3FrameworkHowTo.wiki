@@ -71,7 +71,6 @@ The following code creates an instance of an `OpenXConfig` object reading the co
 // Load up the config and configure the debugger
 _openXConfig = new OpenXConfig(config);
 doLogAndTrace("Configuration loaded as: ", _openXConfig);
-if(_openXConfig.debugLevelSpecified()) DebugObject.getInstance().setLevelFromString(_openXConfig.debugLevel);
 }}}
 
 When JW Player initializes the plugin, it reads the configuration data from the XML file specified in the `flashvars` variable into a global `Object` called `config`.
@@ -137,7 +136,6 @@ To initialise the `OpenXConfig` in a Flowplayer plugin, the following code segme
 override public function onConfig(model:PluginModel):void {
     _model = model;			
     _openXConfig = new PropertyBinder(new OpenXConfig(), null).copyProperties(model.config) as OpenXConfig;
-    if(_openXConfig.debugLevelSpecified()) DebugObject.getInstance().setLevelFromString(_openXConfig.debugLevel);
     doLogAndTrace("Configuration loaded as:", _openXConfig, DebugObject.DEBUG_CONFIG);
 }
 }}}
