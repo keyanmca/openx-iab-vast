@@ -5,7 +5,7 @@ This is an *early access beta release* of the OpenX Video Advertising technology
 
 This release runs video ads over RTMP using [http://www.openx.org OpenX] and [http://www.flowplayer.org Flowplayer].
 
-An early access version for Longtail's JW Player is also available. The JW Player version supports both RTMP and HTTP Download based ad delivery.
+An early access version for [http://www.longtailvideo.com Longtail's JW Player] is also available. The JW Player version supports both RTMP and HTTP Download based ad delivery.
 
 The release includes:
 
