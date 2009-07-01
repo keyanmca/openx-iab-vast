@@ -16,13 +16,13 @@
       * [HowFlowplayerRTMPWorks How It Works]
       * [http://openx-iab-vast.googlecode.com/files/bouncingminds.openX.flowplayer.rtmp.bin-latest.tar.gz Download]
       * [FlowplayerOpenXRegionsConfig Regions Setup]
-      * [FlowplayerOpenXRTMPStreamerConfig Ad Streamer Setup]
-      * [SettingUpYourFirstOpenXCampaign Your First Campaign]
-      * [FlowplayerRTMPExamples Worked Examples]
-      * [FlowplayerRTMPLimitations Known Limitations]
+      * [FlowplayerOpenXRTMPStreamerConfig Streamer Setup]
+      * [SettingUpYourFirstOpenXCampaign First Campaign]
+      * [FlowplayerRTMPExamples Examples]
+      * [FlowplayerRTMPLimitations Limitations]
       * [FlowplayerRTMPBuildHowTo How to Build]
       * [ChangeLog Change Log]
-      * [http://www.flowplayer.org/plugins/advertising/openx.html Doc @ Flowplayer.org] 
+      * [http://www.flowplayer.org/plugins/advertising/openx.html Flowplayer.org] 
     * HTTP Ad Streamer
       * Coming soon
   * Longtail Video
