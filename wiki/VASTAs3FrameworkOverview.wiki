@@ -41,14 +41,12 @@ The Model package contains a series of classes that define the VAST data model. 
 
 When an ad schedule is declared it results in a sequence of ad slots being defined and sequenced. That sequence of ad slots is then spliced together with a sequence of show streams to play to form a list of streams (shows and ads) that are to be played. This package provides the classes to manage streams, ad slots and sequences of both:
 
-  * `Stream` - The base class that encapulates a video stream that is to be played
   * `StreamConfig` - The configuration controller for a stream. Covers the storage and manipulation of the stream filename, location and where appropriate, the netconnection URL. Also covers properties such as the duration of the stream, the start time and whether or not it is only to be played once
-  * `StreamSequence` - 
-  * `AdSlot` - 
-  * `StaticAdSlot` - 
-  * `AdSequence` - 
-
-
+  * `StreamSequence` - a sequence of streams that are to run in order from position 0 to the last position. May hold either standard show streams or ad slots
+  * `Stream` - The base class that encapulates a video stream that is to be played
+  * Ad specific stream classes:
+    * `AdSlot` - a specific type of stream that holds a VAST compliant video ad
+    * `AdSequence` - a sequence of ad slots that are to be played in the order stored. Equates to the "ad schedule" that is declared in the player configuration
 
 ===3. The Ad Tracking Package===
 
