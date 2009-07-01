@@ -18,7 +18,7 @@ To use this release:
 
   * Download and install the latest version of [http://code.google.com/p/openx-iab-vast/wiki/InstallingOpenXServerVideoPlugin OpenX] and follow the video plugin [InstallingOpenXServerVideoPlugin installation] instructions to enable OpenX to serve video ads.
 
-  * Download and install a video player:
+  * Download and install the video player that you wish to use:
     * [http://www.flowplayer.org/download/index.html Flowplayer 3.1 or later]
     * [http://www.longtailvideo.com Longtail Video's JW Player 4.5 or later]
 
