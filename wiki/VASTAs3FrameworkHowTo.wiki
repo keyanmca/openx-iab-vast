@@ -8,10 +8,11 @@ To illustrate how to use the VAST framework, we'll walk through the key implemen
 The first thing you will notice about the JW Player plugin, is that it implements three interfaces that are central to the way the VAST framework works:
 
 {{{
-public class OpenXAdStreamer extends MovieClip 
-                                                        implements PluginInterface, 
-                                                                              *VideoAdDisplayController*, 
-                                                                              *TemplateLoadListener*, 
-                                                                              TrackingEventListener {
+public class OpenXAdStreamer 
+          extends MovieClip 
+          implements PluginInterface, 
+                 VideoAdDisplayController, 
+                 TemplateLoadListener, 
+                 TrackingEventListener {
 }
 }}}
