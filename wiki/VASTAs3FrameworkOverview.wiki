@@ -13,4 +13,4 @@ The framework is housed under the package:
 
 The following diagram illustrates the package structure of the framework:
 
-{insert diagram here}
+http://static.bouncingminds.com/images/openx-iab-vast/vast-framework-architecture.png
