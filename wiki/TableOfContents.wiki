@@ -34,7 +34,10 @@
     * [JWPlayerBuildHowTo How to Build] (optional)
     * [JWPlayerOpenXChangeLog Change Log]
   * [VASTAs3Framework The VAST AS3 Framework]
-    * Documenting now
+      * [VASTAs3FrameworkOverview An Overview]
+      * [VASTAs3FrameworkHowTo How To Use]
+      * Download the latest version
+      * The API
   * [KeyTerminology Terminology]
   * [FAQ Frequently Asked Questions]
   * [AboutBouncingMinds About Bouncing Minds]
