@@ -97,3 +97,47 @@ public var config:Object = {
    displaycompanions: true
 };
 }}}
+
+Flowplayer alternatively allows configuration for it's player to be specified directly as a JSON based configuration as part of the javascript based player insertion.
+
+{{{
+<script type="text/javascript">
+flowplayer("a.example", "../dist/flowplayer-3.1.0.swf", {
+    playlist: [
+        {
+            url: 'main',
+            provider: 'openXAdStreamer'
+        }
+    ],
+    
+    plugins: {
+        openXRegions: {
+            url: '../dist/OpenXRegions-0.4.7.swf'    		
+        },
+
+        openXAdStreamer: {
+            url: '../dist/OpenXAdStreamer-0.4.7.swf',
+            netConnectionUrl: 'rtmp://ne7c0nwbit.rtmphost.com/videoplayer',
+            vastServerURL: 'http://openx.bouncingminds.com/openx-2.8.2-rc5/www/delivery/fc.php',
+            debugLevel: 'fatal, vast_template, tracking_events, http_calls',
+            adSchedule: [
+                { zone: '1',
+                  position: 'pre-roll'
+                }
+            ]
+        }
+    }
+});
+</script>
+}}}
+
+To initialise the `OpenXConfig` in a Flowplayer plugin, the following code segment is used:
+
+{{{
+override public function onConfig(model:PluginModel):void {
+    _model = model;			
+    _openXConfig = new PropertyBinder(new OpenXConfig(), null).copyProperties(model.config) as OpenXConfig;
+    if(_openXConfig.debugLevelSpecified()) DebugObject.getInstance().setLevelFromString(_openXConfig.debugLevel);
+    doLogAndTrace("Configuration loaded as:", _openXConfig, DebugObject.DEBUG_CONFIG);
+}
+}}}
