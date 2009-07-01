@@ -15,7 +15,7 @@ The following diagram illustrates the package structure of the framework:
 
 <img src="http://static.bouncingminds.com/images/openx-iab-vast/vast-framework-architecture.png" width="500" border="0">
 
-There are 6 key packages:
+There are 6 key packages that work together to request, parse and manipulate a VAST data:
 
   # The VAST *model*
   # Ad *Schedule*
@@ -24,19 +24,19 @@ There are 6 key packages:
   # *Server* control
   # *Display* management
 
-===The VAST Model Package===
+===1. The VAST Model Package===
 
 
-===The Ad Schedule Package===
+===2. The Ad Schedule Package===
 
 
-===The Ad Tracking Package===
+===3. The Ad Tracking Package===
 
 
-===The Playlist Management Package===
+===4. The Playlist Management Package===
 
 
-===The Server Control Package===
+===5. The Server Control Package===
 
 
-===The Display Management Package===
+===6. The Display Management Package===
