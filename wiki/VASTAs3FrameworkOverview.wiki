@@ -14,3 +14,12 @@ The framework is housed under the package:
 The following diagram illustrates the package structure of the framework:
 
 <img src="http://static.bouncingminds.com/images/openx-iab-vast/vast-framework-architecture.png" width="500" border="0">
+
+There are 6 key packages:
+
+  # The VAST *model*
+  # Ad *Schedule*
+  # Ad *Tracking*
+  # *Playlist* management
+  # *Server* control
+  # *Display* management
