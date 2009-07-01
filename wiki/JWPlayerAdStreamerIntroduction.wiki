@@ -9,4 +9,4 @@ Accordingly, the implementation is basically a playlist controller that uses the
 
 Playlist items can be either RTMP or HTTP based video streams.
 
-View these [examples] to get a quick perspective on how the JW Player can be configured to deliver a variety of linear video, (overlay in development now) and companion ads.
+View these [JWPlayerOpenXExamples  examples] to get a quick perspective on how to configure the JW Player Ad Streamer to deliver a variety of linear video, (overlay in development now) and companion ads.
