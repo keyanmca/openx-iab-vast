@@ -23,3 +23,47 @@ The `TemplateLoadListener` interface provides the hooks that allows the VAST fra
 The `VideoAdDisplayController` interface provides a mechanism that allows the VAST framework to make a call back into the player plugin to tell it to display an ad type that requires control over the player canvas (e.g. popup an overlay style ad or push a companion banner to the webpage surrounding the player.
 
 The `TrackingEventListener` interface ensures that the player mechanics around firing timer events can be hooked into the VAST tracking model.
+
+==Loading Configuration Data==
+
+The first task that is undertaken when a player plugin initializes is the loading of any openX/ad related configuration data. 
+
+Configuration information for the JW Player plugin is specified in an XML file that is identified in the `flashvars` variable set when JW player loads. For example, the following line tells JW Player to load the configuration from a file called `rtmp01.xml`
+
+{{{
+<param name="flashvars" value="height=260&width=400&plugins=../dist/OpenXAdStreamer.swf&config=rtmp01.xml"/>
+}}}
+
+`rtmp01.xml` contains the following configuration settings:
+
+{{{
+<config>
+	<openxadstreamer.title>
+	    Example 01
+	</openxadstreamer.title>
+	<openxadstreamer.netconnectionurl>
+		rtmp://ne7c0nwbit.rtmphost.com/videoplayer
+	</openxadstreamer.netconnectionurl>
+    <openxadstreamer.vastserverurl>
+    	http://openx.bouncingminds.com/openx/www/delivery/fc.php
+    </openxadstreamer.vastserverurl>
+    <openxadstreamer.bitrate>
+    	any
+    </openxadstreamer.bitrate>
+    <openxadstreamer.adschedule>
+    	[
+    	   {"zone":"1", "position":"pre-roll"}
+    	]
+    </openxadstreamer.adschedule>
+    <openxadstreamer.debuglevel>
+    	all
+    </openxadstreamer.debuglevel>
+</config>
+}}}
+
+{{{
+// Load up the config and configure the debugger
+_openXConfig = new OpenXConfig(config);
+doLogAndTrace("Configuration loaded as: ", _openXConfig);
+if(_openXConfig.debugLevelSpecified()) DebugObject.getInstance().setLevelFromString(_openXConfig.debugLevel);
+}}}
