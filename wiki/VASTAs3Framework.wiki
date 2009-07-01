@@ -3,4 +3,8 @@
 
 A generic VAST actionscript 3.0 framework has been provided to allow custom player implementations.
 
-The framework has evolved through the development of the Flowplayer and JW Player Ad Streamers.
+The framework has evolved through the development of the Flowplayer and JW Player Ad Streamers. The current incarnation of the framework is very much in an *alpha* form - it's a little rough and ready.
+
+We'll be revisiting the framework shortly, re-factoring and generally cleaning it up.
+
+You can download the latest version of the framework [X here].
