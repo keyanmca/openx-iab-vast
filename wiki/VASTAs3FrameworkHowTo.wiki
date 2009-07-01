@@ -65,9 +65,35 @@ Configuration information for the JW Player plugin is specified in an XML file t
 </config>
 }}}
 
+The following code creates an instance of an `OpenXConfig` object reading the configuration from an actionscript `Object`. 
+
 {{{
 // Load up the config and configure the debugger
 _openXConfig = new OpenXConfig(config);
 doLogAndTrace("Configuration loaded as: ", _openXConfig);
 if(_openXConfig.debugLevelSpecified()) DebugObject.getInstance().setLevelFromString(_openXConfig.debugLevel);
+}}}
+
+When JW Player initializes the plugin, it reads the configuration data from the XML file specified in the `flashvars` variable into a global `Object` called `config`.
+
+`config` has been declared as follows in the JW Player plugin:
+
+{{{
+public var config:Object = {
+   netconnectionurl: null,
+   vastserverurl: null,
+   streamList: null,
+   bitrate: 'any',
+   adschedule: null,
+   debuglevel: 'fatal',
+   notice: null,
+   disablecontrols: null,
+   streamtype: "mp4",
+   deliverytype: "streaming",
+   playformat: "single",
+   playonce: "false",
+   title: null,
+   companions: null,
+   displaycompanions: true
+};
 }}}
