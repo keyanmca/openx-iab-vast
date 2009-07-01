@@ -33,7 +33,7 @@
       * [SettingUpYourFirstOpenXCampaign First Campaign]
       * [JWPlayerOpenXExamples Examples]
       * [JWPlayerOpenXLimitations Limitations]
-      * [JWPlayerBuildHowTo How to Build] (optional)
+      * [JWPlayerBuildHowTo How to Build]
       * [JWPlayerOpenXChangeLog Change Log]
   * [VASTAs3Framework The VAST AS3 Framework]
       * [VASTAs3FrameworkOverview An Overview]
