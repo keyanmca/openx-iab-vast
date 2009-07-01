@@ -61,7 +61,7 @@ The following events are tracked by the framework:
 
 The tracking package provides a series of classes that help manage the way these events are identified and tracked as the streams are played by the player.
 
-  * The `TrackingTable` - holds a series of registered `TrackingPoint`(s) which are scheduled to occur as the stream plays
+  * The `TrackingTable` holds a series of registered `TrackingPoint`(s) which are scheduled to occur as the stream plays
   * A `TrackingPoint` is a particular point in time that is held in the tracking table to identify a specific type of event which is expected to occur at that time (e.g. the time at which a video passes the 1st quartile point)
   * The `TrackingPointListener` is the interface to be implemented by the player where the player supports a mechanism to record tracking points and fire them at specific times (e.g. the cuepoint API in Flowplayer)
   * A `TimeEvent` occurs at a specific point in time and is passed into the TrackingTable to determine if there is a TrackingEvent scheduled to occur at that point in time
