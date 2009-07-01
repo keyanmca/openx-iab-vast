@@ -5,11 +5,11 @@ This is an *early access beta release* of the OpenX Video Advertising technology
 
 This release runs video ads over RTMP using [http://www.openx.org OpenX] and [http://www.flowplayer.org Flowplayer].
 
-An early access version for Longtail's JW Player is available. This version supports RTMP and HTTP Download based ad delivery.
+An early access version for Longtail's JW Player is also available. The JW Player version supports both RTMP and HTTP Download based ad delivery.
 
 The release includes:
 
-  * The source code for the Flowplayer Video Ad streaming and regions plugins
+  * The source code for the Video Ad streaming and regions plugins
   * The Flash binaries (swf) for the plugin(s)
   * An initial set of documentation covering how to use the plugin to deliver Video Advertising
   * A set of worked examples that illustrate some of the different configuration options for the [FlowplayerRTMPExamples Flowplayer] and [JWPlayerOpenXExamples JW Player] video advertising plugin(s)
@@ -19,7 +19,6 @@ To use this release:
   * Download and install the latest version of [http://code.google.com/p/openx-iab-vast/wiki/InstallingOpenXServerVideoPlugin OpenX] and follow the video plugin [InstallingOpenXServerVideoPlugin installation] instructions to enable OpenX to serve video ads.
 
   * Download and install a video player:
-
     * [http://www.flowplayer.org/download/index.html Flowplayer 3.1 or later]
     * [http://www.longtailvideo.com Longtail Video's JW Player 4.5 or later]
 
