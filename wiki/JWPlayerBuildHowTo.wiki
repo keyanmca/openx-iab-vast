@@ -1,4 +1,4 @@
-#summary How to build the JW Player Ad Streamer
+#summary How to Compile the JW Player Ad Streamer
 #sidebar TableOfContents
 
 = The build.sh script =
