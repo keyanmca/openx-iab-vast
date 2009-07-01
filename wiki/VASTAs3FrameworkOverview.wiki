@@ -31,7 +31,7 @@ The Model package contains a series of classes that define the VAST data model:
   * `VideoAdServingTemplate` - the controller class that coordinates calls to and parsing of responses back from VAST compliant ad servers
   * `VideoAd` - The high level grouping object that represents one video ad to play at some point within a stream. The grouping may contain a linear video ad and an associated companion ad(s), or a non-linear ad (e.g. overlay), optional associated linear ad (triggered when the overlay is clicked) and associated companion ad(s)
     * `TrackedVideoAd` - an individual video ad element that is to be tracked as it plays
-      * `LinearVideoAd` - represents the notion of a linear video ad (which is a TrackedVideoAd)
+      * `LinearVideoAd` - represents the notion of a linear video ad (which is a `TrackedVideoAd`)
         * `MediaFile` - encapsulates the definition of the "media file" that is to be played as the linear video ad
       * `CompanionAd` - defines an associated display ad that is to be shown outside of the player (on the web page) as a linear or non-linear ad is played
       * `NonLinearVideoAd` - encapsulates the notion of an overlay style (non-linear) video ad (that is also of type TrackedVideoAd)
