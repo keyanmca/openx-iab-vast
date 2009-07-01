@@ -10,9 +10,6 @@ The first thing you will notice about the JW Player plugin, is that it implement
 {{{
 public class OpenXAdStreamer 
           extends MovieClip 
-          implements PluginInterface, 
-                 VideoAdDisplayController, 
-                 TemplateLoadListener, 
-                 TrackingEventListener {
+          implements PluginInterface, VideoAdDisplayController, TemplateLoadListener, TrackingEventListener {
 }
 }}}
