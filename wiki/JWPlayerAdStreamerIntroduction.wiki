@@ -5,7 +5,7 @@ The JW Player Ad Streamer is an implementation of an OpenX Ad Serving plugin for
 
 The implementation uses the [VASTAs3FrameworkOverview generic VAST framework].
 
-Accordingly, the implementation is basically a playlist controller that uses the generic VAST framework to request a VAST response from OpenX before forming an XSPF playlist that is fed into JW Player.
+Accordingly, the plugin is an implementation of a playlist controller that uses the generic VAST framework to request a VAST response from OpenX before forming an XSPF playlist that is fed into JW Player.
 
 Playlist items can be either RTMP or HTTP based video streams.
 
