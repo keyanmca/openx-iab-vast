@@ -1,4 +1,6 @@
-#summary VAST AS3 Framework Home Page
+#summary Implementing a Custom Player
 #sidebar TableOfContents
 
-BEING DOCUMENTED NOW
+A generic VAST actionscript 3.0 framework has been provided to allow custom player implementations.
+
+The framework has evolved through the development of the Flowplayer and JW Player Ad Streamers.
