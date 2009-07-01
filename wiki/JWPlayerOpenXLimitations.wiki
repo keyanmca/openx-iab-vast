@@ -3,5 +3,5 @@
 
 The following limitations in functionality exist for this release:
 
-  * Only linear video supported - pre, mid and post roll (companions and overlays next release)
+  * Only linear video supported - pre, mid and post roll, with companions (overlays next release)
   * Testing has been limited to RTMP and HTTP Download
