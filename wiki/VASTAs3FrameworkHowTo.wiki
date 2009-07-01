@@ -15,6 +15,8 @@ import com.bouncingminds.vast.tracking.TrackingEventListener;
 public class OpenXAdStreamer 
        extends MovieClip 
        implements PluginInterface, TemplateLoadListener, VideoAdDisplayController, TrackingEventListener {
+
+       ....
 }
 }}}
 
@@ -38,25 +40,25 @@ Configuration information for the JW Player plugin is specified in an XML file t
 
 {{{
 <config>
-	<openxadstreamer.title>
-	    Example 01
-	</openxadstreamer.title>
-	<openxadstreamer.netconnectionurl>
-		rtmp://ne7c0nwbit.rtmphost.com/videoplayer
-	</openxadstreamer.netconnectionurl>
+      <openxadstreamer.title>
+             Example 01
+      </openxadstreamer.title>
+     <openxadstreamer.netconnectionurl>
+             rtmp://ne7c0nwbit.rtmphost.com/videoplayer
+     </openxadstreamer.netconnectionurl>
     <openxadstreamer.vastserverurl>
-    	http://openx.bouncingminds.com/openx/www/delivery/fc.php
+    	     http://openx.bouncingminds.com/openx/www/delivery/fc.php
     </openxadstreamer.vastserverurl>
     <openxadstreamer.bitrate>
-    	any
+    	     any
     </openxadstreamer.bitrate>
     <openxadstreamer.adschedule>
-    	[
-    	   {"zone":"1", "position":"pre-roll"}
-    	]
+    	     [
+    	          {"zone":"1", "position":"pre-roll"}
+    	     ]
     </openxadstreamer.adschedule>
     <openxadstreamer.debuglevel>
-    	all
+    	     all
     </openxadstreamer.debuglevel>
 </config>
 }}}
