@@ -21,7 +21,7 @@ To illustrate how to use the VAST framework, we'll walk through the key implemen
 
 You can grab the source code for the JW Player ad streamer [http://code.google.com/p/openx-iab-vast/downloads/detail?name=bouncingminds.openX.jwplayer-latest.tar.gz&can=2&q= here].
 
-==The Key Interfaces==
+==Step 1: The Key Interfaces==
 
 The first thing you will notice about the JW Player plugin is that it implements three key interfaces:
 
@@ -44,7 +44,7 @@ The `VideoAdDisplayController` interface provides a mechanism that allows the VA
 
 The `TrackingEventListener` interface ensures that the player mechanics around firing timer events can be hooked into the VAST tracking model.
 
-==Loading Configuration Data==
+==Step 2: Loading Configuration Data==
 
 The first task that is undertaken when a player plugin initializes is the loading of any openX/ad related configuration data. 
 
