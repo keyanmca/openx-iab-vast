@@ -11,7 +11,7 @@ To deliver OpenX video advertising to a custom player, 7 key steps need to be ta
 
   * [VASTAs3FrameworkHowTo#Step_3:_Tracking_Time_and_Events Step 3]: Hook in the player's time tracking mechanism to the framework so that the various ad related events can be fired at the right point in time
 
-  * [VASTAs3FrameworkHowTo# Step 4]: Hook the player APIs that identify when various control bar functions are activated (e.g. mute, fullscreen etc.) into the framework so that these events can be tracked via the framework and the OpenX ad server
+  * [VASTAs3FrameworkHowTo#Step_4:_Tracking_Control_Bar_Events Step 4]: Configure the control bar handling so that these events can be tracked via the framework and the OpenX ad server
 
   * [VASTAs3FrameworkHowTo# Step 5]: Implement the required display related callback functions (declared in the `VideoAdDisplayController` interface) so that non linear video ads can be displayed (e.g. overlay and companions)
 
@@ -163,3 +163,6 @@ One difference you'll notice between the way the configuration is specified for 
 The `OpenXConfiguration` class understands that either case may be specified and recognizes the variable accordingly.
 
 ==Step 3: Tracking Time and Events==
+
+
+==Step 4: Tracking Control Bar Events==
