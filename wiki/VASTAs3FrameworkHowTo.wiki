@@ -5,7 +5,7 @@ The VAST actionscript 3 framework can be used to produce custom player implement
 
 To deliver OpenX video advertising to a custom player, 7 key steps need to be taken:
 
-  * [# Step 1]: Make sure that the right interface classes are integrated into your player class(es)
+  * [Step_1:_The_Key_Interfaces Step 1]: Make sure that the right interface classes are integrated into your player class(es)
 
   * [# Step 2]: Read in the ad related configuration so that the framework knows what form of video advertising is to be delivered
 
