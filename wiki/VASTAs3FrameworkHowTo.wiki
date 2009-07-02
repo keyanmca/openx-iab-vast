@@ -7,17 +7,17 @@ To deliver OpenX video advertising to a custom player, 7 key steps need to be ta
 
   * [VASTAs3FrameworkHowTo#Step_1:_The_Key_Interfaces Step 1]: Make sure that the right interface classes are integrated into your player class(es)
 
-  * [# Step 2]: Read in the ad related configuration so that the framework knows what form of video advertising is to be delivered
+  * [VASTAs3FrameworkHowTo#Step 2:_Loading_Configuration_Data Step 2]: Read in the ad related configuration so that the framework knows what form of video advertising is to be delivered
 
-  * [# Step 3]: Hook in the player's time tracking mechanism to the framework so that the various ad related events can be fired at the right point in time
+  * [VASTAs3FrameworkHowTo# Step 3]: Hook in the player's time tracking mechanism to the framework so that the various ad related events can be fired at the right point in time
 
-  * [# Step 4]: Hook the player APIs that identify when various control bar functions are activated (e.g. mute, fullscreen etc.) into the framework so that these events can be tracked via the framework and the OpenX ad server
+  * [VASTAs3FrameworkHowTo# Step 4]: Hook the player APIs that identify when various control bar functions are activated (e.g. mute, fullscreen etc.) into the framework so that these events can be tracked via the framework and the OpenX ad server
 
-  * [# Step 5]: Implement the required display related callback functions (declared in the `VideoAdDisplayController` interface) so that non linear video ads can be displayed (e.g. overlay and companions)
+  * [VASTAs3FrameworkHowTo# Step 5]: Implement the required display related callback functions (declared in the `VideoAdDisplayController` interface) so that non linear video ads can be displayed (e.g. overlay and companions)
 
-  * [# Step 6]: Make a request to the OpenX ad server (via the framework) to obtain the video ads for a given "ad schedule" - the result is a fully configured `StreamSequence` that splices the show and video ads together into an ordered list of streams to be played
+  * [VASTAs3FrameworkHowTo# Step 6]: Make a request to the OpenX ad server (via the framework) to obtain the video ads for a given "ad schedule" - the result is a fully configured `StreamSequence` that splices the show and video ads together into an ordered list of streams to be played
 
-  * [# Step 7]: Load the fully configured "stream sequence" into the player (manually through custom code or via a playlist) and play it
+  * [VASTAs3FrameworkHowTo# Step 7]: Load the fully configured "stream sequence" into the player (manually through custom code or via a playlist) and play it
 
 To illustrate how to use the VAST framework, we'll walk through the key implementation points for the JW Player plugin `OpenXAdStreamer`.
 
