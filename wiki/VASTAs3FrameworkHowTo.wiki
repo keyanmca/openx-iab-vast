@@ -7,7 +7,7 @@ To deliver OpenX video advertising to a custom player, 7 key steps need to be ta
 
   * [VASTAs3FrameworkHowTo#Step_1:_The_Key_Interfaces Step 1]: Make sure that the right interface classes are integrated into your player class(es)
 
-  * [VASTAs3FrameworkHowTo#Step 2:_Loading_Configuration_Data Step 2]: Read in the ad related configuration so that the framework knows what form of video advertising is to be delivered
+  * [VASTAs3FrameworkHowTo#Step_2:_Loading_Configuration_Data Step 2]: Read in the ad related configuration so that the framework knows what form of video advertising is to be delivered
 
   * [VASTAs3FrameworkHowTo# Step 3]: Hook in the player's time tracking mechanism to the framework so that the various ad related events can be fired at the right point in time
 
