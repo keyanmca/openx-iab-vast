@@ -1,6 +1,20 @@
 #summary Building a Custom Player Implementation
 #sidebar TableOfContents
 
+The VAST actionscript 3 framework can be used to produce custom player implementations.
+
+To deliver OpenX video advertising to a custom player, 3 steps need to be taken:
+
+  * STEP 1: Read in the ad related configuration so that the framework knows what form of video advertising is to be delivered
+
+  * STEP 2: Tie in the player's time tracking mechanism to the framework so that the various ad related events can be fired at the right point in time
+
+  * STEP 3: Implement the required display related callback functions for the player so that non linear video ads can be displayed (e.g. overlay and companions)
+
+  * STEP 4: Make a request to OpenX to obtain the video ads for a given "ad schedule" and configure a "stream sequence" to be played by the player
+
+  * STEP 5: Load up the "stream sequence" into the player and play it
+
 To illustrate how to use the VAST framework, we'll walk through the key implementation points in the JW Player plugin - the `OpenXAdStreamer`.
 
 You can grab the source code for the JW Player ad streamer [http://code.google.com/p/openx-iab-vast/downloads/detail?name=bouncingminds.openX.jwplayer-latest.tar.gz&can=2&q= here].
