@@ -13,7 +13,7 @@ To deliver OpenX video advertising to a custom player, 6 main steps need to be t
 
   * [# Step 4]: Implement the required display related callback functions (declared in the `VideoAdDisplayController` interface) so that non linear video ads can be displayed (e.g. overlay and companions)
 
-  * [# Step 5]: Make a request to the OpenX ad server (via the framework) to obtain the video ads for a given "ad schedule" - the result is a fully configured `StreamSequence`
+  * [# Step 5]: Make a request to the OpenX ad server (via the framework) to obtain the video ads for a given "ad schedule" - the result is a fully configured `StreamSequence` that splices the show and video ads together into an ordered list of streams to be played
 
   * [# Step 6]: Load up a fully configured "stream sequence" into the player and play it
 
