@@ -19,7 +19,7 @@ flowplayer("a.example", "dist/flowplayer-3.1.0.swf", {
             
             // CHANGE HERE: this URL to point to your OpenX Ad Server instance 
                       
-            vastServerURL: 'http://openx.bouncingminds.com/openx-2.8.1-rc9/www/delivery/fc.php',
+            vastServerURL: 'http://openx.bouncingminds.com/openx/www/delivery/fc.php',
             
             ....
         }
