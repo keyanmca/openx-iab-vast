@@ -14,6 +14,7 @@ To setup OpenX so that it is ready to serve Video Ads:
 
 == Enable openXVideoAds plugin
 
+<img src="http://static.bouncingminds.com/images/openx-iab-vast/enable_plugin.png" width="700" border="0" />
 
 
 == Details for installing the videoAds plugin where no video ads plugin exists 
