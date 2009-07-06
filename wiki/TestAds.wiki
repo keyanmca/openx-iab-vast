@@ -5,6 +5,9 @@ To help you get up and running, we've placed a few test ads here for you to down
 
 ==Linear Video Ads==
 
+  * 5 sec spots:
+    * [http://static.bouncingminds.com/ads/5secs/baileys_5sec.mp4 Baileys] (mp4: 5 secs)
+    * [http://static.bouncingminds.com/ads/5secs/dodson_5sec.mp4 Dodson & Horrell] (mp4: 5 secs)
   * 15 sec spots:
     * [http://static.bouncingminds.com/ads/15secs/dogs_600.mp4 H&C dogs] (mp4: 15 secs)
     * [http://static.bouncingminds.com/ads/15secs/horse_how_to_600.mp4 H&C Horse How-To] (mp4: 19 secs)
@@ -12,6 +15,7 @@ To help you get up and running, we've placed a few test ads here for you to down
   * 30 sec spots:
     * [http://static.bouncingminds.com/ads/30secs/bigger_badminton_600.mp4 H&C Bigger Badminton]  (mp4: 29 secs)
     * [http://static.bouncingminds.com/ads/30secs/country_life_butter.mp4 Country Life Butter] (mp4: 30 secs)
+    * [http://static.bouncingminds.com/ads/30secs/heinz_deli_mayo.mp4 Heinz Deli Mayo] (mp4: 30 secs)
     * [http://static.bouncingminds.com/ads/30secs/howard_kirby_intro_600.mp4 H&C Howard Kirby] (mp4: 29 secs)
     * [http://static.bouncingminds.com/ads/30secs/john_bailey_intro_600.mp4 H&C John Bailey] (mp4: 29 secs)
     * [http://static.bouncingminds.com/ads/30secs/schwepps_bull.mp4 Schwepps Bull] (mp4: 31 secs)
