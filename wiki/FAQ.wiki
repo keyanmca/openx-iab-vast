@@ -37,8 +37,12 @@
 
 ====2.9 On a slow connection, will the user see the full Video Ad of will it switch the content Video after 30 seconds (or duration of the Video Ad)?====
 
-===3. Players===
+===3. Supporting Live Streams===
 
-====3.1 What players are supported?====
+====3.1 How do I schedule video ads with a live stream?====
 
-====3.2 What browsers are compatible with the video player?====
+===4. Players===
+
+====4.1 What players are supported?====
+
+====4.2 What browsers are compatible with the video player?====
