@@ -1,2 +1,4 @@
 #summary Where to Begin With HTTP Download Ad Delivery
 #sidebar TableOfContents
+
+to be released in 18 July...
