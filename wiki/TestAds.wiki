@@ -10,6 +10,7 @@ To help you get up and running, we've placed a few test ads here for you to down
     * [http://static.bouncingminds.com/ads/5secs/dodson_5sec.mp4 Dodson & Horrell] (mp4: 5 secs)
   * 15 sec spots:
     * [http://static.bouncingminds.com/ads/15secs/dogs_600.mp4 H&C dogs] (mp4: 15 secs)
+    * [http://static.bouncingminds.com/ads/15secs/dogs_600.flv H&C dogs] (flv: 15 secs)
     * [http://static.bouncingminds.com/ads/15secs/horse_how_to_600.mp4 H&C Horse How-To] (mp4: 19 secs)
     * [http://static.bouncingminds.com/ads/15secs/horse_sport_howto_600.mp4 H&C Sport How-To] (mp4: 19 secs)
   * 30 sec spots:
