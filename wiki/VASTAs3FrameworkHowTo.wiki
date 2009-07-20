@@ -237,6 +237,8 @@ private function playlistSelectionHandler(evt:ControllerEvent):void {
 
 _To be completed when the Flowplayer HTTP plugin is released_
 
+----
+
 ==Step 4: Tracking Control Bar Events==
 
 {{{
