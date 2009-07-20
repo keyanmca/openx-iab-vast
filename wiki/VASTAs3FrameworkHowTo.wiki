@@ -170,7 +170,7 @@ Once the configuration data has been successfully loaded, setup the mechanism th
 
 Timed events are used by the VAST framework to determine when mid roll and non-linear ads (e.g. overlays) are to be displayed. They are also used to identify when tracking events (`start`, `1st quartile`, `mid point`, `3rd quartile` and ad `complete`) are to be logged by the OpenX server.
 
-When the VAST framework loads the ad data from the OpenX server, it creates a sequence 
+When the VAST framework loads the ad data from the OpenX server, it creates a time tracking table that lists all of the ad related events that are to be tracked per stream and the time each is to be triggered. When a call is made to the VAST framework to `processTimeEvent`, this tracking table is reviewed to see if the point in time matches anything that is listed in that table. If it is, the related VAST event is fired.
 
 Different players allow time based events to be tracked and processed in different ways:
 
@@ -179,7 +179,7 @@ Different players allow time based events to be tracked and processed in differe
 
 ===Tracking Time in JW Player===
 
-In JW Player, to forward time based events to the VAST framework to be analysed and actioned (where required), first establish a model listener for the `TIME` event: 
+In JW Player, to forward time based events to the VAST framework to be analysed and actioned (where required), establish a model listener for the `TIME` event: 
 
 {{{
 _view.addModelListener(ModelEvent.TIME, timeHandler);
