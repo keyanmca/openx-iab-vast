@@ -180,8 +180,7 @@ _view.addModelListener(ModelEvent.TIME, timeHandler);
 {{{
 private function timeHandler(evt:ModelEvent):void {
     if(_streamSequence != null) {
-       _streamSequence.processTimeEvent(_activeStreamIndex, 
-                                                                         new TimeEvent(evt.data.position * 1000, evt.data.duration));
+       _streamSequence.processTimeEvent(_activeStreamIndex, new TimeEvent(evt.data.position * 1000, evt.data.duration));
     }
 }
 }}}
