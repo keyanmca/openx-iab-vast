@@ -164,5 +164,18 @@ The `OpenXConfiguration` class understands that either case may be specified and
 
 ==Step 3: Tracking Time and Events==
 
+Once the configuration data has been successfully loaded, the next step is to setup the mechanism that will be used by the framework to track time based events as the stream(s) play.
+
+Different players allow time to be tracked in different ways:
+
+  * JW Player allows a listener interface to be registered to receive callbacks every 10th of a second
+  * Flowplayer allows "cuepoints" to be set on a clip at a precision of 1000th of a second - when the specified point in time occurs the "cuepoint" interface is called so that the event can be processed
+
+===JW Player Time Tracking
+
+
+===Flowplayer Time Tracking
+
+
 
 ==Step 4: Tracking Control Bar Events==
