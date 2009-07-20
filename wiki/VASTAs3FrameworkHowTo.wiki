@@ -171,10 +171,25 @@ Different players allow time to be tracked in different ways:
   * JW Player allows a listener interface to be registered to receive callbacks every 10th of a second
   * Flowplayer allows "cuepoints" to be set on a clip at a precision of 1000th of a second - when the specified point in time occurs the "cuepoint" interface is called so that the event can be processed
 
-===JW Player Time Tracking
+===JW Player Time Tracking===
 
+{{{
+_view.addModelListener(ModelEvent.TIME, timeHandler);
+}}}
 
-===Flowplayer Time Tracking
+{{{
+private function timeHandler(evt:ModelEvent):void {
+    if(_streamSequence != null) {
+       _streamSequence.processTimeEvent(_activeStreamIndex, 
+                                                                         new TimeEvent(evt.data.position * 1000, evt.data.duration));
+    }
+}
+}}}
+
+{{{
+}}}
+
+===Flowplayer Time Tracking===
 
 
 
