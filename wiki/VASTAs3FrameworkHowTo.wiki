@@ -186,6 +186,14 @@ private function timeHandler(evt:ModelEvent):void {
 }}}
 
 {{{
+_view.addControllerListener(ControllerEvent.ITEM, playlistSelectionHandler);	
+}}}
+
+{{{
+private function playlistSelectionHandler(evt:ControllerEvent):void {
+    _activeStreamIndex = evt.data.index;
+    doLog("Active playlist stream index changed to " + _activeStreamIndex, DebugObject.DEBUG_PLAYLIST);
+}
 }}}
 
 ===Flowplayer Time Tracking===
