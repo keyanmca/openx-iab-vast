@@ -229,8 +229,32 @@ private function playlistSelectionHandler(evt:ControllerEvent):void {
 
 ==Step 4: Tracking Control Bar Events==
 
+{{{
+public function toggleSeekerBar(enable:Boolean):void {
+    if(_openXConfig.disableControls) {
+        var controlbar:Object = _view.getPlugin('controlbar');
+        controlbar.block(!enable);
+    }
+}
+}}}
+
+{{{
+_view.addViewListener(ViewEvent.MUTE, onMuteEvent);		
+_view.addViewListener(ViewEvent.PLAY, onPlayEvent);		
+_view.addViewListener(ViewEvent.STOP, onStopEvent);		
+_view.addViewListener(ViewEvent.FULLSCREEN, onResizeEvent);
+}}}
+
+{{{
+private function onStopEvent(evt:ViewEvent):void {
+    _streamSequence.processStopEventForStream(_activeStreamIndex);
+}
+}}}
+
 ==Step 5: Processing Ad Display Events==
 
+{{{
+}}}
 
 ==Step 6: Obtain the VAST Ad Data From the Ad Server==
 
@@ -257,3 +281,6 @@ public function onTemplateLoadError(event:Event):void {
     doLog("FAILURE loading VAST template - " + event.toString(), DebugObject.DEBUG_FATAL);
 }
 }}}
+
+
+==Debugging the Framework==
