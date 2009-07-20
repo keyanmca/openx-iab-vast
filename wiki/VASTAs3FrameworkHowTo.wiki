@@ -228,3 +228,32 @@ private function playlistSelectionHandler(evt:ControllerEvent):void {
 
 
 ==Step 4: Tracking Control Bar Events==
+
+==Step 5: Processing Ad Display Events==
+
+
+==Step 6: Obtain the VAST Ad Data From the Ad Server==
+
+{{{
+_openXAdServer = AdServerFactory.getAdServer(AdServerFactory.AD_SERVER_OPENX) as OpenXAdServer;
+_openXAdServer.initialise(_openXConfig);
+_openXAdServer.loadVideoAdData(this, this);
+}}}
+
+
+==Step 7: Obtaining a Playlist from the VAST Response==
+
+
+{{{
+public function onTemplateLoaded():void {
+    doLogAndTrace("VAST data loaded - ", _openXAdServer.template, DebugObject.DEBUG_FATAL);
+    _playlist = loadPlaylist();
+    _view.sendEvent(ViewEvent.LOAD, XSPFParser.parse(_playlist.nextTrackAsPlaylistXML()));
+}
+}}}
+
+{{{
+public function onTemplateLoadError(event:Event):void {
+    doLog("FAILURE loading VAST template - " + event.toString(), DebugObject.DEBUG_FATAL);
+}
+}}}
