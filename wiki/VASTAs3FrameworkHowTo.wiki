@@ -25,6 +25,8 @@ To illustrate how to use the VAST framework, we'll walk through the key implemen
 
 You can grab the source code for the JW Player Ad Streamer [http://code.google.com/p/openx-iab-vast/downloads/detail?name=bouncingminds.openX.jwplayer-latest.tar.gz&can=2&q= here].
 
+----
+
 ==Debugging the Framework==
 
 ----
@@ -170,6 +172,8 @@ One difference you'll notice between the way the configuration is specified for 
 
 The `OpenXConfiguration` class understands that either case may be specified and recognizes the variable accordingly.
 
+----
+
 ==Step 3: Tracking Time and Events==
 
 Once the configuration data has been successfully loaded, setup the mechanism that will be used by the framework to track time based events as the stream(s) play.
@@ -257,10 +261,14 @@ private function onStopEvent(evt:ViewEvent):void {
 }
 }}}
 
+----
+
 ==Step 5: Processing Ad Display Events==
 
 {{{
 }}}
+
+----
 
 ==Step 6: Obtain the VAST Ad Data From the Ad Server==
 
@@ -270,8 +278,9 @@ _openXAdServer.initialise(_openXConfig);
 _openXAdServer.loadVideoAdData(this, this);
 }}}
 
+----
 
-==Step 7: Obtaining a Playlist from the VAST Response==
+==Step 7: Obtaining and Loading a Playlist from the VAST Response==
 
 
 {{{
