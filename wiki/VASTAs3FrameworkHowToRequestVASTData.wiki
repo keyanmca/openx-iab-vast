@@ -11,7 +11,7 @@ _openXAdServer.loadVideoAdData(this, this);
 
 An instance of the `OpenXAdServer` class is obtained from the `AdServerFactory`. Once that is obtained, the configuration for the framework is passed into the instance via the `initialise` method. The key piece of configuration data that is extracted during initialisation is the URL of the OpenX ad server instance (identified in the configuration file as `vastServerURL`)
 
-Ultimately, when a request is made to the OpenX Ad Server the request is of the form:
+Ultimately, when a request is made to the OpenX Ad Server the request is of the form (where the server address is replaced by the address of your OpenX instance):
 
 {{{
 http://openx.bouncingminds.com/openx/www/delivery/fc.php?
