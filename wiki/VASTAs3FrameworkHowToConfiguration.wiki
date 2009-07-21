@@ -60,7 +60,7 @@ public var config:Object = {
 };
 }}}
 
-The following code creates an instance of an `OpenXConfig` object reading the configuration from an actionscript `Object`.  The `OpenXConfig` class holds the full set of configuration data and is used throughout the framework to inform it as to how it is to behave as the ads are retrieved and played.
+The following code creates an instance of an `OpenXConfig` object reading the configuration from the JW Player config `Object`.  The `OpenXConfig` class holds the full set of configuration data and is used throughout the framework to inform it as to how it is to behave as the ads are retrieved and played.
 
 {{{
 // Load up the config and configure the debugger
