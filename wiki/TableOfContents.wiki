@@ -40,6 +40,7 @@
       * [VASTAs3FrameworkHowTo How To Use]
         * [VASTAs3FrameworkHowToKeyInterfaces Interfaces]
         * [VASTAs3FrameworkHowToConfiguration Configuration]
+        * [VASTAs3FrameworkHowToTimeTracking Time Tracking]
       * Download
       * [VASTAs3FrameworkLimitations Limitations]
       * [VASTAs3FrameworkChangeLog Change Log]
