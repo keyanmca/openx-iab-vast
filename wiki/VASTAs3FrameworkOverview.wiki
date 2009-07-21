@@ -82,5 +82,10 @@ The Playlist Management Package provides a series of classes that control the co
 
 ===5. The Server Control Package===
 
+The Server Control Package provides the classes needed to make requests to the OpenX Ad Server.
+
+A factory class `AdServerFactory` is provided to facilitate the construction of an `OpenXAdServer` instance. Eventually other VAST compliant ad servers will be supported by the framework.
+
+The `OpenXAdServer` requires an instance of the `OpenXConfig` class when initialising to ensure that the appropriate URLs and settings can be applied when the calls are made to the OpenX ad server.
 
 ===6. The Display Management Package===
