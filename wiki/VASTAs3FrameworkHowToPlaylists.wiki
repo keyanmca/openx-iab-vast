@@ -4,12 +4,12 @@
 {{{
 private function loadPlaylist():Playlist {
     _streamSequence = new StreamSequence(this, 
-                                           this, 
-                                                                              _openXConfig.streams, 
-                                                                              _openXAdServer.adSequence, 
-                                                                              _openXConfig.bitrate, 
-                                                                              _openXConfig.netConnectionURL, 
-                                                                              100);
+                                         this, 
+                                         _openXConfig.streams, 
+                                         _openXAdServer.adSequence, 
+                                         _openXConfig.bitrate, 
+                                         _openXConfig.netConnectionURL, 
+                                         100);
     var playlist:Playlist = PlaylistController.createPlaylist(_streamSequence, PlaylistController.PLAYLIST_FORMAT_XSPF);
     doLogAndTrace("XSPF playlist loaded: ", playlist.toString(), DebugObject.DEBUG_PLAYLIST);
     return playlist;
