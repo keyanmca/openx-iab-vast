@@ -27,23 +27,4 @@ You can grab the source code for the JW Player Ad Streamer [http://code.google.c
 
 If you need just the source for the VAST AS3 framework, you can find it [http://openx-iab-vast.googlecode.com/files/bouncingminds.vast.as3-latest.tar.gz here].
 
-==Step 7: Obtaining and Loading a Playlist from the VAST Response==
-
-
-{{{
-public function onTemplateLoaded():void {
-    doLogAndTrace("VAST data loaded - ", _openXAdServer.template, DebugObject.DEBUG_FATAL);
-    _playlist = loadPlaylist();
-    _view.sendEvent(ViewEvent.LOAD, XSPFParser.parse(_playlist.nextTrackAsPlaylistXML()));
-}
-}}}
-
-{{{
-public function onTemplateLoadError(event:Event):void {
-    doLog("FAILURE loading VAST template - " + event.toString(), DebugObject.DEBUG_FATAL);
-}
-}}}
-
-----
-
 ==Debugging the Framework==
