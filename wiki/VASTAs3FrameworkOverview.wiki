@@ -89,3 +89,7 @@ A factory class `AdServerFactory` is provided to facilitate the construction of 
 The `OpenXAdServer` requires an instance of the `OpenXConfig` class when initialising to ensure that the appropriate URLs and settings can be applied when the calls are made to the OpenX ad server.
 
 ===6. The Display Management Package===
+
+Non-Linear and companion ads must be displayed by the player on or around the player canvas. The Display Management Package provides two classes to facilitate callbacks to the specific player implementation when a non-linear or companion ad is to be displayed.
+
+These two classes are `VideoAdDisplayController` (a key interface to implement in your custom player) and `VideoAdDisplayEvent` which describes the type of video ad to display/hide.
