@@ -1,0 +1,24 @@
+#summary Tracking Control Bar Events
+#sidebar TableOfContents
+
+{{{
+public function toggleSeekerBar(enable:Boolean):void {
+    if(_openXConfig.disableControls) {
+        var controlbar:Object = _view.getPlugin('controlbar');
+        controlbar.block(!enable);
+    }
+}
+}}}
+
+{{{
+_view.addViewListener(ViewEvent.MUTE, onMuteEvent);		
+_view.addViewListener(ViewEvent.PLAY, onPlayEvent);		
+_view.addViewListener(ViewEvent.STOP, onStopEvent);		
+_view.addViewListener(ViewEvent.FULLSCREEN, onResizeEvent);
+}}}
+
+{{{
+private function onStopEvent(evt:ViewEvent):void {
+    _streamSequence.processStopEventForStream(_activeStreamIndex);
+}
+}}}
