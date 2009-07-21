@@ -36,14 +36,6 @@ Configuration information for the JW Player plugin is specified in an XML file t
 </config>
 }}}
 
-The following code creates an instance of an `OpenXConfig` object reading the configuration from an actionscript `Object`.  The `OpenXConfig` class holds the full set of configuration data and is used throughout the framework to inform it as to how it is to behave as the ads are retrieved and played.
-
-{{{
-// Load up the config and configure the debugger
-_openXConfig = new OpenXConfig(config);
-doLogAndTrace("Configuration loaded as: ", _openXConfig);
-}}}
-
 When JW Player initializes the plugin, it reads the configuration data from the XML file specified in the `flashvars` variable into a global `Object` called `config`.
 
 `config` has been declared as follows in the JW Player plugin:
@@ -66,6 +58,14 @@ public var config:Object = {
    companions: null,
    displaycompanions: true
 };
+}}}
+
+The following code creates an instance of an `OpenXConfig` object reading the configuration from an actionscript `Object`.  The `OpenXConfig` class holds the full set of configuration data and is used throughout the framework to inform it as to how it is to behave as the ads are retrieved and played.
+
+{{{
+// Load up the config and configure the debugger
+_openXConfig = new OpenXConfig(config);
+doLogAndTrace("Configuration loaded as: ", _openXConfig);
 }}}
 
 Flowplayer alternatively allows configuration for it's player to be specified directly as a JSON based configuration as part of the javascript based player insertion.
