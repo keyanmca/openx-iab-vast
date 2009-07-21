@@ -10,7 +10,7 @@ import com.bouncingminds.vast.tracking.TrackingEventListener;
 
 public class OpenXAdStreamer 
        extends MovieClip 
-       implements ... *TemplateLoadListener*, *VideoAdDisplayController*, *TrackingEventListener* {
+       implements ... TemplateLoadListener, VideoAdDisplayController, TrackingEventListener {
 
        ....
 }
