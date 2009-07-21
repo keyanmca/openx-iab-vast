@@ -1,2 +1,9 @@
-#summary Tracking Time and Events
+#summary Obtain the VAST Ad Data From the Ad Server
 #sidebar TableOfContents
+
+{{{
+_openXAdServer = AdServerFactory.getAdServer(AdServerFactory.AD_SERVER_OPENX) as OpenXAdServer;
+_openXAdServer.initialise(_openXConfig);
+_openXAdServer.loadVideoAdData(this, this);
+}}}
+
