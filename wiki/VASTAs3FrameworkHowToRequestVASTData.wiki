@@ -11,7 +11,11 @@ _openXAdServer.loadVideoAdData(this, this);
 
 An instance of the `OpenXAdServer` class is obtained from the `AdServerFactory`. Once that is obtained, the configuration for the framework is passed into the instance via the `initialise` method. The key piece of configuration data that is extracted during initialisation is the URL of the OpenX ad server instance (identified in the configuration file as `vastServerURL`)
 
+When the VAST data is loaded, two methods are made available by the `TemplateLoadListener` interface to signal completion of the task:
+
 {{{
 public function onTemplateLoaded():void;
 public function onTemplateLoadError(event:Event):void;
 }}}
+
+`onTemplateLoaded` is called when the template data has been successfully loaded while `onTemplateLoadError` is called if the load fails.
