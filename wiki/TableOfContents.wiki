@@ -38,6 +38,7 @@
   * [VASTAs3Framework The VAST AS3 Framework]
       * [VASTAs3FrameworkOverview An Overview]
       * [VASTAs3FrameworkHowTo How To Use]
+        * [VASTAs3FrameworkHowToKeyInterfaces Interfaces]
       * Download
       * [VASTAs3FrameworkLimitations Limitations]
       * [VASTAs3FrameworkChangeLog Change Log]
