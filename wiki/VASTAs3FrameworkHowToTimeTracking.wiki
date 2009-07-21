@@ -14,13 +14,13 @@ Different players allow time based events to be tracked and processed in differe
 
 ===Tracking Time in JW Player===
 
-In JW Player, to forward time based events to the VAST framework to be analysed and actioned (where required), establish a model listener for the `TIME` event: 
+In JW Player, to forward time based events to the VAST framework to be analysed and actioned (where required), a model listener for the `TIME` event must be registered: 
 
 {{{
 _view.addModelListener(ModelEvent.TIME, timeHandler);
 }}}
 
-This listener above requires a function called `timeHandler` to be declared:
+This listener above uses a method called `timeHandler` which is declared as follows:
 
 {{{
 private function timeHandler(evt:ModelEvent):void {
@@ -30,9 +30,13 @@ private function timeHandler(evt:ModelEvent):void {
 }
 }}}
 
-The `timeHandler` above identifies whether or not a VAST stream sequence (`StreamSequence`) has been loaded. If it has, it forwards the time event to the sequence to be processed.
+The `timeHandler` method identifies whether or not a VAST stream sequence (`StreamSequence`) has been loaded. If it has, it forwards the time event to the sequence to be processed.
 
-The `StreamSequence` class has an public method called `processTimeEvent`. This method takes two parameters:
+The `StreamSequence` class is a key class in the framework. When a VAST response is processed by the framework, it produces a `StreamSequence`. A `StreamSequence` is a sequenced set of video streams (both show and ad streams) that are ordered based on the AdSchedule defined in the configuration data loaded into the player.
+
+Playlists can be derived from the `StreamSequence` and loaded into the player. As those streams play, time based events are forwarded to the `StreamSequence` to be processed and actioned.
+
+A `StreamSequence` has an public method called `processTimeEvent`. This method takes two parameters:
 
   # The index of the stream (`_activeStreamIndex`) against which the time event is to be applied
   # A `TimeEvent` which holds two values - the actual time (in milliseconds) and the duration of the time event
