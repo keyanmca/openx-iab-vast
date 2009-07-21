@@ -1,2 +1,17 @@
-#summary Tracking Time and Events
+#summary Obtaining and Loading a Playlist from the VAST Response
 #sidebar TableOfContents
+
+{{{
+public function onTemplateLoaded():void {
+    doLogAndTrace("VAST data loaded - ", _openXAdServer.template, DebugObject.DEBUG_FATAL);
+    _playlist = loadPlaylist();
+    _view.sendEvent(ViewEvent.LOAD, XSPFParser.parse(_playlist.nextTrackAsPlaylistXML()));
+}
+}}}
+
+{{{
+public function onTemplateLoadError(event:Event):void {
+    doLog("FAILURE loading VAST template - " + event.toString(), DebugObject.DEBUG_FATAL);
+}
+}}}
+
