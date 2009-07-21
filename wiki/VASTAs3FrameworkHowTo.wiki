@@ -25,7 +25,7 @@ To illustrate how to use the VAST framework, we'll walk through the key implemen
 
 You can grab the source code for the JW Player Ad Streamer [http://code.google.com/p/openx-iab-vast/downloads/detail?name=bouncingminds.openX.jwplayer-latest.tar.gz&can=2&q= here].
 
-If you need just the source for the VAST AS3 framework, you can find it [X here].
+If you need just the source for the VAST AS3 framework, you can find it [http://openx-iab-vast.googlecode.com/files/bouncingminds.vast.as3-latest.tar.gz here].
 
 ----
 
