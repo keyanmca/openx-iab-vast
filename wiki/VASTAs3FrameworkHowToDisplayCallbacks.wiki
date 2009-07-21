@@ -1,15 +1,45 @@
 #summary Processing Ad Display Events
 #sidebar TableOfContents
 
+===Displaying Overlay Ads===
+
 {{{
-function toggleSeekerBar(enable:Boolean):void;
-function displayCompanionAd(displayEvent:VideoAdDisplayEvent):void;
-function hideCompanionAd(displayEvent:VideoAdDisplayEvent):void;
 function displayNonLinearOverlayAd(displayEvent:VideoAdDisplayEvent):void;
 function hideNonLinearOverlayAd(displayEvent:VideoAdDisplayEvent):void;
+}}}
+
+===Displaying Non-Overlay Ads===
+
+{{{
 function displayNonLinearNonOverlayAd(displayEvent:VideoAdDisplayEvent):void;
 function hideNonLinearNonOverlayAd(displayEvent:VideoAdDisplayEvent):void;
-function displayingCompanions():Boolean;
+}}}
+
+===Displaying Ad Notices===
+
+{{{
 function showAdNotice(displayEvent:VideoAdDisplayEvent):void;
 function hideAdNotice(displayEvent:VideoAdDisplayEvent):void;
+}}}
+
+===Displaying Companion Ads===
+
+{{{
+function displayCompanionAd(displayEvent:VideoAdDisplayEvent):void;
+function hideCompanionAd(displayEvent:VideoAdDisplayEvent):void;
+}}}
+
+===Turning the Seeker Bar On/Off===
+
+When linear ads are played, the seeker bar (or scrubber as it is also referred too) should be disabled. When an ad starts playing, the `VideoAdDisplayController.toggleSeekerBar()` interface is called to allow player specific code to be implemented to turn the seeker bar on and off.
+
+The following code snippet illustrates how this is done in the JW Player plugin:
+
+{{{
+public function toggleSeekerBar(enable:Boolean):void {
+    if(_openXConfig.disableControls) {
+        var controlbar:Object = _view.getPlugin('controlbar');
+        controlbar.block(!enable);
+    }
+}
 }}}
