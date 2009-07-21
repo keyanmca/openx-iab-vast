@@ -40,6 +40,7 @@
       * [VASTAs3FrameworkHowTo How To Use]
       * Download
       * [VASTAs3FrameworkLimitations Limitations]
+      * [VASTAs3FrameworkChangeLog Change Log]
       * The API
   * [KeyTerminology Terminology]
   * [FAQ Frequently Asked Questions]
