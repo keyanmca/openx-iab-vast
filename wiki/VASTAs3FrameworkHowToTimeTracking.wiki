@@ -1,0 +1,14 @@
+#summary Tracking Time and Events
+#sidebar TableOfContents
+
+Once the configuration data has been successfully loaded, setup the mechanism that will be used by the framework to track time based events as the stream(s) play.
+
+Timed events are used by the VAST framework to determine when mid roll and non-linear ads (e.g. overlays) are to be displayed. They are also used to identify when tracking events (`start`, `1st quartile`, `mid point`, `3rd quartile` and ad `complete`) are to be logged by the OpenX server.
+
+When the VAST framework loads the ad data from the OpenX server, it creates a time tracking table that lists all of the ad related events that are to be tracked per stream and the time each is to be triggered. When a call is made to the VAST framework to `processTimeEvent`, this tracking table is reviewed to see if the point in time matches anything that is listed in that table. If it is, the related VAST event is fired.
+
+Different players allow time based events to be tracked and processed in different ways:
+
+  * JW Player allows a listener interface to be registered to receive callbacks every 10th of a second - these callbacks are fired every 10th of a second and it is up to the VAST framework to determine if they map to a point in time that is relevant for the streams and ads being played
+  * Flowplayer alternatively allows "cuepoints" to be set on a clip at a precision of 1000th of a second - when the specified point in time occurs the "cuepoint" interface is called so that the event can be processed - in this model, the VAST framework only receives a callback when the point in time has been mapped to a specific ad event that the framework must track
+
