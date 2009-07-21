@@ -1,7 +1,7 @@
 #summary Tracking Time and Events
 #sidebar TableOfContents
 
-Once the configuration data has been successfully loaded, setup the mechanism that will be used by the framework to track time based events as the stream(s) play.
+Once the configuration data has been successfully loaded, the next step that must be taken is to setup the mechanism that will be used by the framework to track time based events as the stream(s) play.
 
 Timed events are used by the VAST framework to determine when mid roll and non-linear ads (e.g. overlays) are to be displayed. They are also used to identify when tracking events (`start`, `1st quartile`, `mid point`, `3rd quartile` and ad `complete`) are to be logged by the OpenX server.
 
