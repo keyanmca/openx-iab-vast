@@ -36,7 +36,7 @@ Configuration information for the JW Player plugin is specified in an XML file t
 </config>
 }}}
 
-The following code creates an instance of an `OpenXConfig` object reading the configuration from an actionscript `Object`. 
+The following code creates an instance of an `OpenXConfig` object reading the configuration from an actionscript `Object`.  The `OpenXConfig` class holds the full set of configuration data and is used throughout the framework to inform it as to how it is to behave as the ads are retrieved and played.
 
 {{{
 // Load up the config and configure the debugger
