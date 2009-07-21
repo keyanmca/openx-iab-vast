@@ -29,10 +29,6 @@ If you need just the source for the VAST AS3 framework, you can find it [X here]
 
 ----
 
-==Debugging the Framework==
-
-----
-
 ==Step 1: The Key Interfaces==
 
 The first thing you will notice about the JW Player plugin is that it implements three key interfaces:
@@ -300,3 +296,7 @@ public function onTemplateLoadError(event:Event):void {
     doLog("FAILURE loading VAST template - " + event.toString(), DebugObject.DEBUG_FATAL);
 }
 }}}
+
+----
+
+==Debugging the Framework==
