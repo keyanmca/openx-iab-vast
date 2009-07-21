@@ -7,3 +7,7 @@ _openXAdServer.initialise(_openXConfig);
 _openXAdServer.loadVideoAdData(this, this);
 }}}
 
+{{{
+public function onTemplateLoaded():void;
+public function onTemplateLoadError(event:Event):void;
+}}}
