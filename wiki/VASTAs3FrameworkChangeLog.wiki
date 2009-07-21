@@ -1,0 +1,8 @@
+#summary Change Log for the VAST AS3 Framework
+#sidebar TableOfContents
+
+0.2.1 - July 18, 2009
+
+  * Initial release
+  * Only supports linear ads
+
