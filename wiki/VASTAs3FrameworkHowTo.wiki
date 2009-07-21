@@ -17,7 +17,7 @@ To deliver OpenX video advertising to a custom player, 7 key steps need to be ta
 
   * [VASTAs3FrameworkHowTo# Step 5]: Implement the required display related callback functions (declared in the `VideoAdDisplayController` interface) so that non linear video ads (e.g. overlays) and companions can be displayed 
 
-  * [VASTAs3FrameworkHowTo# Step 6]: Make a request to the OpenX ad server (via the framework) to obtain the video ads for a given "ad schedule" - the result is a fully configured `StreamSequence` that splices the show and video ads together into an ordered list of streams to be played
+  * [VASTAs3FrameworkHowTo# Step 6]: Add the code to make a request to the OpenX ad server (via the framework) to obtain the video ads for a given "ad schedule" - the result is a fully configured `StreamSequence` that splices the show and video ads together into an ordered list of streams to be played
 
   * [VASTAs3FrameworkHowTo# Step 7]: Load the fully configured "stream sequence" into the player (manually through custom code or via a playlist) and play it
 
