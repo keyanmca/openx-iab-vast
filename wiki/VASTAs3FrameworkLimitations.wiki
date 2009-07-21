@@ -1,0 +1,8 @@
+#summary Known Limitations with the Framework
+#sidebar TableOfContents
+
+  # Has only be used with JW Player timing mechanism
+  # Have not tested with non-linear ads - just linear (pre, post, mid roll)
+  # Playlists formats other than XSFP haven't been tested
+  # No test scripts yet - sorry - will sort with priority
+  # No API doc yet - sorry - will also sort with priority
