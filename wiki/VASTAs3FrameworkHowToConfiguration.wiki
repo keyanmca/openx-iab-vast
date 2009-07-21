@@ -68,7 +68,7 @@ _openXConfig = new OpenXConfig(config);
 doLogAndTrace("Configuration loaded as: ", _openXConfig);
 }}}
 
-Flowplayer alternatively allows configuration for it's player to be specified directly as a JSON based configuration as part of the javascript based player insertion.
+Flowplayer alternatively allows configuration for it's player to be specified directly as a JSON based configuration as part of the javascript based player insertion code.
 
 {{{
 <script type="text/javascript">
