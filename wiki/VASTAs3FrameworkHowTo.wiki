@@ -27,58 +27,6 @@ You can grab the source code for the JW Player Ad Streamer [http://code.google.c
 
 If you need just the source for the VAST AS3 framework, you can find it [http://openx-iab-vast.googlecode.com/files/bouncingminds.vast.as3-latest.tar.gz here].
 
-===Tracking Time in JW Player===
-
-In JW Player, to forward time based events to the VAST framework to be analysed and actioned (where required), establish a model listener for the `TIME` event: 
-
-{{{
-_view.addModelListener(ModelEvent.TIME, timeHandler);
-}}}
-
-This listener above requires a function called `timeHandler` to be declared:
-
-{{{
-private function timeHandler(evt:ModelEvent):void {
-    if(_streamSequence != null) {
-       _streamSequence.processTimeEvent(_activeStreamIndex, new TimeEvent(evt.data.position * 1000, evt.data.duration));
-    }
-}
-}}}
-
-The `timeHandler` above identifies whether or not a VAST stream sequence (`StreamSequence`) has been loaded. If it has, it forwards the time event to the sequence to be processed.
-
-The `StreamSequence` class has an public method called `processTimeEvent`. This method takes two parameters:
-
-  # The index of the stream (`_activeStreamIndex`) against which the time event is to be applied
-  # A `TimeEvent` which holds two values - the actual time (in milliseconds) and the duration of the time event
-
-Keeping track of the active stream index as the playlist is processed is critical to ensuring that timed events are appropriately processed. 
-
-In JW Player, time is reported relative to each clip in the playlist - so when a new clip is started, time is reset to 0.
-
-So, when a time event is passed to the VAST framework, the index of the stream against which that event is to be assessed must be provided.
-
-To keep track of the active stream index for a playlist, the following listener is activated:
-
-{{{
-_view.addControllerListener(ControllerEvent.ITEM, playlistSelectionHandler);	
-}}}
-
-`playlistSelectionHandler` is called whenever a `change item event` occurs on the playlist. The function then explicitly saves the active clip index from the playlist as `_activeStreamIndex`. This value is then passed to `StreamSequence.processTimeEvent()` when a time event occurs in JW Player every 10th of a second.
-
-{{{
-private function playlistSelectionHandler(evt:ControllerEvent):void {
-    _activeStreamIndex = evt.data.index;
-    doLog("Active playlist stream index changed to " + _activeStreamIndex, DebugObject.DEBUG_PLAYLIST);
-}
-}}}
-
-===Tracking Time in Flowplayer===
-
-_To be completed when the Flowplayer HTTP plugin is released_
-
-----
-
 ==Step 4: Tracking Control Bar Events==
 
 {{{
