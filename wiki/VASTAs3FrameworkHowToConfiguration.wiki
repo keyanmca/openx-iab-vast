@@ -1,7 +1,7 @@
 #summary Loading Configuration Data
 #sidebar TableOfContents
 
-The first task that is undertaken when a player plugin initializes is the loading of any openX/ad related configuration data. 
+The first task that is undertaken when a player plugin initializes is the loading of any OpenX/ad related configuration data. 
 
 Configuration information for the JW Player plugin is specified in an XML file that is identified in the `flashvars` variable set when JW player loads. For example, the following line tells JW Player to load the configuration from a file called `rtmp01.xml`
 
