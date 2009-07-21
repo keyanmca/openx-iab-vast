@@ -72,13 +72,13 @@ Ultimately the framework attempts to convert a VAST ad response into a viable pl
 
 The Playlist Management Package provides a series of classes that control the construction and manipulation of playlists. These classes include:
 
-  * Playlist - the interface for all Playlist type instances. The framework generates the following playlist types:
+  * `Playlist` - the interface for all Playlist type instances. The framework generates the following playlist types:
     * `MediaRSSPlaylist`
     * `XSPFPlaylist`
     * `RSSPlaylist`
     * ` SMILPlaylist`
     * `XMLPlaylist`
-  * PlaylistController - the key controller class that manages the process of constructing a playlist of a specified type given a `StreamSequence`
+  * `PlaylistController` - the key controller class that manages the process of constructing a playlist of a specified type given a `StreamSequence`
 
 ===5. The Server Control Package===
 
