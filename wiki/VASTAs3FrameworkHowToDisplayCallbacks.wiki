@@ -2,4 +2,14 @@
 #sidebar TableOfContents
 
 {{{
+function toggleSeekerBar(enable:Boolean):void;
+function displayCompanionAd(displayEvent:VideoAdDisplayEvent):void;
+function hideCompanionAd(displayEvent:VideoAdDisplayEvent):void;
+function displayNonLinearOverlayAd(displayEvent:VideoAdDisplayEvent):void;
+function hideNonLinearOverlayAd(displayEvent:VideoAdDisplayEvent):void;
+function displayNonLinearNonOverlayAd(displayEvent:VideoAdDisplayEvent):void;
+function hideNonLinearNonOverlayAd(displayEvent:VideoAdDisplayEvent):void;
+function displayingCompanions():Boolean;
+function showAdNotice(displayEvent:VideoAdDisplayEvent):void;
+function hideAdNotice(displayEvent:VideoAdDisplayEvent):void;
 }}}
