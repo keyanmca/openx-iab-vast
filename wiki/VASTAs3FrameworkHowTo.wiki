@@ -27,32 +27,6 @@ You can grab the source code for the JW Player Ad Streamer [http://code.google.c
 
 If you need just the source for the VAST AS3 framework, you can find it [http://openx-iab-vast.googlecode.com/files/bouncingminds.vast.as3-latest.tar.gz here].
 
-==Step 4: Tracking Control Bar Events==
-
-{{{
-public function toggleSeekerBar(enable:Boolean):void {
-    if(_openXConfig.disableControls) {
-        var controlbar:Object = _view.getPlugin('controlbar');
-        controlbar.block(!enable);
-    }
-}
-}}}
-
-{{{
-_view.addViewListener(ViewEvent.MUTE, onMuteEvent);		
-_view.addViewListener(ViewEvent.PLAY, onPlayEvent);		
-_view.addViewListener(ViewEvent.STOP, onStopEvent);		
-_view.addViewListener(ViewEvent.FULLSCREEN, onResizeEvent);
-}}}
-
-{{{
-private function onStopEvent(evt:ViewEvent):void {
-    _streamSequence.processStopEventForStream(_activeStreamIndex);
-}
-}}}
-
-----
-
 ==Step 5: Processing Ad Display Events==
 
 {{{
