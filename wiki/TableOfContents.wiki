@@ -39,6 +39,7 @@
       * [VASTAs3FrameworkOverview An Overview]
       * [VASTAs3FrameworkHowTo How To Use]
         * [VASTAs3FrameworkHowToKeyInterfaces Interfaces]
+        * [VASTAs3FrameworkHowToConfiguration Configuration]
       * Download
       * [VASTAs3FrameworkLimitations Limitations]
       * [VASTAs3FrameworkChangeLog Change Log]
