@@ -12,16 +12,40 @@ _Note: A general framework is being created now to allow overlays to be displaye
 
 ===Displaying Overlay Ads===
 
+Two methods are declared by the `VideoAdDisplayController` to control the display of overlay ads:
+
 {{{
 function displayNonLinearOverlayAd(displayEvent:VideoAdDisplayEvent):void;
 function hideNonLinearOverlayAd(displayEvent:VideoAdDisplayEvent):void;
 }}}
 
+When an overlay ad is to be displayed, `displayNonLinearOverlayAd` is called. 
+
+When an overlay ad is to be hidden, `hideNonLinearOverlayAd` is called.
+
+The actual `ad` can be extracted from the event via the `VideoAdDisplayEvent.ad` attribute. For example:
+
+{{{
+var overlayAd:NonLinearVideoAd = displayEvent.ad as NonLinearVideoAd;
+}}}
+
 ===Displaying Non-Overlay Ads===
+
+Two methods are declared by the `VideoAdDisplayController` to control the display of overlay ads:
 
 {{{
 function displayNonLinearNonOverlayAd(displayEvent:VideoAdDisplayEvent):void;
 function hideNonLinearNonOverlayAd(displayEvent:VideoAdDisplayEvent):void;
+}}}
+
+When a non-overlay ad is to be displayed, `displayNonLinearNonOverlayAd` is called. 
+
+When a non-overlay ad is to be hidden, `hideNonLinearNonOverlayAd` is called.
+
+The actual `ad` can be extracted from the event via the `VideoAdDisplayEvent.ad` attribute. For example:
+
+{{{
+var nonOverlayAd:NonLinearVideoAd = displayEvent.ad as NonLinearVideoAd;
 }}}
 
 ===Displaying Ad Notices===
@@ -33,9 +57,27 @@ function hideAdNotice(displayEvent:VideoAdDisplayEvent):void;
 
 ===Displaying Companion Ads===
 
+Two methods are declared by the `VideoAdDisplayController` to control the display of companion ads:
+
 {{{
 function displayCompanionAd(displayEvent:VideoAdDisplayEvent):void;
 function hideCompanionAd(displayEvent:VideoAdDisplayEvent):void;
+}}}
+
+When a companion ad is to be displayed, `displayCompanionAd` is called. 
+
+When a non-overlay ad is to be hidden, `hideCompanionAd` is called.
+
+The actual `ad` can be extracted from the event via the `VideoAdDisplayEvent.ad` attribute. For example:
+
+{{{
+var companionAd:CompanionAd = displayEvent.ad as CompanionAd;
+}}}
+
+To obtain the markup to insert into the page containing the player, the following code snippet can be used:
+
+{{{
+var htmlToInsert:String = companionAd.getMarkup();
 }}}
 
 ===Turning the Seeker Bar On/Off===
