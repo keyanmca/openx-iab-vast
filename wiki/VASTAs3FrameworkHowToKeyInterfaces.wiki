@@ -20,4 +20,4 @@ The `TemplateLoadListener` interface provides the hooks that allows the VAST fra
 
 The `VideoAdDisplayController` interface provides a mechanism that allows the VAST framework to make a call back into the player plugin to tell it to display an ad type that requires control over the player canvas (e.g. popup an overlay style ad or push a companion banner to the webpage surrounding the player.
 
-The `TrackingEventListener` interface ensures that the player mechanics around firing timer events can be hooked into the VAST tracking model.
+The `TrackingEventListener` interface ensures that the player mechanics around firing timer events can be hooked into the VAST tracking model. This interface isn't actually used by the JW Player plugin. It's only used when the video player in question supports an API that allows timed events to be individually set and fired. An example is Flowplayer's `cuepoint` API.
