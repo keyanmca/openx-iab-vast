@@ -101,7 +101,7 @@ flowplayer("a.example", "../dist/flowplayer-3.1.0.swf", {
 </script>
 }}}
 
-To initialise the `OpenXConfig` in a Flowplayer plugin, the following code segment is used:
+To initialise the `OpenXConfig` class within a Flowplayer plugin, the following code segment is used:
 
 {{{
 override public function onConfig(model:PluginModel):void {
@@ -111,6 +111,6 @@ override public function onConfig(model:PluginModel):void {
 }
 }}}
 
-One difference you'll notice between the way the configuration is specified for JW Player against Flowplayer is that the configuration variables are in different cases. For JW Player, all variables are specified in lowercase (with the plugin name preceding them - e.g. `openxadstreamer.adschedule`) while for Flowplayer, a mixed case variable name is specified (e.g. `adSchedule`). Flowplayer is not case sensitive, while JW Player appears to be case sensitive requiring all configuration variables to be in lowercase.
+One difference you'll notice between the way the configuration is specified for JW Player compared to Flowplayer is that the configuration variables are in different cases. For JW Player, all variables must be specified in lowercase (with the plugin name preceding them - e.g. `openxadstreamer.adschedule`) while for Flowplayer, a mixed case variable name is specified (e.g. `adSchedule`). Flowplayer is not case sensitive, while JW Player is case sensitive requiring all configuration variables to be in lowercase.
 
 The `OpenXConfiguration` class understands that either case may be specified and recognizes the variable accordingly.
