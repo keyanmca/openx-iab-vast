@@ -4,7 +4,7 @@
 {{{
 private function loadPlaylist():Playlist {
     _streamSequence = new StreamSequence(this, 
-                                                     this, 
+                                           this, 
                                                                               _openXConfig.streams, 
                                                                               _openXAdServer.adSequence, 
                                                                               _openXConfig.bitrate, 
