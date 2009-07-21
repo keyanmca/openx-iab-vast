@@ -39,6 +39,7 @@
       * [VASTAs3FrameworkOverview An Overview]
       * [VASTAs3FrameworkHowTo How To Use]
       * Download
+      * [VASTAs3FrameworkLimitations Limitations]
       * The API
   * [KeyTerminology Terminology]
   * [FAQ Frequently Asked Questions]
