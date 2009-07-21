@@ -7,7 +7,7 @@ The VAST actionscript 3 framework can be used to produce custom player implement
 
 To deliver OpenX video advertising to a custom player, 7 key steps need to be taken:
 
-  * [VASTAs3FrameworkHowTo#Step_1:_The_Key_Interfaces Step 1]: Make sure that the right interface classes are integrated into your player class(es)
+  * [VASTAs3FrameworkHowToKeyInterfaces Step 1]: Make sure that the key interface classes are integrated into your player class(es)
 
   * [VASTAs3FrameworkHowTo#Step_2:_Loading_Configuration_Data Step 2]: Read in the ad related configuration so that the framework knows what form of video advertising is to be delivered
 
@@ -27,32 +27,6 @@ You can grab the source code for the JW Player Ad Streamer [http://code.google.c
 
 If you need just the source for the VAST AS3 framework, you can find it [http://openx-iab-vast.googlecode.com/files/bouncingminds.vast.as3-latest.tar.gz here].
 
-----
-
-==Step 1: The Key Interfaces==
-
-The first thing you will notice about the JW Player plugin is that it implements three key interfaces:
-
-{{{
-import com.bouncingminds.vast.display.VideoAdDisplayController;
-import com.bouncingminds.vast.model.TemplateLoadListener;
-import com.bouncingminds.vast.tracking.TrackingEventListener;
-
-public class OpenXAdStreamer 
-       extends MovieClip 
-       implements PluginInterface, TemplateLoadListener, VideoAdDisplayController, TrackingEventListener {
-
-       ....
-}
-}}}
-
-The `TemplateLoadListener` interface provides the hooks that allows the VAST framework to call the player plugin when the VAST data has either been successfully loaded or if it's failed to load.
-
-The `VideoAdDisplayController` interface provides a mechanism that allows the VAST framework to make a call back into the player plugin to tell it to display an ad type that requires control over the player canvas (e.g. popup an overlay style ad or push a companion banner to the webpage surrounding the player.
-
-The `TrackingEventListener` interface ensures that the player mechanics around firing timer events can be hooked into the VAST tracking model.
-
-----
 
 ==Step 2: Loading Configuration Data==
 
