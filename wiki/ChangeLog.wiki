@@ -9,7 +9,7 @@
   * Volume 0 now fires mute event
   * For 'Click to Website' functionality on overlays - pause video now default on click
   * Tracking events changed so that they never refire - once they've been fired, they will not fire again (e.g. if the ad is replayed)
-  * Cleaned up the tracking events - for linear video, I now fire:
+  * Cleaned up the tracking events - for linear video, the following are now fired:
     # => 'Started',
     # => 'Viewed > 50%',
     # => 'Viewed > 25%',
