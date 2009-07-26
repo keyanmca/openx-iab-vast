@@ -1,7 +1,7 @@
 #summary Change Log for the Flowplayer RTMP Ad Streamer
 #sidebar TableOfContents
 
-0.4.8 - July 24, 2009
+*0.4.8 - July 24, 2009*
 
   * Issue where FLV ad plays sound but no image resolved. "metaData:false" must be specified in player config (see example 20)
   * FLV bug - mimeType did not work properly for ad media selection - works now
@@ -29,13 +29,13 @@
   * Click through URL now activated when linear video played - user can click on the video to get to the advertiser website if a URL is provided in the VAST data
   * 'center' property for horizontal and vertical alignment implemented in the regions plugin (see example 20)
 
-0.4.7 - June 01, 2009
+*0.4.7 - June 01, 2009*
 
   * Forced continuation of plugin through to main stream if VAST load fails (adSchedule will be ignored)
   * Stopped triggering impression tracking for companions and click-on-overlay played video ads
   * pause video on click to web - property added to adSlot definition - 'pauseOnClick: true|false'
 
-0.4.6 - May 22, 2009
+*0.4.6 - May 22, 2009*
 
   * selectionCriteria: String config option added to allow specific ad selection information be passed to OpenX
   * allowAdRepetition: true|false config option added to cover the "block=0|1" param in the OpenX ad request - example 13
@@ -49,7 +49,7 @@
   * Use of single quotes in background image filenames and html fixed - replaced with {quote} in the config and fixed on reading in the JSON config
   * The OpenX URL used in the examples changed to `http://beta.bouncingminds.com/openx-2.8.1-rc7/www/delivery/fc.php`
 
-0.4.5 - April 26, 2009
+*0.4.5 - April 26, 2009*
 
   * Ad scheduling for live streaming now working
   * Sponsorship configuration now working (see example with H&C bug being displayed during ads/streams)
