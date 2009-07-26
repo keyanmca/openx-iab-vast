@@ -6,7 +6,7 @@
   * Issue where FLV ad plays sound but no image resolved. "metaData:false" must be specified in player config (see example 20)
   * FLV bug - mimeType did not work properly for ad media selection - works now
   * Red5 FLV tested - doesn't work as single ad streamer, need to split each part as separate instances across playlist
-  * Volume 0 now fires mute event
+  * Volume 0 now fires mute tracking event
   * For 'Click to Website' functionality on overlays - pause video now default on click
   * Tracking events changed so that they never refire - once they've been fired, they will not fire again (e.g. if the ad is replayed)
   * Cleaned up the tracking events - for linear video, the following are now fired:
@@ -24,7 +24,7 @@
   * For overlays, I just fire the impression and tracking is fired on overlay click to show videos
   * Modified the "selectionCriteria" field to allow an array of values to be specified so multiple criteria can be sent
   through - can only be set at a general level - an example is
-  selectionCriteria: `[ { name:"age", value:"25" }, { name:"gender", value:"male" } ]`, (see example18)
+          selectionCriteria: `[ { name:"age", value:"25" }, { name:"gender", value:"male" } ]`, (see example18)
   * New parameter added to allow file extension to be forcefully removed - "removeFileExtention: true|false" - false is default behaviour
   * Click through URL now activated when linear video played - user can click on the video to get to the advertiser website if a URL is provided in the VAST data
   * 'center' property for horizontal and vertical alignment implemented in the regions plugin (see example 20)
