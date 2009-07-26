@@ -10,21 +10,21 @@
   * For 'Click to Website' functionality on overlays - pause video now default on click
   * Tracking events changed so that they never refire - once they've been fired, they will not fire again (e.g. if the ad is replayed)
   * Cleaned up the tracking events - for linear video, I now fire:
-      1 => 'Started',
-      2 => 'Viewed > 50%',
-      3 => 'Viewed > 25%',
-      4 => 'Viewed > 75%',
-      5 => 'Completed',
-      6 => 'Muted',
-      7 => 'Unmuted',
-      8 => 'Paused',
-      9 => 'Resumed',
-     10 => 'Fullscreen',
-     11 => 'Stopped',
+    # => 'Started',
+    # => 'Viewed > 50%',
+    # => 'Viewed > 25%',
+    # => 'Viewed > 75%',
+    # => 'Completed',
+    # => 'Muted',
+    # => 'Unmuted',
+    # => 'Paused',
+    # => 'Resumed',
+    # => 'Fullscreen',
+    # => 'Stopped',
   * For overlays, I just fire the impression and tracking is fired on overlay click to show videos
   * Modified the "selectionCriteria" field to allow an array of values to be specified so multiple criteria can be sent
   through - can only be set at a general level - an example is
-  selectionCriteria: [ { name:"age", value:"25" }, { name:"gender", value:"male" } ], (see example18)
+  selectionCriteria: `[ { name:"age", value:"25" }, { name:"gender", value:"male" } ]`, (see example18)
   * New parameter added to allow file extension to be forcefully removed - "removeFileExtention: true|false" - false is default behaviour
   * Click through URL now activated when linear video played - user can click on the video to get to the advertiser website if a URL is provided in the VAST data
   * 'center' property for horizontal and vertical alignment implemented in the regions plugin (see example 20)
