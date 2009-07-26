@@ -30,7 +30,7 @@ Example 13: [http://www.bouncingminds.com/plugins/flowplayer/openx/rtmp/examples
 Example 14: [http://www.bouncingminds.com/plugins/flowplayer/openx/rtmp/examples/example14.html Restricting an Ad Spot to the last stream]<br>
 Example 15: [http://www.bouncingminds.com/plugins/flowplayer/openx/rtmp/examples/example15.html Specifying video media files by bitrate]<br>
 Example 16: [http://www.bouncingminds.com/plugins/flowplayer/openx/rtmp/examples/example16.html An overlay ad with click to website]<br>
-Example 17: [http://www.bouncingminds.com/plugins/flowplayer/openx/rtmp/examples/example17.html Serving ads and streams from different RTMP servers]</br>
-Example 18: [http://www.bouncingminds.com/plugins/flowplayer/openx/rtmp/examples/example18.html Clicking a video ad to go to an advertiser website]</br>
-Example 19: [http://www.bouncingminds.com/plugins/flowplayer/openx/rtmp/examples/example19.html Illustrating overlay alignments]</br>
+Example 17: [http://www.bouncingminds.com/plugins/flowplayer/openx/rtmp/examples/example17.html Serving ads and streams from different RTMP servers]<br>
+Example 18: [http://www.bouncingminds.com/plugins/flowplayer/openx/rtmp/examples/example18.html Clicking a video ad to go to an advertiser website]<br>
+Example 19: [http://www.bouncingminds.com/plugins/flowplayer/openx/rtmp/examples/example19.html Illustrating overlay alignments]<br>
 Example 20: [http://www.bouncingminds.com/plugins/flowplayer/openx/rtmp/examples/example20.html Playing FLV ads]
