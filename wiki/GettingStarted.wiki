@@ -16,8 +16,8 @@ This choice centers around the protocol that you wish to use to download and pla
 
 At present, 2 protocols are supported:
 
-  #  RTMP - Real Time Messaging Protocol ([http://en.wikipedia.org/wiki/Real_Time_Messaging_Protocol RTMP protocol details] )
-  # [http://en.wikipedia.org/wiki/Progressive_download HTTP Download] (also known as Progressive Download)
+  #  RTMP - Real Time Messaging Protocol ([http://en.wikipedia.org/wiki/Real_Time_Messaging_Protocol RTMP protocol details])
+  #  HTTP Download (also known as Progressive Download) ([http://en.wikipedia.org/wiki/Progressive_download HTTP download protocol details])
 
 A present, the Flowplayer video ad streamer only supports RTMP based video ad delivery.
 
