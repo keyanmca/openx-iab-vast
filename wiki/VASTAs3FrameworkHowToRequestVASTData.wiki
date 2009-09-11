@@ -32,3 +32,5 @@ public function onTemplateLoadError(event:Event):void;
 }}}
 
 `onTemplateLoaded` is called when the template data has been successfully loaded while `onTemplateLoadError` is called if the load fails.
+
+*Update:* This project has moved to [http://code.google.com/p/open-video-ads Open Video Ads]
