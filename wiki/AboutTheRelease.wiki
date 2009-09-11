@@ -35,3 +35,5 @@ For the Longtail Video plugin you can use your standard web server to serve the 
 We will be resolving other defects that have been found in beta testing and considerably 
 improving the documentation as we go. At the moment, we're aiming to release an improved
 version every 4 days or so.
+
+*Update:* This project has moved to [http://code.google.com/p/open-video-ads Open Video Ads]
