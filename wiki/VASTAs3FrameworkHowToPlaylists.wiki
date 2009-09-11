@@ -43,3 +43,5 @@ public function onTemplateLoadError(event:Event):void {
     doLog("FAILURE loading VAST template - " + event.toString(), DebugObject.DEBUG_FATAL);
 }
 }}}
+
+*Update:* This project has moved to [http://code.google.com/p/open-video-ads Open Video Ads]
