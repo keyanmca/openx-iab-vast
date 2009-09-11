@@ -25,3 +25,5 @@ If you are using RTMP based stream deliver, to get the beta up and running, it i
      * You're almost there. Change the test page that you originally created so that it now points to your OpenX Ad Server instance and the linear video ad "zone" that you created. For:
        * Flowplayer: Follow these [Step2ChangeTestPage instructions] to complete this task. Remember, in this example both the video ad and the main programme stream must be served from the same Flash Media Server location, so ensure that you have a programme stream loaded up on the same RTMP server that you are serving the video ads.
        * Longtail Video's JW Player: Follow these [JWPlayerRTMPStep2ChangeTestPage instructions] to complete this task.
+
+*Update:* This project has moved to [http://code.google.com/p/open-video-ads Open Video Ads]
