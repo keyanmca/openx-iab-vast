@@ -64,3 +64,5 @@
   * Some improvement to the documentation
   * Test ads provided for download
   * The OpenX URL used in the examples changed to `http://beta.bouncingminds.com/openx/www/delivery/fc.php`
+
+*Update:* This project has moved to [http://code.google.com/p/open-video-ads Open Video Ads]
