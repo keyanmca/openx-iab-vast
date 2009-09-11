@@ -25,3 +25,5 @@ The following table identifies the various debug information categories that can
 || `tracking_events` || Prints all debug messages tied to tracking events ||
 
 By default, the framework uses the DeMonster debugger.
+
+*Update:* This project has moved to [http://code.google.com/p/open-video-ads Open Video Ads]
