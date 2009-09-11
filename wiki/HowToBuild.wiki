@@ -35,3 +35,5 @@ To build with the Flex 3 IDE:
 = A Note on Debugging =
 
 We use the [http://www.demonsterdebugger.com De MonsterDebugger] - you'll see it included in the source and the `DebugObject` declaration. Replace this with the standard flash debugger by changing the `DebugObject` declarations for `doLog()` and `doLogAndTrace()`
+
+*Update:* This project has moved to [http://code.google.com/p/open-video-ads Open Video Ads]
