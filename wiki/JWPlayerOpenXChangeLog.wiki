@@ -6,3 +6,5 @@
   * The initial version - ad types supported are pre, mid, post roll linear video and companions 
   * HTTP and RTMP protocols supported
   * Overlay support being added now
+
+*Update:* This project has moved to [http://code.google.com/p/open-video-ads Open Video Ads]
