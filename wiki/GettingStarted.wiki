@@ -26,3 +26,5 @@ A present, the Flowplayer video ad streamer only supports RTMP based video ad de
 The Longtail JW Player ad streamer supports both RTMP and HTTP Download.
 
 Work is underway to release a version of the Flowplayer Ad Streamer to support HTTP Download. Check back on this site regularly to get the latest on that development.
+
+*Update:* This project has moved to [http://code.google.com/p/open-video-ads Open Video Ads]
