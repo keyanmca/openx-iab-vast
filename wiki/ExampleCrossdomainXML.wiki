@@ -13,3 +13,5 @@ Please take care installing this file. The example below allows "all" domains to
 <allow-access-from domain="*"/>
 </cross-domain-policy>
 }}}
+
+*Update:* This project has moved to [http://code.google.com/p/open-video-ads Open Video Ads]
