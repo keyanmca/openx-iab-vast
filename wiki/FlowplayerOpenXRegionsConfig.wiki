@@ -99,3 +99,5 @@ A wide range of configuration options are available, allowing you to define regi
 || `onClick` || General || A javascript function that is called when a region is clicked. ||
 || `onMouseOver` || General || A javascript function that is called when the mouse is positioned over the plugin. ||
 || `onMouseOut` || General || A javascript function that is called when the mouse moves outside of the plugin. ||
+
+*Update:* This project has moved to [http://code.google.com/p/open-video-ads Open Video Ads]
