@@ -30,3 +30,5 @@ To help you get up and running, we've placed a few test ads here for you to down
 ==Companion Ads==
 
   * [http://static.bouncingminds.com/ads/companions/companion_150_360.png companion_150_360.png] (150 x 360 pixels)
+
+*Update:* This project has moved to [http://code.google.com/p/open-video-ads Open Video Ads]
