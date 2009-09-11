@@ -31,3 +31,5 @@ OpenX Video Advertising plugin supports out of the box.
 
 For detailed information on the work of the committee, and the VAST standard please refer 
 to www.iab.net/vast
+
+*Update:* This project has moved to [http://code.google.com/p/open-video-ads Open Video Ads]
