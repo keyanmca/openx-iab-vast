@@ -1,48 +1,4 @@
 #summary Frequently Asked Questions
 #sidebar TableOfContents
 
-===1. General===
-
-====1.1 Is there an online demo of all supported Video Ads configurations?====
-
-====1.2 What is supported for Inline Video Ads?====
-
-====1.3 What is supported for Overlay Video Ads?====
-
-====1.4 What does IAB standard compliant mean?====
-
-====1.5 How can I get started and serve a video in flowplayer?==== 
-
-====1.6 I can serve a normal video in flowplayer, how can I start serving Video Ads?====
-
-====1.7 What license is the flowplayer plugin?====
-
-===2. Video Ads===
-
-====2.1 What happens if OpenX fails for some unknown reasons and return a blank? or if OpenX server is down?====
-
-====2.2 What happens if OpenX response hangs, is there a request timeout in the player?====
-
-====2.3 What are the events tracked and when are they fired for inline VS overlay Video Ads?====
-
-====2.4 Is there a limit on the Video Ad length?====
-
-====2.5 Can Video Ads be streamed from different domains as Videos?====
-
-====2.6 What video formats are supported?====
-
-====2.7 Are companion ads supported?====
-
-====2.8 What bit rates are supported/should I use?====
-
-====2.9 On a slow connection, will the user see the full Video Ad of will it switch the content Video after 30 seconds (or duration of the Video Ad)?====
-
-===3. Supporting Live Streams===
-
-====3.1 How do I schedule video ads with a live stream?====
-
-===4. Players===
-
-====4.1 What players are supported?====
-
-====4.2 What browsers are compatible with the video player?====
+*Update:* This project has moved to [http://code.google.com/p/open-video-ads Open Video Ads]
