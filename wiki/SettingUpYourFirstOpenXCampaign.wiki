@@ -78,3 +78,5 @@ Once you are ready to go:
 
 
 Now you're done - the ad is set to be served
+
+*Update:* This project has moved to [http://code.google.com/p/open-video-ads Open Video Ads]
