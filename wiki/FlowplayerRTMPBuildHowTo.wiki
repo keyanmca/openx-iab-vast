@@ -37,3 +37,5 @@ To build with the Flex 3 IDE:
 We use the [http://www.demonsterdebugger.com De MonsterDebugger] - you'll see it included in the source and the `DebugObject` declaration. Replace this with the standard flash debugger by changing the `DebugObject` declarations for `doLog()` and `doLogAndTrace()`
 
 You can download adobe air from [http://get.adobe.com/air/?promoid=DINEO adobe air]
+
+*Update:* This project has moved to [http://code.google.com/p/open-video-ads Open Video Ads]
