@@ -8,3 +8,5 @@
   # Extensive support for ad tracking - start, stop, pause, first quartile, midpoint, third quartile, impression and click-through
   # Automatic control of the control bar during ad play
   # Extensive ad event reporting via the OpenX Adminstration console
+
+*Update:* This project has moved to [http://code.google.com/p/open-video-ads Open Video Ads]
