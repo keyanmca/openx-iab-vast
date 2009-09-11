@@ -10,3 +10,5 @@ Accordingly, the plugin is an implementation of a playlist controller that uses 
 Playlist items can be either RTMP or HTTP based video streams.
 
 View these [JWPlayerOpenXExamples  examples] to get a quick perspective on how to configure the JW Player Ad Streamer to deliver a variety of linear video, (overlay in development now) and companion ads.
+
+*Update:* This project has moved to [http://code.google.com/p/open-video-ads Open Video Ads]
