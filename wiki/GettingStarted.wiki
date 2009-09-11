@@ -1,6 +1,8 @@
 #summary Where to Begin With Video Ad Delivery
 #sidebar TableOfContents
 
+<wiki:gadget url="http://static.bouncingminds.com/gadgets/factoid/openx-iab-vast-home-1.xml" width="710" height="90" border="0" />
+
 This section will walk you through the steps required to quickly get up and running with the video ad delivery technology. 
 
 The "Getting Started" guide will:
