@@ -23,6 +23,4 @@ To deliver OpenX video advertising to a custom player, 7 key steps need to be ta
 
 To illustrate how to use the VAST framework, we'll walk through the key implementation points for the JW Player plugin `OpenXAdStreamer`. Where major differences exist between the code for the JW Player and Flowplayer plugins, we'll attempt to illustrate those differences as we go.
 
-You can grab the source code for the JW Player Ad Streamer [http://code.google.com/p/openx-iab-vast/downloads/detail?name=bouncingminds.openX.jwplayer-latest.tar.gz&can=2&q= here].
-
-If you need just the source for the VAST AS3 framework, you can find it [http://openx-iab-vast.googlecode.com/files/bouncingminds.vast.as3-latest.tar.gz here].
+*Update:* This project has moved to [http://code.google.com/p/open-video-ads Open Video Ads]
