@@ -65,3 +65,5 @@ private function playlistSelectionHandler(evt:ControllerEvent):void {
 ===Tracking Time in Flowplayer===
 
 _To be completed when the Flowplayer HTTP plugin is released_
+
+*Update:* This project has moved to [http://code.google.com/p/open-video-ads Open Video Ads]
