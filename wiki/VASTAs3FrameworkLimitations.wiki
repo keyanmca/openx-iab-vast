@@ -6,3 +6,5 @@
   # Playlists formats other than XSFP haven't been tested
   # No test scripts yet - sorry - will sort with priority
   # No API doc yet - sorry - will also sort with priority
+
+*Update:* This project has moved to [http://code.google.com/p/open-video-ads Open Video Ads]
