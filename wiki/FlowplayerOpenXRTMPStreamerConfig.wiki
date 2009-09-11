@@ -123,3 +123,5 @@ across all `Ad Slots` unless otherwise specified.
 || `onAdClick` || General || 0.4.5 ||  The javascript callback triggered when a video ad is clicked ||
 || `onAdClose` || General || 0.4.5 || The javascript callback triggered when a video ad is closed ||
 || `removeFileExtension` || General || 0.4.8 || Forces removal of file extensions for video stream file names returned in the VAST data - particularly useful for ensuring that FLV streams play on an FMS ||
+
+*Update:* This project has moved to [http://code.google.com/p/open-video-ads Open Video Ads]
