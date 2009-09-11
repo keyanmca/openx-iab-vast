@@ -89,3 +89,5 @@ flowplayer("a.example", "dist/flowplayer-3.1.0.swf", {
 }}}
 
 You can see a working example of this page [http://www.bouncingminds.com/plugins/flowplayer/openx/rtmp/step1-example.html here].
+
+*Update:* This project has moved to [http://code.google.com/p/open-video-ads Open Video Ads]
