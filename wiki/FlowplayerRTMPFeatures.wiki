@@ -12,3 +12,5 @@
   # Built in support for "this is an advertisement" style messaging over video ads
   # Automatic control of the control bar during ad play
   # Extensive ad event reporting via the OpenX Adminstration console
+
+*Update:* This project has moved to [http://code.google.com/p/open-video-ads Open Video Ads]
